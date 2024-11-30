@@ -1,0 +1,58 @@
+'Numbness or tingling',
+'Feeling hot',
+'Wobbliness in legs',
+'Unable to relax',
+'Fear of worst happening',
+'Dizzy or lightheaded',
+'Heart pounding / racing',
+'Unsteady',
+'Terrified or afraid',
+'Nervous',
+'Feeling of choking',
+'Hands trembling',
+'Shaky / unsteady',
+'Fear of losing control',
+'Difficulty in breathing',
+'Fear of dying',
+'Scared',
+'Indigestion',
+'Faint / lightheaded',
+'Face flushed',
+'Hot / cold sweats'
+
+You will be presented a series of common symptoms of anxiety. Please carefully read each item. Indicate how much you have been bothered by that symptom during the past month, including today, by entering the number the corresponding number on the keyboard.
+
+
+'Numbness or tingling', 'Feeling hot', 'Wobbliness in legs', 'Unable to relax', 'Fear of worst happening', 'Dizzy or lightheaded', 'Heart pounding / racing', 'Unsteady', 'Terrified or afraid', 'Nervous', 'Feeling of choking', 'Hands trembling', 'Shaky / unsteady', 'Fear of losing control', 'Difficulty in breathing', 'Fear of dying', 'Scared', 'Indigestion', 'Faint / lightheaded', 'Face flushed', 'Hot / cold sweats'
+
+
+Se le presentarán una serie de síntomas comunes de ansiedad. Por favor, lea atentamente cada artículo. Indique cuánto le ha molestado ese síntoma durante el último mes, incluyendo el día de hoy, ingresando el número correspondiente en el teclado.
+
+'Hormigueo o entumecimiento',  
+'Sensación de calor ',
+'Debilidad en las piernas',
+'Incapacidad para relajarme ',
+'Miedo a que suceda lo peor ',
+'Mareos o vertigos',
+'Palpitaciones o ritmo cardiaco acelerado',
+'Sensación de inestabilidad',
+'Sensación de estar aterrorizado ', 
+'Nerviosismo',
+'Sensación de ahogo ',
+'Temblor de manos',
+'Temblor generalizado', 
+'Miedo a perder el control',  
+'Dificultad para respirar ', 
+'Miedo a morir ',
+'Estar asustado', 
+'Indigestión o molestia abdominal', 
+'Sensación de desmayarse  ',
+'Rubor facial ',
+'Sudoración (no debida al calor)'
+
+0= No me perturba en absoluto
+1= Me perturba levemente
+2= Me perturba moderadamente
+3= Me perturba severamente
+
+'Hormigueo o entumecimiento', 'Sensación de calor ', 'Debilidad en las piernas', 'Incapacidad para relajarme ', 'Miedo a que suceda lo peor ', 'Mareos o vertigos', 'Palpitaciones o ritmo cardiaco acelerado', 'Sensación de inestabilidad', 'Sensación de estar aterrorizado ', 'Nerviosismo', 'Sensación de ahogo ', 'Temblor de manos', 'Temblor generalizado', 'Miedo a perder el control', 'Dificultad para respirar ', 'Miedo a morir ', 'Estar asustado', 'Indigestión o molestia abdominal', 'Sensación de desmayarse ','Rubor facial ','Sudoración (no debida al calor)'

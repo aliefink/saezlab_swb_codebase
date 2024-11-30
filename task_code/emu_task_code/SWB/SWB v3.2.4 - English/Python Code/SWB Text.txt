@@ -1,0 +1,4 @@
+practicetxt
+"You will now play a few practice rounds. These will not count towards your prize, use them to get familiar with the game. Once you've completed the practice and are confident you understand the game, will we move on to the game itself."
+
+tasktxt

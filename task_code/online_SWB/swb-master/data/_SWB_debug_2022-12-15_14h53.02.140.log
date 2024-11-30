@@ -1,0 +1,3368 @@
+6.9444 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+21.4951 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001DD272F9130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001DD2A6E96D0>, multiSample=False, name='window1', numSamples=2, pos=(192, 108), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.4957 	EXP 	window1: mouseVisible = True
+21.4960 	EXP 	window1: mouseVisible = True
+21.4960 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+21.4961 	EXP 	window1: recordFrameIntervals = False
+21.6648 	EXP 	window1: recordFrameIntervals = True
+21.8465 	EXP 	Screen (0) actual frame rate measured at 59.61Hz
+21.8466 	EXP 	window1: recordFrameIntervals = False
+22.0714 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+28.3446 	EXP 	Created welcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcomeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+28.3529 	EXP 	Created LeftHalf = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='LeftHalf', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+28.3562 	EXP 	Created RightHalf = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='RightHalf', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+28.3621 	EXP 	Created Safe = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='Safe', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.3667 	EXP 	Created Top = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='Top', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.3703 	EXP 	Created Bottom = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='Bottom', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.3755 	EXP 	Created SafeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='SafeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.3796 	EXP 	Created TopText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='TopText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.3831 	EXP 	Created BottomText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='BottomText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.3898 	EXP 	Created Total = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Total', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.1, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.3961 	EXP 	Created Win = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Win', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.22)
+28.3963 	EXP 	window1: mouseVisible = True
+28.4033 	EXP 	Created LeftHalf_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='LeftHalf_2', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+28.4062 	EXP 	Created RightHalf_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='RightHalf_2', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+28.4109 	EXP 	Created Safe_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Safe_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4177 	EXP 	Created Top_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Top_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4206 	EXP 	Created Bottom_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Bottom_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4221 	EXP 	Created SafeText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='SafeText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4235 	EXP 	Created TopText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='TopText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4259 	EXP 	Created BottomText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='BottomText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4327 	EXP 	Created Total_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Total_2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.1, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4367 	EXP 	Created Win_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Win_2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.22)
+28.4405 	EXP 	Created WinMsg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='WinMsg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.2)
+28.4465 	EXP 	Created LeftHalf_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='LeftHalf_3', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+28.4528 	EXP 	Created RightHalf_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='RightHalf_3', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+28.4558 	EXP 	Created Safe_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Safe_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4620 	EXP 	Created Top_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Top_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4675 	EXP 	Created Bottom_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Bottom_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4691 	EXP 	Created SafeText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='SafeText_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4707 	EXP 	Created TopText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='TopText_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4730 	EXP 	Created BottomText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='BottomText_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+28.4778 	EXP 	Created Total_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Total_3', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.1, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+28.4798 	EXP 	Created Win_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Win_3', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.22)
+28.4811 	EXP 	Created WinMsg_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='WinMsg_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.2)
+28.5062 	EXP 	Created timeoutText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='timeoutText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please respond faster', units='height', win=Window(...), wrapWidth=1)
+28.5213 	EXP 	window1: mouseVisible = True
+29.4681 	EXP 	Created HowHappySlider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), lineColor=None, markerColor=None, name='HowHappySlider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+29.5094 	EXP 	Created UnHappy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='UnHappy', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), rgb=UNKNOWN, text='Very Unhappy', units='height', win=Window(...), wrapWidth=1)
+29.5327 	EXP 	Created Happy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Happy', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), rgb=UNKNOWN, text='Very Happy', units='height', win=Window(...), wrapWidth=1)
+29.5850 	EXP 	Created SpacetoExit = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='SpacetoExit', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to Continue', units='height', win=Window(...), wrapWidth=1)
+29.6007 	EXP 	Created Cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+29.6866 	EXP 	Created exitText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='exitText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+29.7228 	EXP 	HowHappySlider: autoLog = True
+29.7228 	EXP 	HowHappySlider: markerPos = None
+29.7228 	EXP 	HowHappySlider: styleTweaks = []
+29.7228 	EXP 	HowHappySlider: styleTweaks = []
+29.7228 	EXP 	HowHappySlider: styleTweaks = []
+29.7228 	EXP 	HowHappySlider: styleTweaks = []
+29.7228 	EXP 	HowHappySlider: contrast = 1.0
+29.7228 	EXP 	HowHappySlider: autoLog = True
+29.7228 	EXP 	welcomeText: autoDraw = True
+34.7353 	EXP 	Imported control_files/trialControlwRating.csv as conditions, 150 conditions, 8 params
+34.7380 	EXP 	Created sequence: random, trialTypes=150, nReps=1, seed=None
+34.7386 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -0.8), ('BottomAmt', 0.96), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.68), ('Rating', 0)])
+34.8205 	EXP 	welcomeText: autoDraw = False
+34.8205 	EXP 	SafeText: height = 0.06
+34.8205 	EXP 	SafeText: height = 0.06
+34.8205 	EXP 	SafeText: height = 0.06
+34.8205 	EXP 	SafeText: text = '$0.00'
+34.8205 	EXP 	TopText: height = 0.06
+34.8205 	EXP 	TopText: height = 0.06
+34.8205 	EXP 	TopText: height = 0.06
+34.8205 	EXP 	TopText: text = '$-0.80'
+34.8205 	EXP 	BottomText: height = 0.06
+34.8205 	EXP 	BottomText: height = 0.06
+34.8205 	EXP 	BottomText: height = 0.06
+34.8205 	EXP 	BottomText: text = '$0.96'
+34.8205 	EXP 	Win: height = 0.03
+34.8205 	EXP 	Win: height = 0.03
+34.8205 	EXP 	Win: height = 0.03
+34.8205 	EXP 	Win: text = 'Total\n$10.00'
+34.8205 	EXP 	LeftHalf: autoDraw = True
+34.8205 	EXP 	RightHalf: autoDraw = True
+34.8205 	EXP 	Safe: autoDraw = True
+34.8205 	EXP 	Top: autoDraw = True
+34.8205 	EXP 	Bottom: autoDraw = True
+34.8205 	EXP 	SafeText: autoDraw = True
+34.8205 	EXP 	TopText: autoDraw = True
+34.8205 	EXP 	BottomText: autoDraw = True
+34.8205 	EXP 	Total: autoDraw = True
+34.8205 	EXP 	Win: autoDraw = True
+35.6202 	DATA 	Keypress: right
+35.6240 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+35.6242 	EXP 	New trial (rep=0, index=0): None
+35.7037 	EXP 	LeftHalf: autoDraw = False
+35.7037 	EXP 	RightHalf: autoDraw = False
+35.7037 	EXP 	Safe: autoDraw = False
+35.7037 	EXP 	Top: autoDraw = False
+35.7037 	EXP 	Bottom: autoDraw = False
+35.7037 	EXP 	SafeText: autoDraw = False
+35.7037 	EXP 	TopText: autoDraw = False
+35.7037 	EXP 	BottomText: autoDraw = False
+35.7037 	EXP 	Total: autoDraw = False
+35.7037 	EXP 	Win: autoDraw = False
+35.7037 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+35.7037 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+35.7037 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+35.7037 	EXP 	SafeText_2: height = 0.06
+35.7037 	EXP 	SafeText_2: height = 0.06
+35.7037 	EXP 	SafeText_2: height = 0.06
+35.7037 	EXP 	SafeText_2: text = '$0.00'
+35.7037 	EXP 	TopText_2: height = 0.06
+35.7037 	EXP 	TopText_2: height = 0.06
+35.7037 	EXP 	TopText_2: height = 0.06
+35.7037 	EXP 	TopText_2: text = '$-0.80'
+35.7037 	EXP 	BottomText_2: height = 0.06
+35.7037 	EXP 	BottomText_2: height = 0.06
+35.7037 	EXP 	BottomText_2: height = 0.06
+35.7037 	EXP 	BottomText_2: text = '$0.96'
+35.7037 	EXP 	Win_2: height = 0.03
+35.7037 	EXP 	Win_2: height = 0.03
+35.7037 	EXP 	Win_2: height = 0.03
+35.7037 	EXP 	Win_2: text = 'Total\n$10.00'
+35.7037 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+35.7037 	EXP 	WinMsg: height = 0.04
+35.7037 	EXP 	WinMsg: height = 0.04
+35.7037 	EXP 	WinMsg: height = 0.04
+35.7037 	EXP 	WinMsg: text = 'You got $0.00!'
+35.7037 	EXP 	LeftHalf_2: autoDraw = True
+35.7037 	EXP 	RightHalf_2: autoDraw = True
+35.7037 	EXP 	Safe_2: autoDraw = True
+35.7037 	EXP 	Top_2: autoDraw = True
+35.7037 	EXP 	Bottom_2: autoDraw = True
+35.7037 	EXP 	SafeText_2: autoDraw = True
+35.7037 	EXP 	TopText_2: autoDraw = True
+35.7037 	EXP 	BottomText_2: autoDraw = True
+35.7037 	EXP 	Total_2: autoDraw = True
+35.7037 	EXP 	Win_2: autoDraw = True
+35.7037 	EXP 	WinMsg: autoDraw = True
+37.7205 	EXP 	LeftHalf_2: autoDraw = False
+37.7205 	EXP 	RightHalf_2: autoDraw = False
+37.7205 	EXP 	Safe_2: autoDraw = False
+37.7205 	EXP 	Top_2: autoDraw = False
+37.7205 	EXP 	Bottom_2: autoDraw = False
+37.7205 	EXP 	SafeText_2: autoDraw = False
+37.7205 	EXP 	TopText_2: autoDraw = False
+37.7205 	EXP 	BottomText_2: autoDraw = False
+37.7205 	EXP 	Total_2: autoDraw = False
+37.7205 	EXP 	Win_2: autoDraw = False
+37.7205 	EXP 	WinMsg: autoDraw = False
+37.7205 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+37.7205 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+37.7205 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+37.7205 	EXP 	SafeText_3: height = 0.06
+37.7205 	EXP 	SafeText_3: height = 0.06
+37.7205 	EXP 	SafeText_3: height = 0.06
+37.7205 	EXP 	SafeText_3: text = '$0.00'
+37.7205 	EXP 	TopText_3: height = 0.06
+37.7205 	EXP 	TopText_3: height = 0.06
+37.7205 	EXP 	TopText_3: height = 0.06
+37.7205 	EXP 	TopText_3: text = '$-0.80'
+37.7205 	EXP 	BottomText_3: height = 0.06
+37.7205 	EXP 	BottomText_3: height = 0.06
+37.7205 	EXP 	BottomText_3: height = 0.06
+37.7205 	EXP 	BottomText_3: text = '$0.96'
+37.7205 	EXP 	Win_3: height = 0.03
+37.7205 	EXP 	Win_3: height = 0.03
+37.7205 	EXP 	Win_3: height = 0.03
+37.7205 	EXP 	Win_3: text = 'Total\n$10.00'
+37.7205 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+37.7205 	EXP 	WinMsg_2: height = 0.04
+37.7205 	EXP 	WinMsg_2: height = 0.04
+37.7205 	EXP 	WinMsg_2: height = 0.04
+37.7205 	EXP 	WinMsg_2: text = 'You would have lost $-0.80!'
+37.7205 	EXP 	LeftHalf_3: autoDraw = True
+37.7205 	EXP 	RightHalf_3: autoDraw = True
+37.7205 	EXP 	Safe_3: autoDraw = True
+37.7205 	EXP 	Top_3: autoDraw = True
+37.7205 	EXP 	Bottom_3: autoDraw = True
+37.7205 	EXP 	SafeText_3: autoDraw = True
+37.7205 	EXP 	TopText_3: autoDraw = True
+37.7205 	EXP 	BottomText_3: autoDraw = True
+37.7205 	EXP 	Total_3: autoDraw = True
+37.7205 	EXP 	Win_3: autoDraw = True
+37.7205 	EXP 	WinMsg_2: autoDraw = True
+39.6396 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+39.6408 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+39.6548 	EXP 	LeftHalf_3: autoDraw = False
+39.6548 	EXP 	RightHalf_3: autoDraw = False
+39.6548 	EXP 	Safe_3: autoDraw = False
+39.6548 	EXP 	Top_3: autoDraw = False
+39.6548 	EXP 	Bottom_3: autoDraw = False
+39.6548 	EXP 	SafeText_3: autoDraw = False
+39.6548 	EXP 	TopText_3: autoDraw = False
+39.6548 	EXP 	BottomText_3: autoDraw = False
+39.6548 	EXP 	Total_3: autoDraw = False
+39.6548 	EXP 	Win_3: autoDraw = False
+39.6548 	EXP 	WinMsg_2: autoDraw = False
+39.6548 	EXP 	Cross: autoDraw = True
+41.3223 	EXP 	New trial (rep=0, index=1): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.4), ('TopAmt', 0.0), ('BottomAmt', 0.73), ('Outcome', 'bottom'), ('RiskSide', 'left'), ('ITI', 1.76), ('Rating', 0)])
+41.4351 	EXP 	Cross: autoDraw = False
+41.4351 	EXP 	Cross: autoDraw = False
+41.4351 	EXP 	SafeText: height = 0.06
+41.4351 	EXP 	SafeText: height = 0.06
+41.4351 	EXP 	SafeText: height = 0.06
+41.4351 	EXP 	SafeText: text = '$0.40'
+41.4351 	EXP 	TopText: height = 0.06
+41.4351 	EXP 	TopText: height = 0.06
+41.4351 	EXP 	TopText: height = 0.06
+41.4351 	EXP 	TopText: text = '$0.00'
+41.4351 	EXP 	BottomText: height = 0.06
+41.4351 	EXP 	BottomText: height = 0.06
+41.4351 	EXP 	BottomText: height = 0.06
+41.4351 	EXP 	BottomText: text = '$0.73'
+41.4351 	EXP 	Win: text = 'Total\n$10.00'
+41.4351 	EXP 	LeftHalf: autoDraw = True
+41.4351 	EXP 	RightHalf: autoDraw = True
+41.4351 	EXP 	Safe: autoDraw = True
+41.4351 	EXP 	Top: autoDraw = True
+41.4351 	EXP 	Bottom: autoDraw = True
+41.4351 	EXP 	SafeText: autoDraw = True
+41.4351 	EXP 	TopText: autoDraw = True
+41.4351 	EXP 	BottomText: autoDraw = True
+41.4351 	EXP 	Total: autoDraw = True
+41.4351 	EXP 	Win: autoDraw = True
+42.2119 	DATA 	Keypress: right
+42.2153 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+42.2161 	EXP 	New trial (rep=0, index=0): None
+42.2901 	EXP 	LeftHalf: autoDraw = False
+42.2901 	EXP 	RightHalf: autoDraw = False
+42.2901 	EXP 	Safe: autoDraw = False
+42.2901 	EXP 	Top: autoDraw = False
+42.2901 	EXP 	Bottom: autoDraw = False
+42.2901 	EXP 	SafeText: autoDraw = False
+42.2901 	EXP 	TopText: autoDraw = False
+42.2901 	EXP 	BottomText: autoDraw = False
+42.2901 	EXP 	Total: autoDraw = False
+42.2901 	EXP 	Win: autoDraw = False
+42.2901 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+42.2901 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+42.2901 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+42.2901 	EXP 	SafeText_2: height = 0.06
+42.2901 	EXP 	SafeText_2: height = 0.06
+42.2901 	EXP 	SafeText_2: height = 0.06
+42.2901 	EXP 	SafeText_2: text = '$0.40'
+42.2901 	EXP 	TopText_2: height = 0.06
+42.2901 	EXP 	TopText_2: height = 0.06
+42.2901 	EXP 	TopText_2: height = 0.06
+42.2901 	EXP 	TopText_2: text = '$0.00'
+42.2901 	EXP 	BottomText_2: height = 0.06
+42.2901 	EXP 	BottomText_2: height = 0.06
+42.2901 	EXP 	BottomText_2: height = 0.06
+42.2901 	EXP 	BottomText_2: text = '$0.73'
+42.2901 	EXP 	Win_2: height = 0.03
+42.2901 	EXP 	Win_2: height = 0.03
+42.2901 	EXP 	Win_2: height = 0.03
+42.2901 	EXP 	Win_2: text = 'Total\n$10.40'
+42.2901 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+42.2901 	EXP 	WinMsg: height = 0.04
+42.2901 	EXP 	WinMsg: height = 0.04
+42.2901 	EXP 	WinMsg: height = 0.04
+42.2901 	EXP 	WinMsg: text = 'You won $0.40!'
+42.2901 	EXP 	LeftHalf_2: autoDraw = True
+42.2901 	EXP 	RightHalf_2: autoDraw = True
+42.2901 	EXP 	Safe_2: autoDraw = True
+42.2901 	EXP 	Top_2: autoDraw = True
+42.2901 	EXP 	Bottom_2: autoDraw = True
+42.2901 	EXP 	SafeText_2: autoDraw = True
+42.2901 	EXP 	TopText_2: autoDraw = True
+42.2901 	EXP 	BottomText_2: autoDraw = True
+42.2901 	EXP 	Total_2: autoDraw = True
+42.2901 	EXP 	Win_2: autoDraw = True
+42.2901 	EXP 	WinMsg: autoDraw = True
+44.3022 	EXP 	LeftHalf_2: autoDraw = False
+44.3022 	EXP 	RightHalf_2: autoDraw = False
+44.3022 	EXP 	Safe_2: autoDraw = False
+44.3022 	EXP 	Top_2: autoDraw = False
+44.3022 	EXP 	Bottom_2: autoDraw = False
+44.3022 	EXP 	SafeText_2: autoDraw = False
+44.3022 	EXP 	TopText_2: autoDraw = False
+44.3022 	EXP 	BottomText_2: autoDraw = False
+44.3022 	EXP 	Total_2: autoDraw = False
+44.3022 	EXP 	Win_2: autoDraw = False
+44.3022 	EXP 	WinMsg: autoDraw = False
+44.3022 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+44.3022 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+44.3022 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+44.3022 	EXP 	SafeText_3: height = 0.06
+44.3022 	EXP 	SafeText_3: height = 0.06
+44.3022 	EXP 	SafeText_3: height = 0.06
+44.3022 	EXP 	SafeText_3: text = '$0.40'
+44.3022 	EXP 	TopText_3: height = 0.06
+44.3022 	EXP 	TopText_3: height = 0.06
+44.3022 	EXP 	TopText_3: height = 0.06
+44.3022 	EXP 	TopText_3: text = '$0.00'
+44.3022 	EXP 	BottomText_3: height = 0.06
+44.3022 	EXP 	BottomText_3: height = 0.06
+44.3022 	EXP 	BottomText_3: height = 0.06
+44.3022 	EXP 	BottomText_3: text = '$0.73'
+44.3022 	EXP 	Win_3: height = 0.03
+44.3022 	EXP 	Win_3: height = 0.03
+44.3022 	EXP 	Win_3: height = 0.03
+44.3022 	EXP 	Win_3: text = 'Total\n$10.40'
+44.3022 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+44.3022 	EXP 	WinMsg_2: height = 0.04
+44.3022 	EXP 	WinMsg_2: height = 0.04
+44.3022 	EXP 	WinMsg_2: height = 0.04
+44.3022 	EXP 	WinMsg_2: text = 'You would have won $0.73!'
+44.3022 	EXP 	LeftHalf_3: autoDraw = True
+44.3022 	EXP 	RightHalf_3: autoDraw = True
+44.3022 	EXP 	Safe_3: autoDraw = True
+44.3022 	EXP 	Top_3: autoDraw = True
+44.3022 	EXP 	Bottom_3: autoDraw = True
+44.3022 	EXP 	SafeText_3: autoDraw = True
+44.3022 	EXP 	TopText_3: autoDraw = True
+44.3022 	EXP 	BottomText_3: autoDraw = True
+44.3022 	EXP 	Total_3: autoDraw = True
+44.3022 	EXP 	Win_3: autoDraw = True
+44.3022 	EXP 	WinMsg_2: autoDraw = True
+46.2257 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+46.2261 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+46.2394 	EXP 	LeftHalf_3: autoDraw = False
+46.2394 	EXP 	RightHalf_3: autoDraw = False
+46.2394 	EXP 	Safe_3: autoDraw = False
+46.2394 	EXP 	Top_3: autoDraw = False
+46.2394 	EXP 	Bottom_3: autoDraw = False
+46.2394 	EXP 	SafeText_3: autoDraw = False
+46.2394 	EXP 	TopText_3: autoDraw = False
+46.2394 	EXP 	BottomText_3: autoDraw = False
+46.2394 	EXP 	Total_3: autoDraw = False
+46.2394 	EXP 	Win_3: autoDraw = False
+46.2394 	EXP 	WinMsg_2: autoDraw = False
+46.2394 	EXP 	Cross: autoDraw = True
+47.9928 	EXP 	New trial (rep=0, index=2): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.4), ('TopAmt', -2.0), ('BottomAmt', 0.0), ('Outcome', 'bottom'), ('RiskSide', 'left'), ('ITI', 1.92), ('Rating', 0)])
+48.0588 	EXP 	Cross: autoDraw = False
+48.0588 	EXP 	Cross: autoDraw = False
+48.0588 	EXP 	SafeText: height = 0.06
+48.0588 	EXP 	SafeText: height = 0.06
+48.0588 	EXP 	SafeText: height = 0.06
+48.0588 	EXP 	SafeText: text = '$-0.40'
+48.0588 	EXP 	TopText: height = 0.06
+48.0588 	EXP 	TopText: height = 0.06
+48.0588 	EXP 	TopText: height = 0.06
+48.0588 	EXP 	TopText: text = '$-2.00'
+48.0588 	EXP 	BottomText: height = 0.06
+48.0588 	EXP 	BottomText: height = 0.06
+48.0588 	EXP 	BottomText: height = 0.06
+48.0588 	EXP 	BottomText: text = '$0.00'
+48.0588 	EXP 	Win: height = 0.03
+48.0588 	EXP 	Win: height = 0.03
+48.0588 	EXP 	Win: height = 0.03
+48.0588 	EXP 	Win: text = 'Total\n$10.40'
+48.0588 	EXP 	LeftHalf: autoDraw = True
+48.0588 	EXP 	RightHalf: autoDraw = True
+48.0588 	EXP 	Safe: autoDraw = True
+48.0588 	EXP 	Top: autoDraw = True
+48.0588 	EXP 	Bottom: autoDraw = True
+48.0588 	EXP 	SafeText: autoDraw = True
+48.0588 	EXP 	TopText: autoDraw = True
+48.0588 	EXP 	BottomText: autoDraw = True
+48.0588 	EXP 	Total: autoDraw = True
+48.0588 	EXP 	Win: autoDraw = True
+49.2961 	DATA 	Keypress: right
+49.2983 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+49.2988 	EXP 	New trial (rep=0, index=0): None
+49.3754 	EXP 	LeftHalf: autoDraw = False
+49.3754 	EXP 	RightHalf: autoDraw = False
+49.3754 	EXP 	Safe: autoDraw = False
+49.3754 	EXP 	Top: autoDraw = False
+49.3754 	EXP 	Bottom: autoDraw = False
+49.3754 	EXP 	SafeText: autoDraw = False
+49.3754 	EXP 	TopText: autoDraw = False
+49.3754 	EXP 	BottomText: autoDraw = False
+49.3754 	EXP 	Total: autoDraw = False
+49.3754 	EXP 	Win: autoDraw = False
+49.3754 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+49.3754 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+49.3754 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+49.3754 	EXP 	SafeText_2: height = 0.06
+49.3754 	EXP 	SafeText_2: height = 0.06
+49.3754 	EXP 	SafeText_2: height = 0.06
+49.3754 	EXP 	SafeText_2: text = '$-0.40'
+49.3754 	EXP 	TopText_2: height = 0.06
+49.3754 	EXP 	TopText_2: height = 0.06
+49.3754 	EXP 	TopText_2: height = 0.06
+49.3754 	EXP 	TopText_2: text = '$-2.00'
+49.3754 	EXP 	BottomText_2: height = 0.06
+49.3754 	EXP 	BottomText_2: height = 0.06
+49.3754 	EXP 	BottomText_2: height = 0.06
+49.3754 	EXP 	BottomText_2: text = '$0.00'
+49.3754 	EXP 	Win_2: height = 0.03
+49.3754 	EXP 	Win_2: height = 0.03
+49.3754 	EXP 	Win_2: height = 0.03
+49.3754 	EXP 	Win_2: text = 'Total\n$10.00'
+49.3754 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+49.3754 	EXP 	WinMsg: height = 0.04
+49.3754 	EXP 	WinMsg: height = 0.04
+49.3754 	EXP 	WinMsg: height = 0.04
+49.3754 	EXP 	WinMsg: text = 'You lost $-0.40!'
+49.3754 	EXP 	LeftHalf_2: autoDraw = True
+49.3754 	EXP 	RightHalf_2: autoDraw = True
+49.3754 	EXP 	Safe_2: autoDraw = True
+49.3754 	EXP 	Top_2: autoDraw = True
+49.3754 	EXP 	Bottom_2: autoDraw = True
+49.3754 	EXP 	SafeText_2: autoDraw = True
+49.3754 	EXP 	TopText_2: autoDraw = True
+49.3754 	EXP 	BottomText_2: autoDraw = True
+49.3754 	EXP 	Total_2: autoDraw = True
+49.3754 	EXP 	Win_2: autoDraw = True
+49.3754 	EXP 	WinMsg: autoDraw = True
+51.3710 	EXP 	LeftHalf_2: autoDraw = False
+51.3710 	EXP 	RightHalf_2: autoDraw = False
+51.3710 	EXP 	Safe_2: autoDraw = False
+51.3710 	EXP 	Top_2: autoDraw = False
+51.3710 	EXP 	Bottom_2: autoDraw = False
+51.3710 	EXP 	SafeText_2: autoDraw = False
+51.3710 	EXP 	TopText_2: autoDraw = False
+51.3710 	EXP 	BottomText_2: autoDraw = False
+51.3710 	EXP 	Total_2: autoDraw = False
+51.3710 	EXP 	Win_2: autoDraw = False
+51.3710 	EXP 	WinMsg: autoDraw = False
+51.3710 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+51.3710 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+51.3710 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+51.3710 	EXP 	SafeText_3: height = 0.06
+51.3710 	EXP 	SafeText_3: height = 0.06
+51.3710 	EXP 	SafeText_3: height = 0.06
+51.3710 	EXP 	SafeText_3: text = '$-0.40'
+51.3710 	EXP 	TopText_3: height = 0.06
+51.3710 	EXP 	TopText_3: height = 0.06
+51.3710 	EXP 	TopText_3: height = 0.06
+51.3710 	EXP 	TopText_3: text = '$-2.00'
+51.3710 	EXP 	BottomText_3: height = 0.06
+51.3710 	EXP 	BottomText_3: height = 0.06
+51.3710 	EXP 	BottomText_3: height = 0.06
+51.3710 	EXP 	BottomText_3: text = '$0.00'
+51.3710 	EXP 	Win_3: height = 0.03
+51.3710 	EXP 	Win_3: height = 0.03
+51.3710 	EXP 	Win_3: height = 0.03
+51.3710 	EXP 	Win_3: text = 'Total\n$10.00'
+51.3710 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+51.3710 	EXP 	WinMsg_2: height = 0.04
+51.3710 	EXP 	WinMsg_2: height = 0.04
+51.3710 	EXP 	WinMsg_2: height = 0.04
+51.3710 	EXP 	WinMsg_2: text = 'You would have won $0.00!'
+51.3710 	EXP 	LeftHalf_3: autoDraw = True
+51.3710 	EXP 	RightHalf_3: autoDraw = True
+51.3710 	EXP 	Safe_3: autoDraw = True
+51.3710 	EXP 	Top_3: autoDraw = True
+51.3710 	EXP 	Bottom_3: autoDraw = True
+51.3710 	EXP 	SafeText_3: autoDraw = True
+51.3710 	EXP 	TopText_3: autoDraw = True
+51.3710 	EXP 	BottomText_3: autoDraw = True
+51.3710 	EXP 	Total_3: autoDraw = True
+51.3710 	EXP 	Win_3: autoDraw = True
+51.3710 	EXP 	WinMsg_2: autoDraw = True
+53.3116 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+53.3123 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+53.3126 	EXP 	New trial (rep=0, index=0): None
+53.4398 	EXP 	LeftHalf_3: autoDraw = False
+53.4398 	EXP 	RightHalf_3: autoDraw = False
+53.4398 	EXP 	Safe_3: autoDraw = False
+53.4398 	EXP 	Top_3: autoDraw = False
+53.4398 	EXP 	Bottom_3: autoDraw = False
+53.4398 	EXP 	SafeText_3: autoDraw = False
+53.4398 	EXP 	TopText_3: autoDraw = False
+53.4398 	EXP 	BottomText_3: autoDraw = False
+53.4398 	EXP 	Total_3: autoDraw = False
+53.4398 	EXP 	Win_3: autoDraw = False
+53.4398 	EXP 	WinMsg_2: autoDraw = False
+53.4398 	EXP 	HowHappySlider: markerPos = None
+53.4398 	EXP 	HowHappySlider: markerPos = None
+53.4398 	EXP 	HowHappySlider: autoDraw = True
+53.4398 	EXP 	UnHappy: autoDraw = True
+53.4398 	EXP 	Happy: autoDraw = True
+55.5630 	DATA 	Mouse: Left button down, pos=(635,254)
+55.6264 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+55.6745 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+55.7185 	DATA 	Mouse:  Left button up, pos=(635,254)
+55.7442 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+55.8074 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+55.8576 	EXP 	SpacetoExit: autoDraw = True
+56.4868 	DATA 	Keypress: space
+56.5082 	EXP 	HowHappySlider: autoDraw = False
+56.5082 	EXP 	UnHappy: autoDraw = False
+56.5082 	EXP 	Happy: autoDraw = False
+56.5082 	EXP 	SpacetoExit: autoDraw = False
+56.5082 	EXP 	Cross: autoDraw = True
+58.4132 	EXP 	New trial (rep=0, index=3): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.4), ('TopAmt', 0.0), ('BottomAmt', 0.99), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.96), ('Rating', 0)])
+58.4607 	EXP 	Cross: autoDraw = False
+58.4607 	EXP 	Cross: autoDraw = False
+58.4607 	EXP 	SafeText: height = 0.06
+58.4607 	EXP 	SafeText: height = 0.06
+58.4607 	EXP 	SafeText: height = 0.06
+58.4607 	EXP 	SafeText: text = '$0.40'
+58.4607 	EXP 	TopText: height = 0.06
+58.4607 	EXP 	TopText: height = 0.06
+58.4607 	EXP 	TopText: height = 0.06
+58.4607 	EXP 	TopText: text = '$0.00'
+58.4607 	EXP 	BottomText: height = 0.06
+58.4607 	EXP 	BottomText: height = 0.06
+58.4607 	EXP 	BottomText: height = 0.06
+58.4607 	EXP 	BottomText: text = '$0.99'
+58.4607 	EXP 	Win: height = 0.03
+58.4607 	EXP 	Win: height = 0.03
+58.4607 	EXP 	Win: height = 0.03
+58.4607 	EXP 	Win: text = 'Total\n$10.00'
+58.4607 	EXP 	LeftHalf: autoDraw = True
+58.4607 	EXP 	RightHalf: autoDraw = True
+58.4607 	EXP 	Safe: autoDraw = True
+58.4607 	EXP 	Top: autoDraw = True
+58.4607 	EXP 	Bottom: autoDraw = True
+58.4607 	EXP 	SafeText: autoDraw = True
+58.4607 	EXP 	TopText: autoDraw = True
+58.4607 	EXP 	BottomText: autoDraw = True
+58.4607 	EXP 	Total: autoDraw = True
+58.4607 	EXP 	Win: autoDraw = True
+59.8962 	DATA 	Keypress: right
+59.8995 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+59.8997 	EXP 	New trial (rep=0, index=0): None
+59.9776 	EXP 	LeftHalf: autoDraw = False
+59.9776 	EXP 	RightHalf: autoDraw = False
+59.9776 	EXP 	Safe: autoDraw = False
+59.9776 	EXP 	Top: autoDraw = False
+59.9776 	EXP 	Bottom: autoDraw = False
+59.9776 	EXP 	SafeText: autoDraw = False
+59.9776 	EXP 	TopText: autoDraw = False
+59.9776 	EXP 	BottomText: autoDraw = False
+59.9776 	EXP 	Total: autoDraw = False
+59.9776 	EXP 	Win: autoDraw = False
+59.9776 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+59.9776 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+59.9776 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+59.9776 	EXP 	SafeText_2: height = 0.06
+59.9776 	EXP 	SafeText_2: height = 0.06
+59.9776 	EXP 	SafeText_2: height = 0.06
+59.9776 	EXP 	SafeText_2: text = '$0.40'
+59.9776 	EXP 	TopText_2: height = 0.06
+59.9776 	EXP 	TopText_2: height = 0.06
+59.9776 	EXP 	TopText_2: height = 0.06
+59.9776 	EXP 	TopText_2: text = '$0.00'
+59.9776 	EXP 	BottomText_2: height = 0.06
+59.9776 	EXP 	BottomText_2: height = 0.06
+59.9776 	EXP 	BottomText_2: height = 0.06
+59.9776 	EXP 	BottomText_2: text = '$0.99'
+59.9776 	EXP 	Win_2: height = 0.03
+59.9776 	EXP 	Win_2: height = 0.03
+59.9776 	EXP 	Win_2: height = 0.03
+59.9776 	EXP 	Win_2: text = 'Total\n$10.40'
+59.9776 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+59.9776 	EXP 	WinMsg: height = 0.04
+59.9776 	EXP 	WinMsg: height = 0.04
+59.9776 	EXP 	WinMsg: height = 0.04
+59.9776 	EXP 	WinMsg: text = 'You won $0.40!'
+59.9776 	EXP 	LeftHalf_2: autoDraw = True
+59.9776 	EXP 	RightHalf_2: autoDraw = True
+59.9776 	EXP 	Safe_2: autoDraw = True
+59.9776 	EXP 	Top_2: autoDraw = True
+59.9776 	EXP 	Bottom_2: autoDraw = True
+59.9776 	EXP 	SafeText_2: autoDraw = True
+59.9776 	EXP 	TopText_2: autoDraw = True
+59.9776 	EXP 	BottomText_2: autoDraw = True
+59.9776 	EXP 	Total_2: autoDraw = True
+59.9776 	EXP 	Win_2: autoDraw = True
+59.9776 	EXP 	WinMsg: autoDraw = True
+61.9918 	EXP 	LeftHalf_2: autoDraw = False
+61.9918 	EXP 	RightHalf_2: autoDraw = False
+61.9918 	EXP 	Safe_2: autoDraw = False
+61.9918 	EXP 	Top_2: autoDraw = False
+61.9918 	EXP 	Bottom_2: autoDraw = False
+61.9918 	EXP 	SafeText_2: autoDraw = False
+61.9918 	EXP 	TopText_2: autoDraw = False
+61.9918 	EXP 	BottomText_2: autoDraw = False
+61.9918 	EXP 	Total_2: autoDraw = False
+61.9918 	EXP 	Win_2: autoDraw = False
+61.9918 	EXP 	WinMsg: autoDraw = False
+61.9918 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+61.9918 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+61.9918 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+61.9918 	EXP 	SafeText_3: height = 0.06
+61.9918 	EXP 	SafeText_3: height = 0.06
+61.9918 	EXP 	SafeText_3: height = 0.06
+61.9918 	EXP 	SafeText_3: text = '$0.40'
+61.9918 	EXP 	TopText_3: height = 0.06
+61.9918 	EXP 	TopText_3: height = 0.06
+61.9918 	EXP 	TopText_3: height = 0.06
+61.9918 	EXP 	TopText_3: text = '$0.00'
+61.9918 	EXP 	BottomText_3: height = 0.06
+61.9918 	EXP 	BottomText_3: height = 0.06
+61.9918 	EXP 	BottomText_3: height = 0.06
+61.9918 	EXP 	BottomText_3: text = '$0.99'
+61.9918 	EXP 	Win_3: height = 0.03
+61.9918 	EXP 	Win_3: height = 0.03
+61.9918 	EXP 	Win_3: height = 0.03
+61.9918 	EXP 	Win_3: text = 'Total\n$10.40'
+61.9918 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+61.9918 	EXP 	WinMsg_2: height = 0.04
+61.9918 	EXP 	WinMsg_2: height = 0.04
+61.9918 	EXP 	WinMsg_2: height = 0.04
+61.9918 	EXP 	WinMsg_2: text = 'You would have lost $0.00!'
+61.9918 	EXP 	LeftHalf_3: autoDraw = True
+61.9918 	EXP 	RightHalf_3: autoDraw = True
+61.9918 	EXP 	Safe_3: autoDraw = True
+61.9918 	EXP 	Top_3: autoDraw = True
+61.9918 	EXP 	Bottom_3: autoDraw = True
+61.9918 	EXP 	SafeText_3: autoDraw = True
+61.9918 	EXP 	TopText_3: autoDraw = True
+61.9918 	EXP 	BottomText_3: autoDraw = True
+61.9918 	EXP 	Total_3: autoDraw = True
+61.9918 	EXP 	Win_3: autoDraw = True
+61.9918 	EXP 	WinMsg_2: autoDraw = True
+63.9155 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+63.9165 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+63.9296 	EXP 	LeftHalf_3: autoDraw = False
+63.9296 	EXP 	RightHalf_3: autoDraw = False
+63.9296 	EXP 	Safe_3: autoDraw = False
+63.9296 	EXP 	Top_3: autoDraw = False
+63.9296 	EXP 	Bottom_3: autoDraw = False
+63.9296 	EXP 	SafeText_3: autoDraw = False
+63.9296 	EXP 	TopText_3: autoDraw = False
+63.9296 	EXP 	BottomText_3: autoDraw = False
+63.9296 	EXP 	Total_3: autoDraw = False
+63.9296 	EXP 	Win_3: autoDraw = False
+63.9296 	EXP 	WinMsg_2: autoDraw = False
+63.9296 	EXP 	Cross: autoDraw = True
+65.8791 	EXP 	New trial (rep=0, index=4): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.6), ('TopAmt', -1.09), ('BottomAmt', 0.0), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.93), ('Rating', 1)])
+65.9483 	EXP 	Cross: autoDraw = False
+65.9483 	EXP 	Cross: autoDraw = False
+65.9483 	EXP 	SafeText: height = 0.06
+65.9483 	EXP 	SafeText: height = 0.06
+65.9483 	EXP 	SafeText: height = 0.06
+65.9483 	EXP 	SafeText: text = '$-0.60'
+65.9483 	EXP 	TopText: height = 0.06
+65.9483 	EXP 	TopText: height = 0.06
+65.9483 	EXP 	TopText: height = 0.06
+65.9483 	EXP 	TopText: text = '$-1.09'
+65.9483 	EXP 	BottomText: height = 0.06
+65.9483 	EXP 	BottomText: height = 0.06
+65.9483 	EXP 	BottomText: height = 0.06
+65.9483 	EXP 	BottomText: text = '$0.00'
+65.9483 	EXP 	Win: height = 0.03
+65.9483 	EXP 	Win: height = 0.03
+65.9483 	EXP 	Win: height = 0.03
+65.9483 	EXP 	Win: text = 'Total\n$10.40'
+65.9483 	EXP 	LeftHalf: autoDraw = True
+65.9483 	EXP 	RightHalf: autoDraw = True
+65.9483 	EXP 	Safe: autoDraw = True
+65.9483 	EXP 	Top: autoDraw = True
+65.9483 	EXP 	Bottom: autoDraw = True
+65.9483 	EXP 	SafeText: autoDraw = True
+65.9483 	EXP 	TopText: autoDraw = True
+65.9483 	EXP 	BottomText: autoDraw = True
+65.9483 	EXP 	Total: autoDraw = True
+65.9483 	EXP 	Win: autoDraw = True
+66.7617 	DATA 	Keypress: right
+66.7639 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+66.7643 	EXP 	New trial (rep=0, index=0): None
+66.8317 	EXP 	LeftHalf: autoDraw = False
+66.8317 	EXP 	RightHalf: autoDraw = False
+66.8317 	EXP 	Safe: autoDraw = False
+66.8317 	EXP 	Top: autoDraw = False
+66.8317 	EXP 	Bottom: autoDraw = False
+66.8317 	EXP 	SafeText: autoDraw = False
+66.8317 	EXP 	TopText: autoDraw = False
+66.8317 	EXP 	BottomText: autoDraw = False
+66.8317 	EXP 	Total: autoDraw = False
+66.8317 	EXP 	Win: autoDraw = False
+66.8317 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+66.8317 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+66.8317 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+66.8317 	EXP 	SafeText_2: height = 0.06
+66.8317 	EXP 	SafeText_2: height = 0.06
+66.8317 	EXP 	SafeText_2: height = 0.06
+66.8317 	EXP 	SafeText_2: text = '$-0.60'
+66.8317 	EXP 	TopText_2: height = 0.06
+66.8317 	EXP 	TopText_2: height = 0.06
+66.8317 	EXP 	TopText_2: height = 0.06
+66.8317 	EXP 	TopText_2: text = '$-1.09'
+66.8317 	EXP 	BottomText_2: height = 0.06
+66.8317 	EXP 	BottomText_2: height = 0.06
+66.8317 	EXP 	BottomText_2: height = 0.06
+66.8317 	EXP 	BottomText_2: text = '$0.00'
+66.8317 	EXP 	Win_2: text = 'Total\n$10.40'
+66.8317 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+66.8317 	EXP 	WinMsg: height = 0.04
+66.8317 	EXP 	WinMsg: height = 0.04
+66.8317 	EXP 	WinMsg: height = 0.04
+66.8317 	EXP 	WinMsg: text = ''
+66.8317 	EXP 	LeftHalf_2: autoDraw = True
+66.8317 	EXP 	RightHalf_2: autoDraw = True
+66.8317 	EXP 	Safe_2: autoDraw = True
+66.8317 	EXP 	Top_2: autoDraw = True
+66.8317 	EXP 	Bottom_2: autoDraw = True
+66.8317 	EXP 	SafeText_2: autoDraw = True
+66.8317 	EXP 	TopText_2: autoDraw = True
+66.8317 	EXP 	BottomText_2: autoDraw = True
+66.8317 	EXP 	Total_2: autoDraw = True
+66.8317 	EXP 	Win_2: autoDraw = True
+66.8317 	EXP 	WinMsg: autoDraw = True
+68.8329 	EXP 	LeftHalf_2: autoDraw = False
+68.8329 	EXP 	RightHalf_2: autoDraw = False
+68.8329 	EXP 	Safe_2: autoDraw = False
+68.8329 	EXP 	Top_2: autoDraw = False
+68.8329 	EXP 	Bottom_2: autoDraw = False
+68.8329 	EXP 	SafeText_2: autoDraw = False
+68.8329 	EXP 	TopText_2: autoDraw = False
+68.8329 	EXP 	BottomText_2: autoDraw = False
+68.8329 	EXP 	Total_2: autoDraw = False
+68.8329 	EXP 	Win_2: autoDraw = False
+68.8329 	EXP 	WinMsg: autoDraw = False
+68.8329 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+68.8329 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+68.8329 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+68.8329 	EXP 	SafeText_3: height = 0.06
+68.8329 	EXP 	SafeText_3: height = 0.06
+68.8329 	EXP 	SafeText_3: height = 0.06
+68.8329 	EXP 	SafeText_3: text = '$-0.60'
+68.8329 	EXP 	TopText_3: height = 0.06
+68.8329 	EXP 	TopText_3: height = 0.06
+68.8329 	EXP 	TopText_3: height = 0.06
+68.8329 	EXP 	TopText_3: text = '$-1.09'
+68.8329 	EXP 	BottomText_3: height = 0.06
+68.8329 	EXP 	BottomText_3: height = 0.06
+68.8329 	EXP 	BottomText_3: height = 0.06
+68.8329 	EXP 	BottomText_3: text = '$0.00'
+68.8329 	EXP 	Win_3: text = 'Total\n$10.40'
+68.8329 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+68.8329 	EXP 	WinMsg_2: height = 0.04
+68.8329 	EXP 	WinMsg_2: height = 0.04
+68.8329 	EXP 	WinMsg_2: height = 0.04
+68.8329 	EXP 	WinMsg_2: text = 'You won $0.00!'
+68.8329 	EXP 	LeftHalf_3: autoDraw = True
+68.8329 	EXP 	RightHalf_3: autoDraw = True
+68.8329 	EXP 	Safe_3: autoDraw = True
+68.8329 	EXP 	Top_3: autoDraw = True
+68.8329 	EXP 	Bottom_3: autoDraw = True
+68.8329 	EXP 	SafeText_3: autoDraw = True
+68.8329 	EXP 	TopText_3: autoDraw = True
+68.8329 	EXP 	BottomText_3: autoDraw = True
+68.8329 	EXP 	Total_3: autoDraw = True
+68.8329 	EXP 	Win_3: autoDraw = True
+68.8329 	EXP 	WinMsg_2: autoDraw = True
+70.7678 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+70.7692 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+70.7837 	EXP 	LeftHalf_3: autoDraw = False
+70.7837 	EXP 	RightHalf_3: autoDraw = False
+70.7837 	EXP 	Safe_3: autoDraw = False
+70.7837 	EXP 	Top_3: autoDraw = False
+70.7837 	EXP 	Bottom_3: autoDraw = False
+70.7837 	EXP 	SafeText_3: autoDraw = False
+70.7837 	EXP 	TopText_3: autoDraw = False
+70.7837 	EXP 	BottomText_3: autoDraw = False
+70.7837 	EXP 	Total_3: autoDraw = False
+70.7837 	EXP 	Win_3: autoDraw = False
+70.7837 	EXP 	WinMsg_2: autoDraw = False
+70.7837 	EXP 	Cross: autoDraw = True
+72.7030 	EXP 	New trial (rep=0, index=5): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.6), ('TopAmt', -1.01), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.1), ('Rating', 0)])
+72.7498 	EXP 	Cross: autoDraw = False
+72.7498 	EXP 	Cross: autoDraw = False
+72.7498 	EXP 	SafeText: text = '$-0.60'
+72.7498 	EXP 	TopText: height = 0.06
+72.7498 	EXP 	TopText: height = 0.06
+72.7498 	EXP 	TopText: height = 0.06
+72.7498 	EXP 	TopText: text = '$-1.01'
+72.7498 	EXP 	BottomText: text = '$0.00'
+72.7498 	EXP 	Win: text = 'Total\n$10.40'
+72.7498 	EXP 	LeftHalf: autoDraw = True
+72.7498 	EXP 	RightHalf: autoDraw = True
+72.7498 	EXP 	Safe: autoDraw = True
+72.7498 	EXP 	Top: autoDraw = True
+72.7498 	EXP 	Bottom: autoDraw = True
+72.7498 	EXP 	SafeText: autoDraw = True
+72.7498 	EXP 	TopText: autoDraw = True
+72.7498 	EXP 	BottomText: autoDraw = True
+72.7498 	EXP 	Total: autoDraw = True
+72.7498 	EXP 	Win: autoDraw = True
+73.2354 	DATA 	Keypress: left
+73.2403 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+73.2407 	EXP 	New trial (rep=0, index=0): None
+73.2831 	EXP 	LeftHalf: autoDraw = False
+73.2831 	EXP 	RightHalf: autoDraw = False
+73.2831 	EXP 	Safe: autoDraw = False
+73.2831 	EXP 	Top: autoDraw = False
+73.2831 	EXP 	Bottom: autoDraw = False
+73.2831 	EXP 	SafeText: autoDraw = False
+73.2831 	EXP 	TopText: autoDraw = False
+73.2831 	EXP 	BottomText: autoDraw = False
+73.2831 	EXP 	Total: autoDraw = False
+73.2831 	EXP 	Win: autoDraw = False
+73.2831 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+73.2831 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+73.2831 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+73.2831 	EXP 	SafeText_2: text = '$-0.60'
+73.2831 	EXP 	TopText_2: height = 0.06
+73.2831 	EXP 	TopText_2: height = 0.06
+73.2831 	EXP 	TopText_2: height = 0.06
+73.2831 	EXP 	TopText_2: text = '$-1.01'
+73.2831 	EXP 	BottomText_2: text = '$0.00'
+73.2831 	EXP 	Win_2: text = 'Total\n$10.40'
+73.2831 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+73.2831 	EXP 	WinMsg: text = ''
+73.2831 	EXP 	LeftHalf_2: autoDraw = True
+73.2831 	EXP 	RightHalf_2: autoDraw = True
+73.2831 	EXP 	Safe_2: autoDraw = True
+73.2831 	EXP 	Top_2: autoDraw = True
+73.2831 	EXP 	Bottom_2: autoDraw = True
+73.2831 	EXP 	SafeText_2: autoDraw = True
+73.2831 	EXP 	TopText_2: autoDraw = True
+73.2831 	EXP 	BottomText_2: autoDraw = True
+73.2831 	EXP 	Total_2: autoDraw = True
+73.2831 	EXP 	Win_2: autoDraw = True
+73.2831 	EXP 	WinMsg: autoDraw = True
+75.3516 	EXP 	LeftHalf_2: autoDraw = False
+75.3516 	EXP 	RightHalf_2: autoDraw = False
+75.3516 	EXP 	Safe_2: autoDraw = False
+75.3516 	EXP 	Top_2: autoDraw = False
+75.3516 	EXP 	Bottom_2: autoDraw = False
+75.3516 	EXP 	SafeText_2: autoDraw = False
+75.3516 	EXP 	TopText_2: autoDraw = False
+75.3516 	EXP 	BottomText_2: autoDraw = False
+75.3516 	EXP 	Total_2: autoDraw = False
+75.3516 	EXP 	Win_2: autoDraw = False
+75.3516 	EXP 	WinMsg: autoDraw = False
+75.3516 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+75.3516 	EXP 	Top_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+75.3516 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+75.3516 	EXP 	SafeText_3: text = '$-0.60'
+75.3516 	EXP 	TopText_3: height = 0.06
+75.3516 	EXP 	TopText_3: height = 0.06
+75.3516 	EXP 	TopText_3: height = 0.06
+75.3516 	EXP 	TopText_3: text = '$-1.01'
+75.3516 	EXP 	BottomText_3: text = '$0.00'
+75.3516 	EXP 	Win_3: height = 0.03
+75.3516 	EXP 	Win_3: height = 0.03
+75.3516 	EXP 	Win_3: height = 0.03
+75.3516 	EXP 	Win_3: text = 'Total\n$9.39'
+75.3516 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+75.3516 	EXP 	WinMsg_2: height = 0.04
+75.3516 	EXP 	WinMsg_2: height = 0.04
+75.3516 	EXP 	WinMsg_2: height = 0.04
+75.3516 	EXP 	WinMsg_2: text = 'You lost $-1.01!'
+75.3516 	EXP 	LeftHalf_3: autoDraw = True
+75.3516 	EXP 	RightHalf_3: autoDraw = True
+75.3516 	EXP 	Safe_3: autoDraw = True
+75.3516 	EXP 	Top_3: autoDraw = True
+75.3516 	EXP 	Bottom_3: autoDraw = True
+75.3516 	EXP 	SafeText_3: autoDraw = True
+75.3516 	EXP 	TopText_3: autoDraw = True
+75.3516 	EXP 	BottomText_3: autoDraw = True
+75.3516 	EXP 	Total_3: autoDraw = True
+75.3516 	EXP 	Win_3: autoDraw = True
+75.3516 	EXP 	WinMsg_2: autoDraw = True
+77.2513 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+77.2522 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+77.2526 	EXP 	New trial (rep=0, index=0): None
+77.3302 	EXP 	LeftHalf_3: autoDraw = False
+77.3302 	EXP 	RightHalf_3: autoDraw = False
+77.3302 	EXP 	Safe_3: autoDraw = False
+77.3302 	EXP 	Top_3: autoDraw = False
+77.3302 	EXP 	Bottom_3: autoDraw = False
+77.3302 	EXP 	SafeText_3: autoDraw = False
+77.3302 	EXP 	TopText_3: autoDraw = False
+77.3302 	EXP 	BottomText_3: autoDraw = False
+77.3302 	EXP 	Total_3: autoDraw = False
+77.3302 	EXP 	Win_3: autoDraw = False
+77.3302 	EXP 	WinMsg_2: autoDraw = False
+77.3302 	EXP 	HowHappySlider: markerPos = None
+77.3302 	EXP 	HowHappySlider: markerPos = None
+77.3302 	EXP 	HowHappySlider: autoDraw = True
+77.3302 	EXP 	UnHappy: autoDraw = True
+77.3302 	EXP 	Happy: autoDraw = True
+78.5696 	DATA 	Mouse: Left button down, pos=(635,254)
+78.6484 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+78.7171 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+78.7893 	DATA 	Mouse:  Left button up, pos=(635,254)
+78.7977 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+78.8811 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+78.9509 	EXP 	SpacetoExit: autoDraw = True
+79.6063 	DATA 	Keypress: space
+79.6139 	EXP 	HowHappySlider: autoDraw = False
+79.6139 	EXP 	UnHappy: autoDraw = False
+79.6139 	EXP 	Happy: autoDraw = False
+79.6139 	EXP 	SpacetoExit: autoDraw = False
+79.6139 	EXP 	Cross: autoDraw = True
+80.7039 	EXP 	New trial (rep=0, index=6): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.2), ('TopAmt', -0.56), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.68), ('Rating', 0)])
+80.7668 	EXP 	Cross: autoDraw = False
+80.7668 	EXP 	Cross: autoDraw = False
+80.7668 	EXP 	SafeText: height = 0.06
+80.7668 	EXP 	SafeText: height = 0.06
+80.7668 	EXP 	SafeText: height = 0.06
+80.7668 	EXP 	SafeText: text = '$-0.20'
+80.7668 	EXP 	TopText: height = 0.06
+80.7668 	EXP 	TopText: height = 0.06
+80.7668 	EXP 	TopText: height = 0.06
+80.7668 	EXP 	TopText: text = '$-0.56'
+80.7668 	EXP 	BottomText: text = '$0.00'
+80.7668 	EXP 	Win: height = 0.03
+80.7668 	EXP 	Win: height = 0.03
+80.7668 	EXP 	Win: height = 0.03
+80.7668 	EXP 	Win: text = 'Total\n$9.39'
+80.7668 	EXP 	LeftHalf: autoDraw = True
+80.7668 	EXP 	RightHalf: autoDraw = True
+80.7668 	EXP 	Safe: autoDraw = True
+80.7668 	EXP 	Top: autoDraw = True
+80.7668 	EXP 	Bottom: autoDraw = True
+80.7668 	EXP 	SafeText: autoDraw = True
+80.7668 	EXP 	TopText: autoDraw = True
+80.7668 	EXP 	BottomText: autoDraw = True
+80.7668 	EXP 	Total: autoDraw = True
+80.7668 	EXP 	Win: autoDraw = True
+81.4202 	DATA 	Keypress: left
+81.4256 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+81.4263 	EXP 	New trial (rep=0, index=0): None
+81.4881 	EXP 	LeftHalf: autoDraw = False
+81.4881 	EXP 	RightHalf: autoDraw = False
+81.4881 	EXP 	Safe: autoDraw = False
+81.4881 	EXP 	Top: autoDraw = False
+81.4881 	EXP 	Bottom: autoDraw = False
+81.4881 	EXP 	SafeText: autoDraw = False
+81.4881 	EXP 	TopText: autoDraw = False
+81.4881 	EXP 	BottomText: autoDraw = False
+81.4881 	EXP 	Total: autoDraw = False
+81.4881 	EXP 	Win: autoDraw = False
+81.4881 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+81.4881 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+81.4881 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+81.4881 	EXP 	SafeText_2: height = 0.06
+81.4881 	EXP 	SafeText_2: height = 0.06
+81.4881 	EXP 	SafeText_2: height = 0.06
+81.4881 	EXP 	SafeText_2: text = '$-0.20'
+81.4881 	EXP 	TopText_2: height = 0.06
+81.4881 	EXP 	TopText_2: height = 0.06
+81.4881 	EXP 	TopText_2: height = 0.06
+81.4881 	EXP 	TopText_2: text = '$-0.56'
+81.4881 	EXP 	BottomText_2: text = '$0.00'
+81.4881 	EXP 	Win_2: height = 0.03
+81.4881 	EXP 	Win_2: height = 0.03
+81.4881 	EXP 	Win_2: height = 0.03
+81.4881 	EXP 	Win_2: text = 'Total\n$9.39'
+81.4881 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+81.4881 	EXP 	WinMsg: text = ''
+81.4881 	EXP 	LeftHalf_2: autoDraw = True
+81.4881 	EXP 	RightHalf_2: autoDraw = True
+81.4881 	EXP 	Safe_2: autoDraw = True
+81.4881 	EXP 	Top_2: autoDraw = True
+81.4881 	EXP 	Bottom_2: autoDraw = True
+81.4881 	EXP 	SafeText_2: autoDraw = True
+81.4881 	EXP 	TopText_2: autoDraw = True
+81.4881 	EXP 	BottomText_2: autoDraw = True
+81.4881 	EXP 	Total_2: autoDraw = True
+81.4881 	EXP 	Win_2: autoDraw = True
+81.4881 	EXP 	WinMsg: autoDraw = True
+83.5388 	EXP 	LeftHalf_2: autoDraw = False
+83.5388 	EXP 	RightHalf_2: autoDraw = False
+83.5388 	EXP 	Safe_2: autoDraw = False
+83.5388 	EXP 	Top_2: autoDraw = False
+83.5388 	EXP 	Bottom_2: autoDraw = False
+83.5388 	EXP 	SafeText_2: autoDraw = False
+83.5388 	EXP 	TopText_2: autoDraw = False
+83.5388 	EXP 	BottomText_2: autoDraw = False
+83.5388 	EXP 	Total_2: autoDraw = False
+83.5388 	EXP 	Win_2: autoDraw = False
+83.5388 	EXP 	WinMsg: autoDraw = False
+83.5388 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+83.5388 	EXP 	Top_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+83.5388 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+83.5388 	EXP 	SafeText_3: height = 0.06
+83.5388 	EXP 	SafeText_3: height = 0.06
+83.5388 	EXP 	SafeText_3: height = 0.06
+83.5388 	EXP 	SafeText_3: text = '$-0.20'
+83.5388 	EXP 	TopText_3: height = 0.06
+83.5388 	EXP 	TopText_3: height = 0.06
+83.5388 	EXP 	TopText_3: height = 0.06
+83.5388 	EXP 	TopText_3: text = '$-0.56'
+83.5388 	EXP 	BottomText_3: text = '$0.00'
+83.5388 	EXP 	Win_3: height = 0.03
+83.5388 	EXP 	Win_3: height = 0.03
+83.5388 	EXP 	Win_3: height = 0.03
+83.5388 	EXP 	Win_3: text = 'Total\n$8.83'
+83.5388 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+83.5388 	EXP 	WinMsg_2: height = 0.04
+83.5388 	EXP 	WinMsg_2: height = 0.04
+83.5388 	EXP 	WinMsg_2: height = 0.04
+83.5388 	EXP 	WinMsg_2: text = 'You lost $-0.56!'
+83.5388 	EXP 	LeftHalf_3: autoDraw = True
+83.5388 	EXP 	RightHalf_3: autoDraw = True
+83.5388 	EXP 	Safe_3: autoDraw = True
+83.5388 	EXP 	Top_3: autoDraw = True
+83.5388 	EXP 	Bottom_3: autoDraw = True
+83.5388 	EXP 	SafeText_3: autoDraw = True
+83.5388 	EXP 	TopText_3: autoDraw = True
+83.5388 	EXP 	BottomText_3: autoDraw = True
+83.5388 	EXP 	Total_3: autoDraw = True
+83.5388 	EXP 	Win_3: autoDraw = True
+83.5388 	EXP 	WinMsg_2: autoDraw = True
+85.4567 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+85.4577 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+85.4711 	EXP 	LeftHalf_3: autoDraw = False
+85.4711 	EXP 	RightHalf_3: autoDraw = False
+85.4711 	EXP 	Safe_3: autoDraw = False
+85.4711 	EXP 	Top_3: autoDraw = False
+85.4711 	EXP 	Bottom_3: autoDraw = False
+85.4711 	EXP 	SafeText_3: autoDraw = False
+85.4711 	EXP 	TopText_3: autoDraw = False
+85.4711 	EXP 	BottomText_3: autoDraw = False
+85.4711 	EXP 	Total_3: autoDraw = False
+85.4711 	EXP 	Win_3: autoDraw = False
+85.4711 	EXP 	WinMsg_2: autoDraw = False
+85.4711 	EXP 	Cross: autoDraw = True
+87.1416 	EXP 	New trial (rep=0, index=7): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.3), ('TopAmt', -1.26), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'right'), ('ITI', 1.68), ('Rating', 0)])
+87.1845 	EXP 	Cross: autoDraw = False
+87.1845 	EXP 	Cross: autoDraw = False
+87.1845 	EXP 	SafeText: height = 0.06
+87.1845 	EXP 	SafeText: height = 0.06
+87.1845 	EXP 	SafeText: height = 0.06
+87.1845 	EXP 	SafeText: text = '$-0.30'
+87.1845 	EXP 	TopText: height = 0.06
+87.1845 	EXP 	TopText: height = 0.06
+87.1845 	EXP 	TopText: height = 0.06
+87.1845 	EXP 	TopText: text = '$-1.26'
+87.1845 	EXP 	BottomText: text = '$0.00'
+87.1845 	EXP 	Win: height = 0.03
+87.1845 	EXP 	Win: height = 0.03
+87.1845 	EXP 	Win: height = 0.03
+87.1845 	EXP 	Win: text = 'Total\n$8.83'
+87.1845 	EXP 	LeftHalf: autoDraw = True
+87.1845 	EXP 	RightHalf: autoDraw = True
+87.1845 	EXP 	Safe: autoDraw = True
+87.1845 	EXP 	Top: autoDraw = True
+87.1845 	EXP 	Bottom: autoDraw = True
+87.1845 	EXP 	SafeText: autoDraw = True
+87.1845 	EXP 	TopText: autoDraw = True
+87.1845 	EXP 	BottomText: autoDraw = True
+87.1845 	EXP 	Total: autoDraw = True
+87.1845 	EXP 	Win: autoDraw = True
+88.4913 	DATA 	Keypress: left
+88.4958 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+88.4962 	EXP 	New trial (rep=0, index=0): None
+88.5577 	EXP 	LeftHalf: autoDraw = False
+88.5577 	EXP 	RightHalf: autoDraw = False
+88.5577 	EXP 	Safe: autoDraw = False
+88.5577 	EXP 	Top: autoDraw = False
+88.5577 	EXP 	Bottom: autoDraw = False
+88.5577 	EXP 	SafeText: autoDraw = False
+88.5577 	EXP 	TopText: autoDraw = False
+88.5577 	EXP 	BottomText: autoDraw = False
+88.5577 	EXP 	Total: autoDraw = False
+88.5577 	EXP 	Win: autoDraw = False
+88.5577 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+88.5577 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+88.5577 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+88.5577 	EXP 	SafeText_2: height = 0.06
+88.5577 	EXP 	SafeText_2: height = 0.06
+88.5577 	EXP 	SafeText_2: height = 0.06
+88.5577 	EXP 	SafeText_2: text = '$-0.30'
+88.5577 	EXP 	TopText_2: height = 0.06
+88.5577 	EXP 	TopText_2: height = 0.06
+88.5577 	EXP 	TopText_2: height = 0.06
+88.5577 	EXP 	TopText_2: text = '$-1.26'
+88.5577 	EXP 	BottomText_2: text = '$0.00'
+88.5577 	EXP 	Win_2: height = 0.03
+88.5577 	EXP 	Win_2: height = 0.03
+88.5577 	EXP 	Win_2: height = 0.03
+88.5577 	EXP 	Win_2: text = 'Total\n$8.53'
+88.5577 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+88.5577 	EXP 	WinMsg: height = 0.04
+88.5577 	EXP 	WinMsg: height = 0.04
+88.5577 	EXP 	WinMsg: height = 0.04
+88.5577 	EXP 	WinMsg: text = 'You lost $-0.30!'
+88.5577 	EXP 	LeftHalf_2: autoDraw = True
+88.5577 	EXP 	RightHalf_2: autoDraw = True
+88.5577 	EXP 	Safe_2: autoDraw = True
+88.5577 	EXP 	Top_2: autoDraw = True
+88.5577 	EXP 	Bottom_2: autoDraw = True
+88.5577 	EXP 	SafeText_2: autoDraw = True
+88.5577 	EXP 	TopText_2: autoDraw = True
+88.5577 	EXP 	BottomText_2: autoDraw = True
+88.5577 	EXP 	Total_2: autoDraw = True
+88.5577 	EXP 	Win_2: autoDraw = True
+88.5577 	EXP 	WinMsg: autoDraw = True
+90.5727 	EXP 	LeftHalf_2: autoDraw = False
+90.5727 	EXP 	RightHalf_2: autoDraw = False
+90.5727 	EXP 	Safe_2: autoDraw = False
+90.5727 	EXP 	Top_2: autoDraw = False
+90.5727 	EXP 	Bottom_2: autoDraw = False
+90.5727 	EXP 	SafeText_2: autoDraw = False
+90.5727 	EXP 	TopText_2: autoDraw = False
+90.5727 	EXP 	BottomText_2: autoDraw = False
+90.5727 	EXP 	Total_2: autoDraw = False
+90.5727 	EXP 	Win_2: autoDraw = False
+90.5727 	EXP 	WinMsg: autoDraw = False
+90.5727 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+90.5727 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+90.5727 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+90.5727 	EXP 	SafeText_3: height = 0.06
+90.5727 	EXP 	SafeText_3: height = 0.06
+90.5727 	EXP 	SafeText_3: height = 0.06
+90.5727 	EXP 	SafeText_3: text = '$-0.30'
+90.5727 	EXP 	TopText_3: height = 0.06
+90.5727 	EXP 	TopText_3: height = 0.06
+90.5727 	EXP 	TopText_3: height = 0.06
+90.5727 	EXP 	TopText_3: text = '$-1.26'
+90.5727 	EXP 	BottomText_3: text = '$0.00'
+90.5727 	EXP 	Win_3: height = 0.03
+90.5727 	EXP 	Win_3: height = 0.03
+90.5727 	EXP 	Win_3: height = 0.03
+90.5727 	EXP 	Win_3: text = 'Total\n$8.53'
+90.5727 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+90.5727 	EXP 	WinMsg_2: height = 0.04
+90.5727 	EXP 	WinMsg_2: height = 0.04
+90.5727 	EXP 	WinMsg_2: height = 0.04
+90.5727 	EXP 	WinMsg_2: text = 'You would have lost $-1.26!'
+90.5727 	EXP 	LeftHalf_3: autoDraw = True
+90.5727 	EXP 	RightHalf_3: autoDraw = True
+90.5727 	EXP 	Safe_3: autoDraw = True
+90.5727 	EXP 	Top_3: autoDraw = True
+90.5727 	EXP 	Bottom_3: autoDraw = True
+90.5727 	EXP 	SafeText_3: autoDraw = True
+90.5727 	EXP 	TopText_3: autoDraw = True
+90.5727 	EXP 	BottomText_3: autoDraw = True
+90.5727 	EXP 	Total_3: autoDraw = True
+90.5727 	EXP 	Win_3: autoDraw = True
+90.5727 	EXP 	WinMsg_2: autoDraw = True
+92.5262 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+92.5275 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+92.5404 	EXP 	LeftHalf_3: autoDraw = False
+92.5404 	EXP 	RightHalf_3: autoDraw = False
+92.5404 	EXP 	Safe_3: autoDraw = False
+92.5404 	EXP 	Top_3: autoDraw = False
+92.5404 	EXP 	Bottom_3: autoDraw = False
+92.5404 	EXP 	SafeText_3: autoDraw = False
+92.5404 	EXP 	TopText_3: autoDraw = False
+92.5404 	EXP 	BottomText_3: autoDraw = False
+92.5404 	EXP 	Total_3: autoDraw = False
+92.5404 	EXP 	Win_3: autoDraw = False
+92.5404 	EXP 	WinMsg_2: autoDraw = False
+92.5404 	EXP 	Cross: autoDraw = True
+94.2100 	EXP 	New trial (rep=0, index=8): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -1.5), ('BottomAmt', 1.5), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.72), ('Rating', 0)])
+94.2566 	EXP 	Cross: autoDraw = False
+94.2566 	EXP 	Cross: autoDraw = False
+94.2566 	EXP 	SafeText: height = 0.06
+94.2566 	EXP 	SafeText: height = 0.06
+94.2566 	EXP 	SafeText: height = 0.06
+94.2566 	EXP 	SafeText: text = '$0.00'
+94.2566 	EXP 	TopText: height = 0.06
+94.2566 	EXP 	TopText: height = 0.06
+94.2566 	EXP 	TopText: height = 0.06
+94.2566 	EXP 	TopText: text = '$-1.50'
+94.2566 	EXP 	BottomText: height = 0.06
+94.2566 	EXP 	BottomText: height = 0.06
+94.2566 	EXP 	BottomText: height = 0.06
+94.2566 	EXP 	BottomText: text = '$1.50'
+94.2566 	EXP 	Win: height = 0.03
+94.2566 	EXP 	Win: height = 0.03
+94.2566 	EXP 	Win: height = 0.03
+94.2566 	EXP 	Win: text = 'Total\n$8.53'
+94.2566 	EXP 	LeftHalf: autoDraw = True
+94.2566 	EXP 	RightHalf: autoDraw = True
+94.2566 	EXP 	Safe: autoDraw = True
+94.2566 	EXP 	Top: autoDraw = True
+94.2566 	EXP 	Bottom: autoDraw = True
+94.2566 	EXP 	SafeText: autoDraw = True
+94.2566 	EXP 	TopText: autoDraw = True
+94.2566 	EXP 	BottomText: autoDraw = True
+94.2566 	EXP 	Total: autoDraw = True
+94.2566 	EXP 	Win: autoDraw = True
+96.2764 	DATA 	Keypress: left
+96.2821 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+96.2826 	EXP 	New trial (rep=0, index=0): None
+96.3412 	EXP 	LeftHalf: autoDraw = False
+96.3412 	EXP 	RightHalf: autoDraw = False
+96.3412 	EXP 	Safe: autoDraw = False
+96.3412 	EXP 	Top: autoDraw = False
+96.3412 	EXP 	Bottom: autoDraw = False
+96.3412 	EXP 	SafeText: autoDraw = False
+96.3412 	EXP 	TopText: autoDraw = False
+96.3412 	EXP 	BottomText: autoDraw = False
+96.3412 	EXP 	Total: autoDraw = False
+96.3412 	EXP 	Win: autoDraw = False
+96.3412 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+96.3412 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+96.3412 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+96.3412 	EXP 	SafeText_2: height = 0.06
+96.3412 	EXP 	SafeText_2: height = 0.06
+96.3412 	EXP 	SafeText_2: height = 0.06
+96.3412 	EXP 	SafeText_2: text = '$0.00'
+96.3412 	EXP 	TopText_2: height = 0.06
+96.3412 	EXP 	TopText_2: height = 0.06
+96.3412 	EXP 	TopText_2: height = 0.06
+96.3412 	EXP 	TopText_2: text = '$-1.50'
+96.3412 	EXP 	BottomText_2: height = 0.06
+96.3412 	EXP 	BottomText_2: height = 0.06
+96.3412 	EXP 	BottomText_2: height = 0.06
+96.3412 	EXP 	BottomText_2: text = '$1.50'
+96.3412 	EXP 	Win_2: text = 'Total\n$8.53'
+96.3412 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+96.3412 	EXP 	WinMsg: height = 0.04
+96.3412 	EXP 	WinMsg: height = 0.04
+96.3412 	EXP 	WinMsg: height = 0.04
+96.3412 	EXP 	WinMsg: text = 'You got $0.00!'
+96.3412 	EXP 	LeftHalf_2: autoDraw = True
+96.3412 	EXP 	RightHalf_2: autoDraw = True
+96.3412 	EXP 	Safe_2: autoDraw = True
+96.3412 	EXP 	Top_2: autoDraw = True
+96.3412 	EXP 	Bottom_2: autoDraw = True
+96.3412 	EXP 	SafeText_2: autoDraw = True
+96.3412 	EXP 	TopText_2: autoDraw = True
+96.3412 	EXP 	BottomText_2: autoDraw = True
+96.3412 	EXP 	Total_2: autoDraw = True
+96.3412 	EXP 	Win_2: autoDraw = True
+96.3412 	EXP 	WinMsg: autoDraw = True
+98.3438 	EXP 	LeftHalf_2: autoDraw = False
+98.3438 	EXP 	RightHalf_2: autoDraw = False
+98.3438 	EXP 	Safe_2: autoDraw = False
+98.3438 	EXP 	Top_2: autoDraw = False
+98.3438 	EXP 	Bottom_2: autoDraw = False
+98.3438 	EXP 	SafeText_2: autoDraw = False
+98.3438 	EXP 	TopText_2: autoDraw = False
+98.3438 	EXP 	BottomText_2: autoDraw = False
+98.3438 	EXP 	Total_2: autoDraw = False
+98.3438 	EXP 	Win_2: autoDraw = False
+98.3438 	EXP 	WinMsg: autoDraw = False
+98.3438 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+98.3438 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+98.3438 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+98.3438 	EXP 	SafeText_3: height = 0.06
+98.3438 	EXP 	SafeText_3: height = 0.06
+98.3438 	EXP 	SafeText_3: height = 0.06
+98.3438 	EXP 	SafeText_3: text = '$0.00'
+98.3438 	EXP 	TopText_3: height = 0.06
+98.3438 	EXP 	TopText_3: height = 0.06
+98.3438 	EXP 	TopText_3: height = 0.06
+98.3438 	EXP 	TopText_3: text = '$-1.50'
+98.3438 	EXP 	BottomText_3: height = 0.06
+98.3438 	EXP 	BottomText_3: height = 0.06
+98.3438 	EXP 	BottomText_3: height = 0.06
+98.3438 	EXP 	BottomText_3: text = '$1.50'
+98.3438 	EXP 	Win_3: text = 'Total\n$8.53'
+98.3438 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+98.3438 	EXP 	WinMsg_2: height = 0.04
+98.3438 	EXP 	WinMsg_2: height = 0.04
+98.3438 	EXP 	WinMsg_2: height = 0.04
+98.3438 	EXP 	WinMsg_2: text = 'You would have won $1.50!'
+98.3438 	EXP 	LeftHalf_3: autoDraw = True
+98.3438 	EXP 	RightHalf_3: autoDraw = True
+98.3438 	EXP 	Safe_3: autoDraw = True
+98.3438 	EXP 	Top_3: autoDraw = True
+98.3438 	EXP 	Bottom_3: autoDraw = True
+98.3438 	EXP 	SafeText_3: autoDraw = True
+98.3438 	EXP 	TopText_3: autoDraw = True
+98.3438 	EXP 	BottomText_3: autoDraw = True
+98.3438 	EXP 	Total_3: autoDraw = True
+98.3438 	EXP 	Win_3: autoDraw = True
+98.3438 	EXP 	WinMsg_2: autoDraw = True
+100.2956 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+100.2973 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+100.2977 	EXP 	New trial (rep=0, index=0): None
+100.3565 	EXP 	LeftHalf_3: autoDraw = False
+100.3565 	EXP 	RightHalf_3: autoDraw = False
+100.3565 	EXP 	Safe_3: autoDraw = False
+100.3565 	EXP 	Top_3: autoDraw = False
+100.3565 	EXP 	Bottom_3: autoDraw = False
+100.3565 	EXP 	SafeText_3: autoDraw = False
+100.3565 	EXP 	TopText_3: autoDraw = False
+100.3565 	EXP 	BottomText_3: autoDraw = False
+100.3565 	EXP 	Total_3: autoDraw = False
+100.3565 	EXP 	Win_3: autoDraw = False
+100.3565 	EXP 	WinMsg_2: autoDraw = False
+100.3565 	EXP 	HowHappySlider: markerPos = None
+100.3565 	EXP 	HowHappySlider: markerPos = None
+100.3565 	EXP 	HowHappySlider: autoDraw = True
+100.3565 	EXP 	UnHappy: autoDraw = True
+100.3565 	EXP 	Happy: autoDraw = True
+102.2680 	DATA 	Mouse: Left button down, pos=(609,277)
+102.3258 	EXP 	HowHappySlider: markerPos = 3.84375
+102.3943 	EXP 	HowHappySlider: markerPos = 3.84375
+102.4773 	DATA 	Mouse:  Left button up, pos=(609,277)
+102.4897 	EXP 	HowHappySlider: markerPos = 3.84375
+102.5590 	EXP 	HowHappySlider: markerPos = 3.84375
+102.6429 	EXP 	SpacetoExit: autoDraw = True
+102.9119 	DATA 	Keypress: space
+102.9431 	EXP 	HowHappySlider: autoDraw = False
+102.9431 	EXP 	UnHappy: autoDraw = False
+102.9431 	EXP 	Happy: autoDraw = False
+102.9431 	EXP 	SpacetoExit: autoDraw = False
+102.9431 	EXP 	Cross: autoDraw = True
+104.6626 	EXP 	New trial (rep=0, index=9): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.2), ('TopAmt', 0.0), ('BottomAmt', 0.84), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.6), ('Rating', 0)])
+104.7117 	EXP 	Cross: autoDraw = False
+104.7117 	EXP 	Cross: autoDraw = False
+104.7117 	EXP 	SafeText: height = 0.06
+104.7117 	EXP 	SafeText: height = 0.06
+104.7117 	EXP 	SafeText: height = 0.06
+104.7117 	EXP 	SafeText: text = '$0.20'
+104.7117 	EXP 	TopText: height = 0.06
+104.7117 	EXP 	TopText: height = 0.06
+104.7117 	EXP 	TopText: height = 0.06
+104.7117 	EXP 	TopText: text = '$0.00'
+104.7117 	EXP 	BottomText: height = 0.06
+104.7117 	EXP 	BottomText: height = 0.06
+104.7117 	EXP 	BottomText: height = 0.06
+104.7117 	EXP 	BottomText: text = '$0.84'
+104.7117 	EXP 	Win: text = 'Total\n$8.53'
+104.7117 	EXP 	LeftHalf: autoDraw = True
+104.7117 	EXP 	RightHalf: autoDraw = True
+104.7117 	EXP 	Safe: autoDraw = True
+104.7117 	EXP 	Top: autoDraw = True
+104.7117 	EXP 	Bottom: autoDraw = True
+104.7117 	EXP 	SafeText: autoDraw = True
+104.7117 	EXP 	TopText: autoDraw = True
+104.7117 	EXP 	BottomText: autoDraw = True
+104.7117 	EXP 	Total: autoDraw = True
+104.7117 	EXP 	Win: autoDraw = True
+105.4148 	DATA 	Keypress: left
+105.4195 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+105.4201 	EXP 	New trial (rep=0, index=0): None
+105.4975 	EXP 	LeftHalf: autoDraw = False
+105.4975 	EXP 	RightHalf: autoDraw = False
+105.4975 	EXP 	Safe: autoDraw = False
+105.4975 	EXP 	Top: autoDraw = False
+105.4975 	EXP 	Bottom: autoDraw = False
+105.4975 	EXP 	SafeText: autoDraw = False
+105.4975 	EXP 	TopText: autoDraw = False
+105.4975 	EXP 	BottomText: autoDraw = False
+105.4975 	EXP 	Total: autoDraw = False
+105.4975 	EXP 	Win: autoDraw = False
+105.4975 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+105.4975 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+105.4975 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+105.4975 	EXP 	SafeText_2: height = 0.06
+105.4975 	EXP 	SafeText_2: height = 0.06
+105.4975 	EXP 	SafeText_2: height = 0.06
+105.4975 	EXP 	SafeText_2: text = '$0.20'
+105.4975 	EXP 	TopText_2: height = 0.06
+105.4975 	EXP 	TopText_2: height = 0.06
+105.4975 	EXP 	TopText_2: height = 0.06
+105.4975 	EXP 	TopText_2: text = '$0.00'
+105.4975 	EXP 	BottomText_2: height = 0.06
+105.4975 	EXP 	BottomText_2: height = 0.06
+105.4975 	EXP 	BottomText_2: height = 0.06
+105.4975 	EXP 	BottomText_2: text = '$0.84'
+105.4975 	EXP 	Win_2: height = 0.03
+105.4975 	EXP 	Win_2: height = 0.03
+105.4975 	EXP 	Win_2: height = 0.03
+105.4975 	EXP 	Win_2: text = 'Total\n$8.73'
+105.4975 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+105.4975 	EXP 	WinMsg: height = 0.04
+105.4975 	EXP 	WinMsg: height = 0.04
+105.4975 	EXP 	WinMsg: height = 0.04
+105.4975 	EXP 	WinMsg: text = 'You won $0.20!'
+105.4975 	EXP 	LeftHalf_2: autoDraw = True
+105.4975 	EXP 	RightHalf_2: autoDraw = True
+105.4975 	EXP 	Safe_2: autoDraw = True
+105.4975 	EXP 	Top_2: autoDraw = True
+105.4975 	EXP 	Bottom_2: autoDraw = True
+105.4975 	EXP 	SafeText_2: autoDraw = True
+105.4975 	EXP 	TopText_2: autoDraw = True
+105.4975 	EXP 	BottomText_2: autoDraw = True
+105.4975 	EXP 	Total_2: autoDraw = True
+105.4975 	EXP 	Win_2: autoDraw = True
+105.4975 	EXP 	WinMsg: autoDraw = True
+107.4921 	EXP 	LeftHalf_2: autoDraw = False
+107.4921 	EXP 	RightHalf_2: autoDraw = False
+107.4921 	EXP 	Safe_2: autoDraw = False
+107.4921 	EXP 	Top_2: autoDraw = False
+107.4921 	EXP 	Bottom_2: autoDraw = False
+107.4921 	EXP 	SafeText_2: autoDraw = False
+107.4921 	EXP 	TopText_2: autoDraw = False
+107.4921 	EXP 	BottomText_2: autoDraw = False
+107.4921 	EXP 	Total_2: autoDraw = False
+107.4921 	EXP 	Win_2: autoDraw = False
+107.4921 	EXP 	WinMsg: autoDraw = False
+107.4921 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+107.4921 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+107.4921 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+107.4921 	EXP 	SafeText_3: height = 0.06
+107.4921 	EXP 	SafeText_3: height = 0.06
+107.4921 	EXP 	SafeText_3: height = 0.06
+107.4921 	EXP 	SafeText_3: text = '$0.20'
+107.4921 	EXP 	TopText_3: height = 0.06
+107.4921 	EXP 	TopText_3: height = 0.06
+107.4921 	EXP 	TopText_3: height = 0.06
+107.4921 	EXP 	TopText_3: text = '$0.00'
+107.4921 	EXP 	BottomText_3: height = 0.06
+107.4921 	EXP 	BottomText_3: height = 0.06
+107.4921 	EXP 	BottomText_3: height = 0.06
+107.4921 	EXP 	BottomText_3: text = '$0.84'
+107.4921 	EXP 	Win_3: height = 0.03
+107.4921 	EXP 	Win_3: height = 0.03
+107.4921 	EXP 	Win_3: height = 0.03
+107.4921 	EXP 	Win_3: text = 'Total\n$8.73'
+107.4921 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+107.4921 	EXP 	WinMsg_2: height = 0.04
+107.4921 	EXP 	WinMsg_2: height = 0.04
+107.4921 	EXP 	WinMsg_2: height = 0.04
+107.4921 	EXP 	WinMsg_2: text = 'You would have won $0.84!'
+107.4921 	EXP 	LeftHalf_3: autoDraw = True
+107.4921 	EXP 	RightHalf_3: autoDraw = True
+107.4921 	EXP 	Safe_3: autoDraw = True
+107.4921 	EXP 	Top_3: autoDraw = True
+107.4921 	EXP 	Bottom_3: autoDraw = True
+107.4921 	EXP 	SafeText_3: autoDraw = True
+107.4921 	EXP 	TopText_3: autoDraw = True
+107.4921 	EXP 	BottomText_3: autoDraw = True
+107.4921 	EXP 	Total_3: autoDraw = True
+107.4921 	EXP 	Win_3: autoDraw = True
+107.4921 	EXP 	WinMsg_2: autoDraw = True
+109.4331 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+109.4336 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+109.4464 	EXP 	LeftHalf_3: autoDraw = False
+109.4464 	EXP 	RightHalf_3: autoDraw = False
+109.4464 	EXP 	Safe_3: autoDraw = False
+109.4464 	EXP 	Top_3: autoDraw = False
+109.4464 	EXP 	Bottom_3: autoDraw = False
+109.4464 	EXP 	SafeText_3: autoDraw = False
+109.4464 	EXP 	TopText_3: autoDraw = False
+109.4464 	EXP 	BottomText_3: autoDraw = False
+109.4464 	EXP 	Total_3: autoDraw = False
+109.4464 	EXP 	Win_3: autoDraw = False
+109.4464 	EXP 	WinMsg_2: autoDraw = False
+109.4464 	EXP 	Cross: autoDraw = True
+111.0332 	EXP 	New trial (rep=0, index=10): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.3), ('TopAmt', -0.67), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.27), ('Rating', 0)])
+111.0813 	EXP 	Cross: autoDraw = False
+111.0813 	EXP 	Cross: autoDraw = False
+111.0813 	EXP 	SafeText: height = 0.06
+111.0813 	EXP 	SafeText: height = 0.06
+111.0813 	EXP 	SafeText: height = 0.06
+111.0813 	EXP 	SafeText: text = '$-0.30'
+111.0813 	EXP 	TopText: height = 0.06
+111.0813 	EXP 	TopText: height = 0.06
+111.0813 	EXP 	TopText: height = 0.06
+111.0813 	EXP 	TopText: text = '$-0.67'
+111.0813 	EXP 	BottomText: height = 0.06
+111.0813 	EXP 	BottomText: height = 0.06
+111.0813 	EXP 	BottomText: height = 0.06
+111.0813 	EXP 	BottomText: text = '$0.00'
+111.0813 	EXP 	Win: height = 0.03
+111.0813 	EXP 	Win: height = 0.03
+111.0813 	EXP 	Win: height = 0.03
+111.0813 	EXP 	Win: text = 'Total\n$8.73'
+111.0813 	EXP 	LeftHalf: autoDraw = True
+111.0813 	EXP 	RightHalf: autoDraw = True
+111.0813 	EXP 	Safe: autoDraw = True
+111.0813 	EXP 	Top: autoDraw = True
+111.0813 	EXP 	Bottom: autoDraw = True
+111.0813 	EXP 	SafeText: autoDraw = True
+111.0813 	EXP 	TopText: autoDraw = True
+111.0813 	EXP 	BottomText: autoDraw = True
+111.0813 	EXP 	Total: autoDraw = True
+111.0813 	EXP 	Win: autoDraw = True
+111.7491 	DATA 	Keypress: right
+111.7536 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+111.7539 	EXP 	New trial (rep=0, index=0): None
+111.8132 	EXP 	LeftHalf: autoDraw = False
+111.8132 	EXP 	RightHalf: autoDraw = False
+111.8132 	EXP 	Safe: autoDraw = False
+111.8132 	EXP 	Top: autoDraw = False
+111.8132 	EXP 	Bottom: autoDraw = False
+111.8132 	EXP 	SafeText: autoDraw = False
+111.8132 	EXP 	TopText: autoDraw = False
+111.8132 	EXP 	BottomText: autoDraw = False
+111.8132 	EXP 	Total: autoDraw = False
+111.8132 	EXP 	Win: autoDraw = False
+111.8132 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+111.8132 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+111.8132 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+111.8132 	EXP 	SafeText_2: height = 0.06
+111.8132 	EXP 	SafeText_2: height = 0.06
+111.8132 	EXP 	SafeText_2: height = 0.06
+111.8132 	EXP 	SafeText_2: text = '$-0.30'
+111.8132 	EXP 	TopText_2: height = 0.06
+111.8132 	EXP 	TopText_2: height = 0.06
+111.8132 	EXP 	TopText_2: height = 0.06
+111.8132 	EXP 	TopText_2: text = '$-0.67'
+111.8132 	EXP 	BottomText_2: height = 0.06
+111.8132 	EXP 	BottomText_2: height = 0.06
+111.8132 	EXP 	BottomText_2: height = 0.06
+111.8132 	EXP 	BottomText_2: text = '$0.00'
+111.8132 	EXP 	Win_2: height = 0.03
+111.8132 	EXP 	Win_2: height = 0.03
+111.8132 	EXP 	Win_2: height = 0.03
+111.8132 	EXP 	Win_2: text = 'Total\n$8.43'
+111.8132 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+111.8132 	EXP 	WinMsg: height = 0.04
+111.8132 	EXP 	WinMsg: height = 0.04
+111.8132 	EXP 	WinMsg: height = 0.04
+111.8132 	EXP 	WinMsg: text = 'You lost $-0.30!'
+111.8132 	EXP 	LeftHalf_2: autoDraw = True
+111.8132 	EXP 	RightHalf_2: autoDraw = True
+111.8132 	EXP 	Safe_2: autoDraw = True
+111.8132 	EXP 	Top_2: autoDraw = True
+111.8132 	EXP 	Bottom_2: autoDraw = True
+111.8132 	EXP 	SafeText_2: autoDraw = True
+111.8132 	EXP 	TopText_2: autoDraw = True
+111.8132 	EXP 	BottomText_2: autoDraw = True
+111.8132 	EXP 	Total_2: autoDraw = True
+111.8132 	EXP 	Win_2: autoDraw = True
+111.8132 	EXP 	WinMsg: autoDraw = True
+113.8328 	EXP 	LeftHalf_2: autoDraw = False
+113.8328 	EXP 	RightHalf_2: autoDraw = False
+113.8328 	EXP 	Safe_2: autoDraw = False
+113.8328 	EXP 	Top_2: autoDraw = False
+113.8328 	EXP 	Bottom_2: autoDraw = False
+113.8328 	EXP 	SafeText_2: autoDraw = False
+113.8328 	EXP 	TopText_2: autoDraw = False
+113.8328 	EXP 	BottomText_2: autoDraw = False
+113.8328 	EXP 	Total_2: autoDraw = False
+113.8328 	EXP 	Win_2: autoDraw = False
+113.8328 	EXP 	WinMsg: autoDraw = False
+113.8328 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+113.8328 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+113.8328 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+113.8328 	EXP 	SafeText_3: height = 0.06
+113.8328 	EXP 	SafeText_3: height = 0.06
+113.8328 	EXP 	SafeText_3: height = 0.06
+113.8328 	EXP 	SafeText_3: text = '$-0.30'
+113.8328 	EXP 	TopText_3: height = 0.06
+113.8328 	EXP 	TopText_3: height = 0.06
+113.8328 	EXP 	TopText_3: height = 0.06
+113.8328 	EXP 	TopText_3: text = '$-0.67'
+113.8328 	EXP 	BottomText_3: height = 0.06
+113.8328 	EXP 	BottomText_3: height = 0.06
+113.8328 	EXP 	BottomText_3: height = 0.06
+113.8328 	EXP 	BottomText_3: text = '$0.00'
+113.8328 	EXP 	Win_3: height = 0.03
+113.8328 	EXP 	Win_3: height = 0.03
+113.8328 	EXP 	Win_3: height = 0.03
+113.8328 	EXP 	Win_3: text = 'Total\n$8.43'
+113.8328 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+113.8328 	EXP 	WinMsg_2: height = 0.04
+113.8328 	EXP 	WinMsg_2: height = 0.04
+113.8328 	EXP 	WinMsg_2: height = 0.04
+113.8328 	EXP 	WinMsg_2: text = 'You would have lost $-0.67!'
+113.8328 	EXP 	LeftHalf_3: autoDraw = True
+113.8328 	EXP 	RightHalf_3: autoDraw = True
+113.8328 	EXP 	Safe_3: autoDraw = True
+113.8328 	EXP 	Top_3: autoDraw = True
+113.8328 	EXP 	Bottom_3: autoDraw = True
+113.8328 	EXP 	SafeText_3: autoDraw = True
+113.8328 	EXP 	TopText_3: autoDraw = True
+113.8328 	EXP 	BottomText_3: autoDraw = True
+113.8328 	EXP 	Total_3: autoDraw = True
+113.8328 	EXP 	Win_3: autoDraw = True
+113.8328 	EXP 	WinMsg_2: autoDraw = True
+115.7689 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+115.7694 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+115.7821 	EXP 	LeftHalf_3: autoDraw = False
+115.7821 	EXP 	RightHalf_3: autoDraw = False
+115.7821 	EXP 	Safe_3: autoDraw = False
+115.7821 	EXP 	Top_3: autoDraw = False
+115.7821 	EXP 	Bottom_3: autoDraw = False
+115.7821 	EXP 	SafeText_3: autoDraw = False
+115.7821 	EXP 	TopText_3: autoDraw = False
+115.7821 	EXP 	BottomText_3: autoDraw = False
+115.7821 	EXP 	Total_3: autoDraw = False
+115.7821 	EXP 	Win_3: autoDraw = False
+115.7821 	EXP 	WinMsg_2: autoDraw = False
+115.7821 	EXP 	Cross: autoDraw = True
+117.0510 	EXP 	New trial (rep=0, index=11): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.2), ('TopAmt', 0.0), ('BottomAmt', 0.72), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.71), ('Rating', 0)])
+117.1004 	EXP 	Cross: autoDraw = False
+117.1004 	EXP 	Cross: autoDraw = False
+117.1004 	EXP 	SafeText: height = 0.06
+117.1004 	EXP 	SafeText: height = 0.06
+117.1004 	EXP 	SafeText: height = 0.06
+117.1004 	EXP 	SafeText: text = '$0.20'
+117.1004 	EXP 	TopText: height = 0.06
+117.1004 	EXP 	TopText: height = 0.06
+117.1004 	EXP 	TopText: height = 0.06
+117.1004 	EXP 	TopText: text = '$0.00'
+117.1004 	EXP 	BottomText: height = 0.06
+117.1004 	EXP 	BottomText: height = 0.06
+117.1004 	EXP 	BottomText: height = 0.06
+117.1004 	EXP 	BottomText: text = '$0.72'
+117.1004 	EXP 	Win: height = 0.03
+117.1004 	EXP 	Win: height = 0.03
+117.1004 	EXP 	Win: height = 0.03
+117.1004 	EXP 	Win: text = 'Total\n$8.43'
+117.1004 	EXP 	LeftHalf: autoDraw = True
+117.1004 	EXP 	RightHalf: autoDraw = True
+117.1004 	EXP 	Safe: autoDraw = True
+117.1004 	EXP 	Top: autoDraw = True
+117.1004 	EXP 	Bottom: autoDraw = True
+117.1004 	EXP 	SafeText: autoDraw = True
+117.1004 	EXP 	TopText: autoDraw = True
+117.1004 	EXP 	BottomText: autoDraw = True
+117.1004 	EXP 	Total: autoDraw = True
+117.1004 	EXP 	Win: autoDraw = True
+118.5120 	DATA 	Keypress: left
+118.5386 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+118.5389 	EXP 	New trial (rep=0, index=0): None
+118.6008 	EXP 	LeftHalf: autoDraw = False
+118.6008 	EXP 	RightHalf: autoDraw = False
+118.6008 	EXP 	Safe: autoDraw = False
+118.6008 	EXP 	Top: autoDraw = False
+118.6008 	EXP 	Bottom: autoDraw = False
+118.6008 	EXP 	SafeText: autoDraw = False
+118.6008 	EXP 	TopText: autoDraw = False
+118.6008 	EXP 	BottomText: autoDraw = False
+118.6008 	EXP 	Total: autoDraw = False
+118.6008 	EXP 	Win: autoDraw = False
+118.6008 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+118.6008 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+118.6008 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+118.6008 	EXP 	SafeText_2: height = 0.06
+118.6008 	EXP 	SafeText_2: height = 0.06
+118.6008 	EXP 	SafeText_2: height = 0.06
+118.6008 	EXP 	SafeText_2: text = '$0.20'
+118.6008 	EXP 	TopText_2: height = 0.06
+118.6008 	EXP 	TopText_2: height = 0.06
+118.6008 	EXP 	TopText_2: height = 0.06
+118.6008 	EXP 	TopText_2: text = '$0.00'
+118.6008 	EXP 	BottomText_2: height = 0.06
+118.6008 	EXP 	BottomText_2: height = 0.06
+118.6008 	EXP 	BottomText_2: height = 0.06
+118.6008 	EXP 	BottomText_2: text = '$0.72'
+118.6008 	EXP 	Win_2: height = 0.03
+118.6008 	EXP 	Win_2: height = 0.03
+118.6008 	EXP 	Win_2: height = 0.03
+118.6008 	EXP 	Win_2: text = 'Total\n$8.63'
+118.6008 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+118.6008 	EXP 	WinMsg: height = 0.04
+118.6008 	EXP 	WinMsg: height = 0.04
+118.6008 	EXP 	WinMsg: height = 0.04
+118.6008 	EXP 	WinMsg: text = 'You won $0.20!'
+118.6008 	EXP 	LeftHalf_2: autoDraw = True
+118.6008 	EXP 	RightHalf_2: autoDraw = True
+118.6008 	EXP 	Safe_2: autoDraw = True
+118.6008 	EXP 	Top_2: autoDraw = True
+118.6008 	EXP 	Bottom_2: autoDraw = True
+118.6008 	EXP 	SafeText_2: autoDraw = True
+118.6008 	EXP 	TopText_2: autoDraw = True
+118.6008 	EXP 	BottomText_2: autoDraw = True
+118.6008 	EXP 	Total_2: autoDraw = True
+118.6008 	EXP 	Win_2: autoDraw = True
+118.6008 	EXP 	WinMsg: autoDraw = True
+120.6182 	EXP 	LeftHalf_2: autoDraw = False
+120.6182 	EXP 	RightHalf_2: autoDraw = False
+120.6182 	EXP 	Safe_2: autoDraw = False
+120.6182 	EXP 	Top_2: autoDraw = False
+120.6182 	EXP 	Bottom_2: autoDraw = False
+120.6182 	EXP 	SafeText_2: autoDraw = False
+120.6182 	EXP 	TopText_2: autoDraw = False
+120.6182 	EXP 	BottomText_2: autoDraw = False
+120.6182 	EXP 	Total_2: autoDraw = False
+120.6182 	EXP 	Win_2: autoDraw = False
+120.6182 	EXP 	WinMsg: autoDraw = False
+120.6182 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+120.6182 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+120.6182 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+120.6182 	EXP 	SafeText_3: height = 0.06
+120.6182 	EXP 	SafeText_3: height = 0.06
+120.6182 	EXP 	SafeText_3: height = 0.06
+120.6182 	EXP 	SafeText_3: text = '$0.20'
+120.6182 	EXP 	TopText_3: height = 0.06
+120.6182 	EXP 	TopText_3: height = 0.06
+120.6182 	EXP 	TopText_3: height = 0.06
+120.6182 	EXP 	TopText_3: text = '$0.00'
+120.6182 	EXP 	BottomText_3: height = 0.06
+120.6182 	EXP 	BottomText_3: height = 0.06
+120.6182 	EXP 	BottomText_3: height = 0.06
+120.6182 	EXP 	BottomText_3: text = '$0.72'
+120.6182 	EXP 	Win_3: height = 0.03
+120.6182 	EXP 	Win_3: height = 0.03
+120.6182 	EXP 	Win_3: height = 0.03
+120.6182 	EXP 	Win_3: text = 'Total\n$8.63'
+120.6182 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+120.6182 	EXP 	WinMsg_2: height = 0.04
+120.6182 	EXP 	WinMsg_2: height = 0.04
+120.6182 	EXP 	WinMsg_2: height = 0.04
+120.6182 	EXP 	WinMsg_2: text = 'You would have won $0.72!'
+120.6182 	EXP 	LeftHalf_3: autoDraw = True
+120.6182 	EXP 	RightHalf_3: autoDraw = True
+120.6182 	EXP 	Safe_3: autoDraw = True
+120.6182 	EXP 	Top_3: autoDraw = True
+120.6182 	EXP 	Bottom_3: autoDraw = True
+120.6182 	EXP 	SafeText_3: autoDraw = True
+120.6182 	EXP 	TopText_3: autoDraw = True
+120.6182 	EXP 	BottomText_3: autoDraw = True
+120.6182 	EXP 	Total_3: autoDraw = True
+120.6182 	EXP 	Win_3: autoDraw = True
+120.6182 	EXP 	WinMsg_2: autoDraw = True
+122.5674 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+122.5681 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+122.5684 	EXP 	New trial (rep=0, index=0): None
+122.6640 	EXP 	LeftHalf_3: autoDraw = False
+122.6640 	EXP 	RightHalf_3: autoDraw = False
+122.6640 	EXP 	Safe_3: autoDraw = False
+122.6640 	EXP 	Top_3: autoDraw = False
+122.6640 	EXP 	Bottom_3: autoDraw = False
+122.6640 	EXP 	SafeText_3: autoDraw = False
+122.6640 	EXP 	TopText_3: autoDraw = False
+122.6640 	EXP 	BottomText_3: autoDraw = False
+122.6640 	EXP 	Total_3: autoDraw = False
+122.6640 	EXP 	Win_3: autoDraw = False
+122.6640 	EXP 	WinMsg_2: autoDraw = False
+122.6640 	EXP 	HowHappySlider: markerPos = None
+122.6640 	EXP 	HowHappySlider: markerPos = None
+122.6640 	EXP 	HowHappySlider: autoDraw = True
+122.6640 	EXP 	UnHappy: autoDraw = True
+122.6640 	EXP 	Happy: autoDraw = True
+123.9542 	DATA 	Mouse: Left button down, pos=(610,276)
+124.0538 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+124.1399 	DATA 	Mouse:  Left button up, pos=(610,276)
+124.1524 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+124.2529 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+124.3363 	EXP 	SpacetoExit: autoDraw = True
+124.7079 	DATA 	Keypress: space
+124.7373 	EXP 	HowHappySlider: autoDraw = False
+124.7373 	EXP 	UnHappy: autoDraw = False
+124.7373 	EXP 	Happy: autoDraw = False
+124.7373 	EXP 	SpacetoExit: autoDraw = False
+124.7373 	EXP 	Cross: autoDraw = True
+126.4394 	EXP 	New trial (rep=0, index=12): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -1.1), ('BottomAmt', 0.73), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.36), ('Rating', 0)])
+126.4867 	EXP 	Cross: autoDraw = False
+126.4867 	EXP 	Cross: autoDraw = False
+126.4867 	EXP 	SafeText: height = 0.06
+126.4867 	EXP 	SafeText: height = 0.06
+126.4867 	EXP 	SafeText: height = 0.06
+126.4867 	EXP 	SafeText: text = '$0.00'
+126.4867 	EXP 	TopText: height = 0.06
+126.4867 	EXP 	TopText: height = 0.06
+126.4867 	EXP 	TopText: height = 0.06
+126.4867 	EXP 	TopText: text = '$-1.10'
+126.4867 	EXP 	BottomText: height = 0.06
+126.4867 	EXP 	BottomText: height = 0.06
+126.4867 	EXP 	BottomText: height = 0.06
+126.4867 	EXP 	BottomText: text = '$0.73'
+126.4867 	EXP 	Win: height = 0.03
+126.4867 	EXP 	Win: height = 0.03
+126.4867 	EXP 	Win: height = 0.03
+126.4867 	EXP 	Win: text = 'Total\n$8.63'
+126.4867 	EXP 	LeftHalf: autoDraw = True
+126.4867 	EXP 	RightHalf: autoDraw = True
+126.4867 	EXP 	Safe: autoDraw = True
+126.4867 	EXP 	Top: autoDraw = True
+126.4867 	EXP 	Bottom: autoDraw = True
+126.4867 	EXP 	SafeText: autoDraw = True
+126.4867 	EXP 	TopText: autoDraw = True
+126.4867 	EXP 	BottomText: autoDraw = True
+126.4867 	EXP 	Total: autoDraw = True
+126.4867 	EXP 	Win: autoDraw = True
+127.2435 	DATA 	Keypress: right
+127.2459 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+127.2472 	EXP 	New trial (rep=0, index=0): None
+127.3045 	EXP 	LeftHalf: autoDraw = False
+127.3045 	EXP 	RightHalf: autoDraw = False
+127.3045 	EXP 	Safe: autoDraw = False
+127.3045 	EXP 	Top: autoDraw = False
+127.3045 	EXP 	Bottom: autoDraw = False
+127.3045 	EXP 	SafeText: autoDraw = False
+127.3045 	EXP 	TopText: autoDraw = False
+127.3045 	EXP 	BottomText: autoDraw = False
+127.3045 	EXP 	Total: autoDraw = False
+127.3045 	EXP 	Win: autoDraw = False
+127.3045 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+127.3045 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+127.3045 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+127.3045 	EXP 	SafeText_2: height = 0.06
+127.3045 	EXP 	SafeText_2: height = 0.06
+127.3045 	EXP 	SafeText_2: height = 0.06
+127.3045 	EXP 	SafeText_2: text = '$0.00'
+127.3045 	EXP 	TopText_2: height = 0.06
+127.3045 	EXP 	TopText_2: height = 0.06
+127.3045 	EXP 	TopText_2: height = 0.06
+127.3045 	EXP 	TopText_2: text = '$-1.10'
+127.3045 	EXP 	BottomText_2: height = 0.06
+127.3045 	EXP 	BottomText_2: height = 0.06
+127.3045 	EXP 	BottomText_2: height = 0.06
+127.3045 	EXP 	BottomText_2: text = '$0.73'
+127.3045 	EXP 	Win_2: text = 'Total\n$8.63'
+127.3045 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+127.3045 	EXP 	WinMsg: height = 0.04
+127.3045 	EXP 	WinMsg: height = 0.04
+127.3045 	EXP 	WinMsg: height = 0.04
+127.3045 	EXP 	WinMsg: text = 'You got $0.00!'
+127.3045 	EXP 	LeftHalf_2: autoDraw = True
+127.3045 	EXP 	RightHalf_2: autoDraw = True
+127.3045 	EXP 	Safe_2: autoDraw = True
+127.3045 	EXP 	Top_2: autoDraw = True
+127.3045 	EXP 	Bottom_2: autoDraw = True
+127.3045 	EXP 	SafeText_2: autoDraw = True
+127.3045 	EXP 	TopText_2: autoDraw = True
+127.3045 	EXP 	BottomText_2: autoDraw = True
+127.3045 	EXP 	Total_2: autoDraw = True
+127.3045 	EXP 	Win_2: autoDraw = True
+127.3045 	EXP 	WinMsg: autoDraw = True
+129.3225 	EXP 	LeftHalf_2: autoDraw = False
+129.3225 	EXP 	RightHalf_2: autoDraw = False
+129.3225 	EXP 	Safe_2: autoDraw = False
+129.3225 	EXP 	Top_2: autoDraw = False
+129.3225 	EXP 	Bottom_2: autoDraw = False
+129.3225 	EXP 	SafeText_2: autoDraw = False
+129.3225 	EXP 	TopText_2: autoDraw = False
+129.3225 	EXP 	BottomText_2: autoDraw = False
+129.3225 	EXP 	Total_2: autoDraw = False
+129.3225 	EXP 	Win_2: autoDraw = False
+129.3225 	EXP 	WinMsg: autoDraw = False
+129.3225 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+129.3225 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+129.3225 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+129.3225 	EXP 	SafeText_3: height = 0.06
+129.3225 	EXP 	SafeText_3: height = 0.06
+129.3225 	EXP 	SafeText_3: height = 0.06
+129.3225 	EXP 	SafeText_3: text = '$0.00'
+129.3225 	EXP 	TopText_3: height = 0.06
+129.3225 	EXP 	TopText_3: height = 0.06
+129.3225 	EXP 	TopText_3: height = 0.06
+129.3225 	EXP 	TopText_3: text = '$-1.10'
+129.3225 	EXP 	BottomText_3: height = 0.06
+129.3225 	EXP 	BottomText_3: height = 0.06
+129.3225 	EXP 	BottomText_3: height = 0.06
+129.3225 	EXP 	BottomText_3: text = '$0.73'
+129.3225 	EXP 	Win_3: text = 'Total\n$8.63'
+129.3225 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+129.3225 	EXP 	WinMsg_2: height = 0.04
+129.3225 	EXP 	WinMsg_2: height = 0.04
+129.3225 	EXP 	WinMsg_2: height = 0.04
+129.3225 	EXP 	WinMsg_2: text = 'You would have lost $-1.10!'
+129.3225 	EXP 	LeftHalf_3: autoDraw = True
+129.3225 	EXP 	RightHalf_3: autoDraw = True
+129.3225 	EXP 	Safe_3: autoDraw = True
+129.3225 	EXP 	Top_3: autoDraw = True
+129.3225 	EXP 	Bottom_3: autoDraw = True
+129.3225 	EXP 	SafeText_3: autoDraw = True
+129.3225 	EXP 	TopText_3: autoDraw = True
+129.3225 	EXP 	BottomText_3: autoDraw = True
+129.3225 	EXP 	Total_3: autoDraw = True
+129.3225 	EXP 	Win_3: autoDraw = True
+129.3225 	EXP 	WinMsg_2: autoDraw = True
+131.2756 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+131.2762 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+131.2888 	EXP 	LeftHalf_3: autoDraw = False
+131.2888 	EXP 	RightHalf_3: autoDraw = False
+131.2888 	EXP 	Safe_3: autoDraw = False
+131.2888 	EXP 	Top_3: autoDraw = False
+131.2888 	EXP 	Bottom_3: autoDraw = False
+131.2888 	EXP 	SafeText_3: autoDraw = False
+131.2888 	EXP 	TopText_3: autoDraw = False
+131.2888 	EXP 	BottomText_3: autoDraw = False
+131.2888 	EXP 	Total_3: autoDraw = False
+131.2888 	EXP 	Win_3: autoDraw = False
+131.2888 	EXP 	WinMsg_2: autoDraw = False
+131.2888 	EXP 	Cross: autoDraw = True
+132.6421 	EXP 	New trial (rep=0, index=13): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.5), ('TopAmt', 0.0), ('BottomAmt', 2.1), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.69), ('Rating', 0)])
+132.6851 	EXP 	Cross: autoDraw = False
+132.6851 	EXP 	Cross: autoDraw = False
+132.6851 	EXP 	SafeText: height = 0.06
+132.6851 	EXP 	SafeText: height = 0.06
+132.6851 	EXP 	SafeText: height = 0.06
+132.6851 	EXP 	SafeText: text = '$0.50'
+132.6851 	EXP 	TopText: height = 0.06
+132.6851 	EXP 	TopText: height = 0.06
+132.6851 	EXP 	TopText: height = 0.06
+132.6851 	EXP 	TopText: text = '$0.00'
+132.6851 	EXP 	BottomText: height = 0.06
+132.6851 	EXP 	BottomText: height = 0.06
+132.6851 	EXP 	BottomText: height = 0.06
+132.6851 	EXP 	BottomText: text = '$2.10'
+132.6851 	EXP 	Win: text = 'Total\n$8.63'
+132.6851 	EXP 	LeftHalf: autoDraw = True
+132.6851 	EXP 	RightHalf: autoDraw = True
+132.6851 	EXP 	Safe: autoDraw = True
+132.6851 	EXP 	Top: autoDraw = True
+132.6851 	EXP 	Bottom: autoDraw = True
+132.6851 	EXP 	SafeText: autoDraw = True
+132.6851 	EXP 	TopText: autoDraw = True
+132.6851 	EXP 	BottomText: autoDraw = True
+132.6851 	EXP 	Total: autoDraw = True
+132.6851 	EXP 	Win: autoDraw = True
+133.4248 	DATA 	Keypress: right
+133.4286 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+133.4289 	EXP 	New trial (rep=0, index=0): None
+133.4874 	EXP 	LeftHalf: autoDraw = False
+133.4874 	EXP 	RightHalf: autoDraw = False
+133.4874 	EXP 	Safe: autoDraw = False
+133.4874 	EXP 	Top: autoDraw = False
+133.4874 	EXP 	Bottom: autoDraw = False
+133.4874 	EXP 	SafeText: autoDraw = False
+133.4874 	EXP 	TopText: autoDraw = False
+133.4874 	EXP 	BottomText: autoDraw = False
+133.4874 	EXP 	Total: autoDraw = False
+133.4874 	EXP 	Win: autoDraw = False
+133.4874 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+133.4874 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+133.4874 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+133.4874 	EXP 	SafeText_2: height = 0.06
+133.4874 	EXP 	SafeText_2: height = 0.06
+133.4874 	EXP 	SafeText_2: height = 0.06
+133.4874 	EXP 	SafeText_2: text = '$0.50'
+133.4874 	EXP 	TopText_2: height = 0.06
+133.4874 	EXP 	TopText_2: height = 0.06
+133.4874 	EXP 	TopText_2: height = 0.06
+133.4874 	EXP 	TopText_2: text = '$0.00'
+133.4874 	EXP 	BottomText_2: height = 0.06
+133.4874 	EXP 	BottomText_2: height = 0.06
+133.4874 	EXP 	BottomText_2: height = 0.06
+133.4874 	EXP 	BottomText_2: text = '$2.10'
+133.4874 	EXP 	Win_2: height = 0.03
+133.4874 	EXP 	Win_2: height = 0.03
+133.4874 	EXP 	Win_2: height = 0.03
+133.4874 	EXP 	Win_2: text = 'Total\n$9.13'
+133.4874 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+133.4874 	EXP 	WinMsg: height = 0.04
+133.4874 	EXP 	WinMsg: height = 0.04
+133.4874 	EXP 	WinMsg: height = 0.04
+133.4874 	EXP 	WinMsg: text = 'You won $0.50!'
+133.4874 	EXP 	LeftHalf_2: autoDraw = True
+133.4874 	EXP 	RightHalf_2: autoDraw = True
+133.4874 	EXP 	Safe_2: autoDraw = True
+133.4874 	EXP 	Top_2: autoDraw = True
+133.4874 	EXP 	Bottom_2: autoDraw = True
+133.4874 	EXP 	SafeText_2: autoDraw = True
+133.4874 	EXP 	TopText_2: autoDraw = True
+133.4874 	EXP 	BottomText_2: autoDraw = True
+133.4874 	EXP 	Total_2: autoDraw = True
+133.4874 	EXP 	Win_2: autoDraw = True
+133.4874 	EXP 	WinMsg: autoDraw = True
+135.5390 	EXP 	LeftHalf_2: autoDraw = False
+135.5390 	EXP 	RightHalf_2: autoDraw = False
+135.5390 	EXP 	Safe_2: autoDraw = False
+135.5390 	EXP 	Top_2: autoDraw = False
+135.5390 	EXP 	Bottom_2: autoDraw = False
+135.5390 	EXP 	SafeText_2: autoDraw = False
+135.5390 	EXP 	TopText_2: autoDraw = False
+135.5390 	EXP 	BottomText_2: autoDraw = False
+135.5390 	EXP 	Total_2: autoDraw = False
+135.5390 	EXP 	Win_2: autoDraw = False
+135.5390 	EXP 	WinMsg: autoDraw = False
+135.5390 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+135.5390 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+135.5390 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+135.5390 	EXP 	SafeText_3: height = 0.06
+135.5390 	EXP 	SafeText_3: height = 0.06
+135.5390 	EXP 	SafeText_3: height = 0.06
+135.5390 	EXP 	SafeText_3: text = '$0.50'
+135.5390 	EXP 	TopText_3: height = 0.06
+135.5390 	EXP 	TopText_3: height = 0.06
+135.5390 	EXP 	TopText_3: height = 0.06
+135.5390 	EXP 	TopText_3: text = '$0.00'
+135.5390 	EXP 	BottomText_3: height = 0.06
+135.5390 	EXP 	BottomText_3: height = 0.06
+135.5390 	EXP 	BottomText_3: height = 0.06
+135.5390 	EXP 	BottomText_3: text = '$2.10'
+135.5390 	EXP 	Win_3: height = 0.03
+135.5390 	EXP 	Win_3: height = 0.03
+135.5390 	EXP 	Win_3: height = 0.03
+135.5390 	EXP 	Win_3: text = 'Total\n$9.13'
+135.5390 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+135.5390 	EXP 	WinMsg_2: height = 0.04
+135.5390 	EXP 	WinMsg_2: height = 0.04
+135.5390 	EXP 	WinMsg_2: height = 0.04
+135.5390 	EXP 	WinMsg_2: text = 'You would have lost $0.00!'
+135.5390 	EXP 	LeftHalf_3: autoDraw = True
+135.5390 	EXP 	RightHalf_3: autoDraw = True
+135.5390 	EXP 	Safe_3: autoDraw = True
+135.5390 	EXP 	Top_3: autoDraw = True
+135.5390 	EXP 	Bottom_3: autoDraw = True
+135.5390 	EXP 	SafeText_3: autoDraw = True
+135.5390 	EXP 	TopText_3: autoDraw = True
+135.5390 	EXP 	BottomText_3: autoDraw = True
+135.5390 	EXP 	Total_3: autoDraw = True
+135.5390 	EXP 	Win_3: autoDraw = True
+135.5390 	EXP 	WinMsg_2: autoDraw = True
+137.4591 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+137.4600 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+137.4726 	EXP 	LeftHalf_3: autoDraw = False
+137.4726 	EXP 	RightHalf_3: autoDraw = False
+137.4726 	EXP 	Safe_3: autoDraw = False
+137.4726 	EXP 	Top_3: autoDraw = False
+137.4726 	EXP 	Bottom_3: autoDraw = False
+137.4726 	EXP 	SafeText_3: autoDraw = False
+137.4726 	EXP 	TopText_3: autoDraw = False
+137.4726 	EXP 	BottomText_3: autoDraw = False
+137.4726 	EXP 	Total_3: autoDraw = False
+137.4726 	EXP 	Win_3: autoDraw = False
+137.4726 	EXP 	WinMsg_2: autoDraw = False
+137.4726 	EXP 	Cross: autoDraw = True
+139.1628 	EXP 	New trial (rep=0, index=14): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.6), ('TopAmt', 0.0), ('BottomAmt', 1.33), ('Outcome', 'top'), ('RiskSide', 'right'), ('ITI', 1.84), ('Rating', 0)])
+139.2090 	EXP 	Cross: autoDraw = False
+139.2090 	EXP 	Cross: autoDraw = False
+139.2090 	EXP 	SafeText: height = 0.06
+139.2090 	EXP 	SafeText: height = 0.06
+139.2090 	EXP 	SafeText: height = 0.06
+139.2090 	EXP 	SafeText: text = '$0.60'
+139.2090 	EXP 	TopText: text = '$0.00'
+139.2090 	EXP 	BottomText: height = 0.06
+139.2090 	EXP 	BottomText: height = 0.06
+139.2090 	EXP 	BottomText: height = 0.06
+139.2090 	EXP 	BottomText: text = '$1.33'
+139.2090 	EXP 	Win: height = 0.03
+139.2090 	EXP 	Win: height = 0.03
+139.2090 	EXP 	Win: height = 0.03
+139.2090 	EXP 	Win: text = 'Total\n$9.13'
+139.2090 	EXP 	LeftHalf: autoDraw = True
+139.2090 	EXP 	RightHalf: autoDraw = True
+139.2090 	EXP 	Safe: autoDraw = True
+139.2090 	EXP 	Top: autoDraw = True
+139.2090 	EXP 	Bottom: autoDraw = True
+139.2090 	EXP 	SafeText: autoDraw = True
+139.2090 	EXP 	TopText: autoDraw = True
+139.2090 	EXP 	BottomText: autoDraw = True
+139.2090 	EXP 	Total: autoDraw = True
+139.2090 	EXP 	Win: autoDraw = True
+140.0086 	DATA 	Keypress: left
+140.0132 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+140.0135 	EXP 	New trial (rep=0, index=0): None
+140.0778 	EXP 	LeftHalf: autoDraw = False
+140.0778 	EXP 	RightHalf: autoDraw = False
+140.0778 	EXP 	Safe: autoDraw = False
+140.0778 	EXP 	Top: autoDraw = False
+140.0778 	EXP 	Bottom: autoDraw = False
+140.0778 	EXP 	SafeText: autoDraw = False
+140.0778 	EXP 	TopText: autoDraw = False
+140.0778 	EXP 	BottomText: autoDraw = False
+140.0778 	EXP 	Total: autoDraw = False
+140.0778 	EXP 	Win: autoDraw = False
+140.0778 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+140.0778 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+140.0778 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+140.0778 	EXP 	SafeText_2: height = 0.06
+140.0778 	EXP 	SafeText_2: height = 0.06
+140.0778 	EXP 	SafeText_2: height = 0.06
+140.0778 	EXP 	SafeText_2: text = '$0.60'
+140.0778 	EXP 	TopText_2: text = '$0.00'
+140.0778 	EXP 	BottomText_2: height = 0.06
+140.0778 	EXP 	BottomText_2: height = 0.06
+140.0778 	EXP 	BottomText_2: height = 0.06
+140.0778 	EXP 	BottomText_2: text = '$1.33'
+140.0778 	EXP 	Win_2: height = 0.03
+140.0778 	EXP 	Win_2: height = 0.03
+140.0778 	EXP 	Win_2: height = 0.03
+140.0778 	EXP 	Win_2: text = 'Total\n$9.73'
+140.0778 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+140.0778 	EXP 	WinMsg: height = 0.04
+140.0778 	EXP 	WinMsg: height = 0.04
+140.0778 	EXP 	WinMsg: height = 0.04
+140.0778 	EXP 	WinMsg: text = 'You won $0.60!'
+140.0778 	EXP 	LeftHalf_2: autoDraw = True
+140.0778 	EXP 	RightHalf_2: autoDraw = True
+140.0778 	EXP 	Safe_2: autoDraw = True
+140.0778 	EXP 	Top_2: autoDraw = True
+140.0778 	EXP 	Bottom_2: autoDraw = True
+140.0778 	EXP 	SafeText_2: autoDraw = True
+140.0778 	EXP 	TopText_2: autoDraw = True
+140.0778 	EXP 	BottomText_2: autoDraw = True
+140.0778 	EXP 	Total_2: autoDraw = True
+140.0778 	EXP 	Win_2: autoDraw = True
+140.0778 	EXP 	WinMsg: autoDraw = True
+142.0935 	EXP 	LeftHalf_2: autoDraw = False
+142.0935 	EXP 	RightHalf_2: autoDraw = False
+142.0935 	EXP 	Safe_2: autoDraw = False
+142.0935 	EXP 	Top_2: autoDraw = False
+142.0935 	EXP 	Bottom_2: autoDraw = False
+142.0935 	EXP 	SafeText_2: autoDraw = False
+142.0935 	EXP 	TopText_2: autoDraw = False
+142.0935 	EXP 	BottomText_2: autoDraw = False
+142.0935 	EXP 	Total_2: autoDraw = False
+142.0935 	EXP 	Win_2: autoDraw = False
+142.0935 	EXP 	WinMsg: autoDraw = False
+142.0935 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+142.0935 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+142.0935 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+142.0935 	EXP 	SafeText_3: height = 0.06
+142.0935 	EXP 	SafeText_3: height = 0.06
+142.0935 	EXP 	SafeText_3: height = 0.06
+142.0935 	EXP 	SafeText_3: text = '$0.60'
+142.0935 	EXP 	TopText_3: text = '$0.00'
+142.0935 	EXP 	BottomText_3: height = 0.06
+142.0935 	EXP 	BottomText_3: height = 0.06
+142.0935 	EXP 	BottomText_3: height = 0.06
+142.0935 	EXP 	BottomText_3: text = '$1.33'
+142.0935 	EXP 	Win_3: height = 0.03
+142.0935 	EXP 	Win_3: height = 0.03
+142.0935 	EXP 	Win_3: height = 0.03
+142.0935 	EXP 	Win_3: text = 'Total\n$9.73'
+142.0935 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+142.0935 	EXP 	WinMsg_2: text = 'You would have lost $0.00!'
+142.0935 	EXP 	LeftHalf_3: autoDraw = True
+142.0935 	EXP 	RightHalf_3: autoDraw = True
+142.0935 	EXP 	Safe_3: autoDraw = True
+142.0935 	EXP 	Top_3: autoDraw = True
+142.0935 	EXP 	Bottom_3: autoDraw = True
+142.0935 	EXP 	SafeText_3: autoDraw = True
+142.0935 	EXP 	TopText_3: autoDraw = True
+142.0935 	EXP 	BottomText_3: autoDraw = True
+142.0935 	EXP 	Total_3: autoDraw = True
+142.0935 	EXP 	Win_3: autoDraw = True
+142.0935 	EXP 	WinMsg_2: autoDraw = True
+144.0432 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+144.0440 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+144.0447 	EXP 	New trial (rep=0, index=0): None
+144.1092 	EXP 	LeftHalf_3: autoDraw = False
+144.1092 	EXP 	RightHalf_3: autoDraw = False
+144.1092 	EXP 	Safe_3: autoDraw = False
+144.1092 	EXP 	Top_3: autoDraw = False
+144.1092 	EXP 	Bottom_3: autoDraw = False
+144.1092 	EXP 	SafeText_3: autoDraw = False
+144.1092 	EXP 	TopText_3: autoDraw = False
+144.1092 	EXP 	BottomText_3: autoDraw = False
+144.1092 	EXP 	Total_3: autoDraw = False
+144.1092 	EXP 	Win_3: autoDraw = False
+144.1092 	EXP 	WinMsg_2: autoDraw = False
+144.1092 	EXP 	HowHappySlider: markerPos = None
+144.1092 	EXP 	HowHappySlider: markerPos = None
+144.1092 	EXP 	HowHappySlider: autoDraw = True
+144.1092 	EXP 	UnHappy: autoDraw = True
+144.1092 	EXP 	Happy: autoDraw = True
+145.3516 	DATA 	Mouse: Left button down, pos=(610,276)
+145.4404 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+145.4904 	DATA 	Mouse:  Left button up, pos=(610,276)
+145.5072 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+145.5738 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+145.6446 	EXP 	SpacetoExit: autoDraw = True
+145.9122 	DATA 	Keypress: space
+145.9440 	EXP 	HowHappySlider: autoDraw = False
+145.9440 	EXP 	UnHappy: autoDraw = False
+145.9440 	EXP 	Happy: autoDraw = False
+145.9440 	EXP 	SpacetoExit: autoDraw = False
+145.9440 	EXP 	Cross: autoDraw = True
+147.7804 	EXP 	New trial (rep=0, index=15): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -0.5), ('BottomAmt', 0.2), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.39), ('Rating', 0)])
+147.8283 	EXP 	Cross: autoDraw = False
+147.8283 	EXP 	Cross: autoDraw = False
+147.8283 	EXP 	SafeText: height = 0.06
+147.8283 	EXP 	SafeText: height = 0.06
+147.8283 	EXP 	SafeText: height = 0.06
+147.8283 	EXP 	SafeText: text = '$0.00'
+147.8283 	EXP 	TopText: height = 0.06
+147.8283 	EXP 	TopText: height = 0.06
+147.8283 	EXP 	TopText: height = 0.06
+147.8283 	EXP 	TopText: text = '$-0.50'
+147.8283 	EXP 	BottomText: height = 0.06
+147.8283 	EXP 	BottomText: height = 0.06
+147.8283 	EXP 	BottomText: height = 0.06
+147.8283 	EXP 	BottomText: text = '$0.20'
+147.8283 	EXP 	Win: height = 0.03
+147.8283 	EXP 	Win: height = 0.03
+147.8283 	EXP 	Win: height = 0.03
+147.8283 	EXP 	Win: text = 'Total\n$9.73'
+147.8283 	EXP 	LeftHalf: autoDraw = True
+147.8283 	EXP 	RightHalf: autoDraw = True
+147.8283 	EXP 	Safe: autoDraw = True
+147.8283 	EXP 	Top: autoDraw = True
+147.8283 	EXP 	Bottom: autoDraw = True
+147.8283 	EXP 	SafeText: autoDraw = True
+147.8283 	EXP 	TopText: autoDraw = True
+147.8283 	EXP 	BottomText: autoDraw = True
+147.8283 	EXP 	Total: autoDraw = True
+147.8283 	EXP 	Win: autoDraw = True
+148.4818 	DATA 	Keypress: right
+148.4862 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+148.4869 	EXP 	New trial (rep=0, index=0): None
+148.5452 	EXP 	LeftHalf: autoDraw = False
+148.5452 	EXP 	RightHalf: autoDraw = False
+148.5452 	EXP 	Safe: autoDraw = False
+148.5452 	EXP 	Top: autoDraw = False
+148.5452 	EXP 	Bottom: autoDraw = False
+148.5452 	EXP 	SafeText: autoDraw = False
+148.5452 	EXP 	TopText: autoDraw = False
+148.5452 	EXP 	BottomText: autoDraw = False
+148.5452 	EXP 	Total: autoDraw = False
+148.5452 	EXP 	Win: autoDraw = False
+148.5452 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+148.5452 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+148.5452 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+148.5452 	EXP 	SafeText_2: height = 0.06
+148.5452 	EXP 	SafeText_2: height = 0.06
+148.5452 	EXP 	SafeText_2: height = 0.06
+148.5452 	EXP 	SafeText_2: text = '$0.00'
+148.5452 	EXP 	TopText_2: height = 0.06
+148.5452 	EXP 	TopText_2: height = 0.06
+148.5452 	EXP 	TopText_2: height = 0.06
+148.5452 	EXP 	TopText_2: text = '$-0.50'
+148.5452 	EXP 	BottomText_2: height = 0.06
+148.5452 	EXP 	BottomText_2: height = 0.06
+148.5452 	EXP 	BottomText_2: height = 0.06
+148.5452 	EXP 	BottomText_2: text = '$0.20'
+148.5452 	EXP 	Win_2: text = 'Total\n$9.73'
+148.5452 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+148.5452 	EXP 	WinMsg: height = 0.04
+148.5452 	EXP 	WinMsg: height = 0.04
+148.5452 	EXP 	WinMsg: height = 0.04
+148.5452 	EXP 	WinMsg: text = 'You got $0.00!'
+148.5452 	EXP 	LeftHalf_2: autoDraw = True
+148.5452 	EXP 	RightHalf_2: autoDraw = True
+148.5452 	EXP 	Safe_2: autoDraw = True
+148.5452 	EXP 	Top_2: autoDraw = True
+148.5452 	EXP 	Bottom_2: autoDraw = True
+148.5452 	EXP 	SafeText_2: autoDraw = True
+148.5452 	EXP 	TopText_2: autoDraw = True
+148.5452 	EXP 	BottomText_2: autoDraw = True
+148.5452 	EXP 	Total_2: autoDraw = True
+148.5452 	EXP 	Win_2: autoDraw = True
+148.5452 	EXP 	WinMsg: autoDraw = True
+150.5625 	EXP 	LeftHalf_2: autoDraw = False
+150.5625 	EXP 	RightHalf_2: autoDraw = False
+150.5625 	EXP 	Safe_2: autoDraw = False
+150.5625 	EXP 	Top_2: autoDraw = False
+150.5625 	EXP 	Bottom_2: autoDraw = False
+150.5625 	EXP 	SafeText_2: autoDraw = False
+150.5625 	EXP 	TopText_2: autoDraw = False
+150.5625 	EXP 	BottomText_2: autoDraw = False
+150.5625 	EXP 	Total_2: autoDraw = False
+150.5625 	EXP 	Win_2: autoDraw = False
+150.5625 	EXP 	WinMsg: autoDraw = False
+150.5625 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+150.5625 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+150.5625 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+150.5625 	EXP 	SafeText_3: height = 0.06
+150.5625 	EXP 	SafeText_3: height = 0.06
+150.5625 	EXP 	SafeText_3: height = 0.06
+150.5625 	EXP 	SafeText_3: text = '$0.00'
+150.5625 	EXP 	TopText_3: height = 0.06
+150.5625 	EXP 	TopText_3: height = 0.06
+150.5625 	EXP 	TopText_3: height = 0.06
+150.5625 	EXP 	TopText_3: text = '$-0.50'
+150.5625 	EXP 	BottomText_3: height = 0.06
+150.5625 	EXP 	BottomText_3: height = 0.06
+150.5625 	EXP 	BottomText_3: height = 0.06
+150.5625 	EXP 	BottomText_3: text = '$0.20'
+150.5625 	EXP 	Win_3: text = 'Total\n$9.73'
+150.5625 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+150.5625 	EXP 	WinMsg_2: height = 0.04
+150.5625 	EXP 	WinMsg_2: height = 0.04
+150.5625 	EXP 	WinMsg_2: height = 0.04
+150.5625 	EXP 	WinMsg_2: text = 'You would have lost $-0.50!'
+150.5625 	EXP 	LeftHalf_3: autoDraw = True
+150.5625 	EXP 	RightHalf_3: autoDraw = True
+150.5625 	EXP 	Safe_3: autoDraw = True
+150.5625 	EXP 	Top_3: autoDraw = True
+150.5625 	EXP 	Bottom_3: autoDraw = True
+150.5625 	EXP 	SafeText_3: autoDraw = True
+150.5625 	EXP 	TopText_3: autoDraw = True
+150.5625 	EXP 	BottomText_3: autoDraw = True
+150.5625 	EXP 	Total_3: autoDraw = True
+150.5625 	EXP 	Win_3: autoDraw = True
+150.5625 	EXP 	WinMsg_2: autoDraw = True
+152.5154 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+152.5160 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+152.5298 	EXP 	LeftHalf_3: autoDraw = False
+152.5298 	EXP 	RightHalf_3: autoDraw = False
+152.5298 	EXP 	Safe_3: autoDraw = False
+152.5298 	EXP 	Top_3: autoDraw = False
+152.5298 	EXP 	Bottom_3: autoDraw = False
+152.5298 	EXP 	SafeText_3: autoDraw = False
+152.5298 	EXP 	TopText_3: autoDraw = False
+152.5298 	EXP 	BottomText_3: autoDraw = False
+152.5298 	EXP 	Total_3: autoDraw = False
+152.5298 	EXP 	Win_3: autoDraw = False
+152.5298 	EXP 	WinMsg_2: autoDraw = False
+152.5298 	EXP 	Cross: autoDraw = True
+153.9162 	EXP 	New trial (rep=0, index=16): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.6), ('TopAmt', 0.0), ('BottomAmt', 1.2), ('Outcome', 'top'), ('RiskSide', 'right'), ('ITI', 1.86), ('Rating', 0)])
+153.9675 	EXP 	Cross: autoDraw = False
+153.9675 	EXP 	Cross: autoDraw = False
+153.9675 	EXP 	SafeText: height = 0.06
+153.9675 	EXP 	SafeText: height = 0.06
+153.9675 	EXP 	SafeText: height = 0.06
+153.9675 	EXP 	SafeText: text = '$0.60'
+153.9675 	EXP 	TopText: height = 0.06
+153.9675 	EXP 	TopText: height = 0.06
+153.9675 	EXP 	TopText: height = 0.06
+153.9675 	EXP 	TopText: text = '$0.00'
+153.9675 	EXP 	BottomText: height = 0.06
+153.9675 	EXP 	BottomText: height = 0.06
+153.9675 	EXP 	BottomText: height = 0.06
+153.9675 	EXP 	BottomText: text = '$1.20'
+153.9675 	EXP 	Win: text = 'Total\n$9.73'
+153.9675 	EXP 	LeftHalf: autoDraw = True
+153.9675 	EXP 	RightHalf: autoDraw = True
+153.9675 	EXP 	Safe: autoDraw = True
+153.9675 	EXP 	Top: autoDraw = True
+153.9675 	EXP 	Bottom: autoDraw = True
+153.9675 	EXP 	SafeText: autoDraw = True
+153.9675 	EXP 	TopText: autoDraw = True
+153.9675 	EXP 	BottomText: autoDraw = True
+153.9675 	EXP 	Total: autoDraw = True
+153.9675 	EXP 	Win: autoDraw = True
+155.8499 	DATA 	Keypress: left
+155.8570 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+155.8579 	EXP 	New trial (rep=0, index=0): None
+155.9314 	EXP 	LeftHalf: autoDraw = False
+155.9314 	EXP 	RightHalf: autoDraw = False
+155.9314 	EXP 	Safe: autoDraw = False
+155.9314 	EXP 	Top: autoDraw = False
+155.9314 	EXP 	Bottom: autoDraw = False
+155.9314 	EXP 	SafeText: autoDraw = False
+155.9314 	EXP 	TopText: autoDraw = False
+155.9314 	EXP 	BottomText: autoDraw = False
+155.9314 	EXP 	Total: autoDraw = False
+155.9314 	EXP 	Win: autoDraw = False
+155.9314 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+155.9314 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+155.9314 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+155.9314 	EXP 	SafeText_2: height = 0.06
+155.9314 	EXP 	SafeText_2: height = 0.06
+155.9314 	EXP 	SafeText_2: height = 0.06
+155.9314 	EXP 	SafeText_2: text = '$0.60'
+155.9314 	EXP 	TopText_2: height = 0.06
+155.9314 	EXP 	TopText_2: height = 0.06
+155.9314 	EXP 	TopText_2: height = 0.06
+155.9314 	EXP 	TopText_2: text = '$0.00'
+155.9314 	EXP 	BottomText_2: height = 0.06
+155.9314 	EXP 	BottomText_2: height = 0.06
+155.9314 	EXP 	BottomText_2: height = 0.06
+155.9314 	EXP 	BottomText_2: text = '$1.20'
+155.9314 	EXP 	Win_2: height = 0.03
+155.9314 	EXP 	Win_2: height = 0.03
+155.9314 	EXP 	Win_2: height = 0.03
+155.9314 	EXP 	Win_2: text = 'Total\n$10.33'
+155.9314 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+155.9314 	EXP 	WinMsg: height = 0.04
+155.9314 	EXP 	WinMsg: height = 0.04
+155.9314 	EXP 	WinMsg: height = 0.04
+155.9314 	EXP 	WinMsg: text = 'You won $0.60!'
+155.9314 	EXP 	LeftHalf_2: autoDraw = True
+155.9314 	EXP 	RightHalf_2: autoDraw = True
+155.9314 	EXP 	Safe_2: autoDraw = True
+155.9314 	EXP 	Top_2: autoDraw = True
+155.9314 	EXP 	Bottom_2: autoDraw = True
+155.9314 	EXP 	SafeText_2: autoDraw = True
+155.9314 	EXP 	TopText_2: autoDraw = True
+155.9314 	EXP 	BottomText_2: autoDraw = True
+155.9314 	EXP 	Total_2: autoDraw = True
+155.9314 	EXP 	Win_2: autoDraw = True
+155.9314 	EXP 	WinMsg: autoDraw = True
+157.9330 	EXP 	LeftHalf_2: autoDraw = False
+157.9330 	EXP 	RightHalf_2: autoDraw = False
+157.9330 	EXP 	Safe_2: autoDraw = False
+157.9330 	EXP 	Top_2: autoDraw = False
+157.9330 	EXP 	Bottom_2: autoDraw = False
+157.9330 	EXP 	SafeText_2: autoDraw = False
+157.9330 	EXP 	TopText_2: autoDraw = False
+157.9330 	EXP 	BottomText_2: autoDraw = False
+157.9330 	EXP 	Total_2: autoDraw = False
+157.9330 	EXP 	Win_2: autoDraw = False
+157.9330 	EXP 	WinMsg: autoDraw = False
+157.9330 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+157.9330 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+157.9330 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+157.9330 	EXP 	SafeText_3: height = 0.06
+157.9330 	EXP 	SafeText_3: height = 0.06
+157.9330 	EXP 	SafeText_3: height = 0.06
+157.9330 	EXP 	SafeText_3: text = '$0.60'
+157.9330 	EXP 	TopText_3: height = 0.06
+157.9330 	EXP 	TopText_3: height = 0.06
+157.9330 	EXP 	TopText_3: height = 0.06
+157.9330 	EXP 	TopText_3: text = '$0.00'
+157.9330 	EXP 	BottomText_3: height = 0.06
+157.9330 	EXP 	BottomText_3: height = 0.06
+157.9330 	EXP 	BottomText_3: height = 0.06
+157.9330 	EXP 	BottomText_3: text = '$1.20'
+157.9330 	EXP 	Win_3: height = 0.03
+157.9330 	EXP 	Win_3: height = 0.03
+157.9330 	EXP 	Win_3: height = 0.03
+157.9330 	EXP 	Win_3: text = 'Total\n$10.33'
+157.9330 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+157.9330 	EXP 	WinMsg_2: height = 0.04
+157.9330 	EXP 	WinMsg_2: height = 0.04
+157.9330 	EXP 	WinMsg_2: height = 0.04
+157.9330 	EXP 	WinMsg_2: text = 'You would have lost $0.00!'
+157.9330 	EXP 	LeftHalf_3: autoDraw = True
+157.9330 	EXP 	RightHalf_3: autoDraw = True
+157.9330 	EXP 	Safe_3: autoDraw = True
+157.9330 	EXP 	Top_3: autoDraw = True
+157.9330 	EXP 	Bottom_3: autoDraw = True
+157.9330 	EXP 	SafeText_3: autoDraw = True
+157.9330 	EXP 	TopText_3: autoDraw = True
+157.9330 	EXP 	BottomText_3: autoDraw = True
+157.9330 	EXP 	Total_3: autoDraw = True
+157.9330 	EXP 	Win_3: autoDraw = True
+157.9330 	EXP 	WinMsg_2: autoDraw = True
+159.8859 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+159.8864 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+159.8991 	EXP 	LeftHalf_3: autoDraw = False
+159.8991 	EXP 	RightHalf_3: autoDraw = False
+159.8991 	EXP 	Safe_3: autoDraw = False
+159.8991 	EXP 	Top_3: autoDraw = False
+159.8991 	EXP 	Bottom_3: autoDraw = False
+159.8991 	EXP 	SafeText_3: autoDraw = False
+159.8991 	EXP 	TopText_3: autoDraw = False
+159.8991 	EXP 	BottomText_3: autoDraw = False
+159.8991 	EXP 	Total_3: autoDraw = False
+159.8991 	EXP 	Win_3: autoDraw = False
+159.8991 	EXP 	WinMsg_2: autoDraw = False
+159.8991 	EXP 	Cross: autoDraw = True
+161.7529 	EXP 	New trial (rep=0, index=17): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.4), ('TopAmt', -0.67), ('BottomAmt', 0.0), ('Outcome', 'bottom'), ('RiskSide', 'left'), ('ITI', 1.12), ('Rating', 1)])
+161.8006 	EXP 	Cross: autoDraw = False
+161.8006 	EXP 	Cross: autoDraw = False
+161.8006 	EXP 	SafeText: height = 0.06
+161.8006 	EXP 	SafeText: height = 0.06
+161.8006 	EXP 	SafeText: height = 0.06
+161.8006 	EXP 	SafeText: text = '$-0.40'
+161.8006 	EXP 	TopText: height = 0.06
+161.8006 	EXP 	TopText: height = 0.06
+161.8006 	EXP 	TopText: height = 0.06
+161.8006 	EXP 	TopText: text = '$-0.67'
+161.8006 	EXP 	BottomText: height = 0.06
+161.8006 	EXP 	BottomText: height = 0.06
+161.8006 	EXP 	BottomText: height = 0.06
+161.8006 	EXP 	BottomText: text = '$0.00'
+161.8006 	EXP 	Win: height = 0.03
+161.8006 	EXP 	Win: height = 0.03
+161.8006 	EXP 	Win: height = 0.03
+161.8006 	EXP 	Win: text = 'Total\n$10.33'
+161.8006 	EXP 	LeftHalf: autoDraw = True
+161.8006 	EXP 	RightHalf: autoDraw = True
+161.8006 	EXP 	Safe: autoDraw = True
+161.8006 	EXP 	Top: autoDraw = True
+161.8006 	EXP 	Bottom: autoDraw = True
+161.8006 	EXP 	SafeText: autoDraw = True
+161.8006 	EXP 	TopText: autoDraw = True
+161.8006 	EXP 	BottomText: autoDraw = True
+161.8006 	EXP 	Total: autoDraw = True
+161.8006 	EXP 	Win: autoDraw = True
+162.3650 	DATA 	Keypress: right
+162.3849 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+162.3852 	EXP 	New trial (rep=0, index=0): None
+162.4499 	EXP 	LeftHalf: autoDraw = False
+162.4499 	EXP 	RightHalf: autoDraw = False
+162.4499 	EXP 	Safe: autoDraw = False
+162.4499 	EXP 	Top: autoDraw = False
+162.4499 	EXP 	Bottom: autoDraw = False
+162.4499 	EXP 	SafeText: autoDraw = False
+162.4499 	EXP 	TopText: autoDraw = False
+162.4499 	EXP 	BottomText: autoDraw = False
+162.4499 	EXP 	Total: autoDraw = False
+162.4499 	EXP 	Win: autoDraw = False
+162.4499 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+162.4499 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+162.4499 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+162.4499 	EXP 	SafeText_2: height = 0.06
+162.4499 	EXP 	SafeText_2: height = 0.06
+162.4499 	EXP 	SafeText_2: height = 0.06
+162.4499 	EXP 	SafeText_2: text = '$-0.40'
+162.4499 	EXP 	TopText_2: height = 0.06
+162.4499 	EXP 	TopText_2: height = 0.06
+162.4499 	EXP 	TopText_2: height = 0.06
+162.4499 	EXP 	TopText_2: text = '$-0.67'
+162.4499 	EXP 	BottomText_2: height = 0.06
+162.4499 	EXP 	BottomText_2: height = 0.06
+162.4499 	EXP 	BottomText_2: height = 0.06
+162.4499 	EXP 	BottomText_2: text = '$0.00'
+162.4499 	EXP 	Win_2: height = 0.03
+162.4499 	EXP 	Win_2: height = 0.03
+162.4499 	EXP 	Win_2: height = 0.03
+162.4499 	EXP 	Win_2: text = 'Total\n$9.93'
+162.4499 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+162.4499 	EXP 	WinMsg: height = 0.04
+162.4499 	EXP 	WinMsg: height = 0.04
+162.4499 	EXP 	WinMsg: height = 0.04
+162.4499 	EXP 	WinMsg: text = 'You lost $-0.40!'
+162.4499 	EXP 	LeftHalf_2: autoDraw = True
+162.4499 	EXP 	RightHalf_2: autoDraw = True
+162.4499 	EXP 	Safe_2: autoDraw = True
+162.4499 	EXP 	Top_2: autoDraw = True
+162.4499 	EXP 	Bottom_2: autoDraw = True
+162.4499 	EXP 	SafeText_2: autoDraw = True
+162.4499 	EXP 	TopText_2: autoDraw = True
+162.4499 	EXP 	BottomText_2: autoDraw = True
+162.4499 	EXP 	Total_2: autoDraw = True
+162.4499 	EXP 	Win_2: autoDraw = True
+162.4499 	EXP 	WinMsg: autoDraw = True
+164.5199 	EXP 	LeftHalf_2: autoDraw = False
+164.5199 	EXP 	RightHalf_2: autoDraw = False
+164.5199 	EXP 	Safe_2: autoDraw = False
+164.5199 	EXP 	Top_2: autoDraw = False
+164.5199 	EXP 	Bottom_2: autoDraw = False
+164.5199 	EXP 	SafeText_2: autoDraw = False
+164.5199 	EXP 	TopText_2: autoDraw = False
+164.5199 	EXP 	BottomText_2: autoDraw = False
+164.5199 	EXP 	Total_2: autoDraw = False
+164.5199 	EXP 	Win_2: autoDraw = False
+164.5199 	EXP 	WinMsg: autoDraw = False
+164.5199 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+164.5199 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+164.5199 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+164.5199 	EXP 	SafeText_3: height = 0.06
+164.5199 	EXP 	SafeText_3: height = 0.06
+164.5199 	EXP 	SafeText_3: height = 0.06
+164.5199 	EXP 	SafeText_3: text = '$-0.40'
+164.5199 	EXP 	TopText_3: height = 0.06
+164.5199 	EXP 	TopText_3: height = 0.06
+164.5199 	EXP 	TopText_3: height = 0.06
+164.5199 	EXP 	TopText_3: text = '$-0.67'
+164.5199 	EXP 	BottomText_3: height = 0.06
+164.5199 	EXP 	BottomText_3: height = 0.06
+164.5199 	EXP 	BottomText_3: height = 0.06
+164.5199 	EXP 	BottomText_3: text = '$0.00'
+164.5199 	EXP 	Win_3: height = 0.03
+164.5199 	EXP 	Win_3: height = 0.03
+164.5199 	EXP 	Win_3: height = 0.03
+164.5199 	EXP 	Win_3: text = 'Total\n$9.93'
+164.5199 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+164.5199 	EXP 	WinMsg_2: height = 0.04
+164.5199 	EXP 	WinMsg_2: height = 0.04
+164.5199 	EXP 	WinMsg_2: height = 0.04
+164.5199 	EXP 	WinMsg_2: text = 'You would have won $0.00!'
+164.5199 	EXP 	LeftHalf_3: autoDraw = True
+164.5199 	EXP 	RightHalf_3: autoDraw = True
+164.5199 	EXP 	Safe_3: autoDraw = True
+164.5199 	EXP 	Top_3: autoDraw = True
+164.5199 	EXP 	Bottom_3: autoDraw = True
+164.5199 	EXP 	SafeText_3: autoDraw = True
+164.5199 	EXP 	TopText_3: autoDraw = True
+164.5199 	EXP 	BottomText_3: autoDraw = True
+164.5199 	EXP 	Total_3: autoDraw = True
+164.5199 	EXP 	Win_3: autoDraw = True
+164.5199 	EXP 	WinMsg_2: autoDraw = True
+166.4018 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+166.4027 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+166.4033 	EXP 	New trial (rep=0, index=0): None
+166.4805 	EXP 	LeftHalf_3: autoDraw = False
+166.4805 	EXP 	RightHalf_3: autoDraw = False
+166.4805 	EXP 	Safe_3: autoDraw = False
+166.4805 	EXP 	Top_3: autoDraw = False
+166.4805 	EXP 	Bottom_3: autoDraw = False
+166.4805 	EXP 	SafeText_3: autoDraw = False
+166.4805 	EXP 	TopText_3: autoDraw = False
+166.4805 	EXP 	BottomText_3: autoDraw = False
+166.4805 	EXP 	Total_3: autoDraw = False
+166.4805 	EXP 	Win_3: autoDraw = False
+166.4805 	EXP 	WinMsg_2: autoDraw = False
+166.4805 	EXP 	HowHappySlider: markerPos = None
+166.4805 	EXP 	HowHappySlider: markerPos = None
+166.4805 	EXP 	HowHappySlider: autoDraw = True
+166.4805 	EXP 	UnHappy: autoDraw = True
+166.4805 	EXP 	Happy: autoDraw = True
+167.7051 	DATA 	Mouse: Left button down, pos=(610,276)
+167.7695 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+167.8208 	DATA 	Mouse:  Left button up, pos=(610,276)
+167.8332 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+167.9038 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+167.9508 	EXP 	SpacetoExit: autoDraw = True
+168.1887 	DATA 	Keypress: space
+168.2193 	EXP 	HowHappySlider: autoDraw = False
+168.2193 	EXP 	UnHappy: autoDraw = False
+168.2193 	EXP 	Happy: autoDraw = False
+168.2193 	EXP 	SpacetoExit: autoDraw = False
+168.2193 	EXP 	Cross: autoDraw = True
+169.3400 	EXP 	New trial (rep=0, index=18): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.4), ('TopAmt', -1.44), ('BottomAmt', 0.0), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.97), ('Rating', 0)])
+169.3833 	EXP 	Cross: autoDraw = False
+169.3833 	EXP 	Cross: autoDraw = False
+169.3833 	EXP 	SafeText: text = '$-0.40'
+169.3833 	EXP 	TopText: height = 0.06
+169.3833 	EXP 	TopText: height = 0.06
+169.3833 	EXP 	TopText: height = 0.06
+169.3833 	EXP 	TopText: text = '$-1.44'
+169.3833 	EXP 	BottomText: text = '$0.00'
+169.3833 	EXP 	Win: height = 0.03
+169.3833 	EXP 	Win: height = 0.03
+169.3833 	EXP 	Win: height = 0.03
+169.3833 	EXP 	Win: text = 'Total\n$9.93'
+169.3833 	EXP 	LeftHalf: autoDraw = True
+169.3833 	EXP 	RightHalf: autoDraw = True
+169.3833 	EXP 	Safe: autoDraw = True
+169.3833 	EXP 	Top: autoDraw = True
+169.3833 	EXP 	Bottom: autoDraw = True
+169.3833 	EXP 	SafeText: autoDraw = True
+169.3833 	EXP 	TopText: autoDraw = True
+169.3833 	EXP 	BottomText: autoDraw = True
+169.3833 	EXP 	Total: autoDraw = True
+169.3833 	EXP 	Win: autoDraw = True
+170.1232 	DATA 	Keypress: left
+170.1259 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+170.1261 	EXP 	New trial (rep=0, index=0): None
+170.1725 	EXP 	LeftHalf: autoDraw = False
+170.1725 	EXP 	RightHalf: autoDraw = False
+170.1725 	EXP 	Safe: autoDraw = False
+170.1725 	EXP 	Top: autoDraw = False
+170.1725 	EXP 	Bottom: autoDraw = False
+170.1725 	EXP 	SafeText: autoDraw = False
+170.1725 	EXP 	TopText: autoDraw = False
+170.1725 	EXP 	BottomText: autoDraw = False
+170.1725 	EXP 	Total: autoDraw = False
+170.1725 	EXP 	Win: autoDraw = False
+170.1725 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+170.1725 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+170.1725 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+170.1725 	EXP 	SafeText_2: text = '$-0.40'
+170.1725 	EXP 	TopText_2: height = 0.06
+170.1725 	EXP 	TopText_2: height = 0.06
+170.1725 	EXP 	TopText_2: height = 0.06
+170.1725 	EXP 	TopText_2: text = '$-1.44'
+170.1725 	EXP 	BottomText_2: text = '$0.00'
+170.1725 	EXP 	Win_2: height = 0.03
+170.1725 	EXP 	Win_2: height = 0.03
+170.1725 	EXP 	Win_2: height = 0.03
+170.1725 	EXP 	Win_2: text = 'Total\n$9.53'
+170.1725 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+170.1725 	EXP 	WinMsg: text = 'You lost $-0.40!'
+170.1725 	EXP 	LeftHalf_2: autoDraw = True
+170.1725 	EXP 	RightHalf_2: autoDraw = True
+170.1725 	EXP 	Safe_2: autoDraw = True
+170.1725 	EXP 	Top_2: autoDraw = True
+170.1725 	EXP 	Bottom_2: autoDraw = True
+170.1725 	EXP 	SafeText_2: autoDraw = True
+170.1725 	EXP 	TopText_2: autoDraw = True
+170.1725 	EXP 	BottomText_2: autoDraw = True
+170.1725 	EXP 	Total_2: autoDraw = True
+170.1725 	EXP 	Win_2: autoDraw = True
+170.1725 	EXP 	WinMsg: autoDraw = True
+172.1866 	EXP 	LeftHalf_2: autoDraw = False
+172.1866 	EXP 	RightHalf_2: autoDraw = False
+172.1866 	EXP 	Safe_2: autoDraw = False
+172.1866 	EXP 	Top_2: autoDraw = False
+172.1866 	EXP 	Bottom_2: autoDraw = False
+172.1866 	EXP 	SafeText_2: autoDraw = False
+172.1866 	EXP 	TopText_2: autoDraw = False
+172.1866 	EXP 	BottomText_2: autoDraw = False
+172.1866 	EXP 	Total_2: autoDraw = False
+172.1866 	EXP 	Win_2: autoDraw = False
+172.1866 	EXP 	WinMsg: autoDraw = False
+172.1866 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+172.1866 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+172.1866 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+172.1866 	EXP 	SafeText_3: text = '$-0.40'
+172.1866 	EXP 	TopText_3: height = 0.06
+172.1866 	EXP 	TopText_3: height = 0.06
+172.1866 	EXP 	TopText_3: height = 0.06
+172.1866 	EXP 	TopText_3: text = '$-1.44'
+172.1866 	EXP 	BottomText_3: text = '$0.00'
+172.1866 	EXP 	Win_3: height = 0.03
+172.1866 	EXP 	Win_3: height = 0.03
+172.1866 	EXP 	Win_3: height = 0.03
+172.1866 	EXP 	Win_3: text = 'Total\n$9.53'
+172.1866 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+172.1866 	EXP 	WinMsg_2: text = 'You would have won $0.00!'
+172.1866 	EXP 	LeftHalf_3: autoDraw = True
+172.1866 	EXP 	RightHalf_3: autoDraw = True
+172.1866 	EXP 	Safe_3: autoDraw = True
+172.1866 	EXP 	Top_3: autoDraw = True
+172.1866 	EXP 	Bottom_3: autoDraw = True
+172.1866 	EXP 	SafeText_3: autoDraw = True
+172.1866 	EXP 	TopText_3: autoDraw = True
+172.1866 	EXP 	BottomText_3: autoDraw = True
+172.1866 	EXP 	Total_3: autoDraw = True
+172.1866 	EXP 	Win_3: autoDraw = True
+172.1866 	EXP 	WinMsg_2: autoDraw = True
+174.1371 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+174.1377 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+174.1521 	EXP 	LeftHalf_3: autoDraw = False
+174.1521 	EXP 	RightHalf_3: autoDraw = False
+174.1521 	EXP 	Safe_3: autoDraw = False
+174.1521 	EXP 	Top_3: autoDraw = False
+174.1521 	EXP 	Bottom_3: autoDraw = False
+174.1521 	EXP 	SafeText_3: autoDraw = False
+174.1521 	EXP 	TopText_3: autoDraw = False
+174.1521 	EXP 	BottomText_3: autoDraw = False
+174.1521 	EXP 	Total_3: autoDraw = False
+174.1521 	EXP 	Win_3: autoDraw = False
+174.1521 	EXP 	WinMsg_2: autoDraw = False
+174.1521 	EXP 	Cross: autoDraw = True
+176.1074 	EXP 	New trial (rep=0, index=19): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -1.1), ('BottomAmt', 2.2), ('Outcome', 'bottom'), ('RiskSide', 'left'), ('ITI', 1.76), ('Rating', 1)])
+176.1568 	EXP 	Cross: autoDraw = False
+176.1568 	EXP 	Cross: autoDraw = False
+176.1568 	EXP 	SafeText: height = 0.06
+176.1568 	EXP 	SafeText: height = 0.06
+176.1568 	EXP 	SafeText: height = 0.06
+176.1568 	EXP 	SafeText: text = '$0.00'
+176.1568 	EXP 	TopText: height = 0.06
+176.1568 	EXP 	TopText: height = 0.06
+176.1568 	EXP 	TopText: height = 0.06
+176.1568 	EXP 	TopText: text = '$-1.10'
+176.1568 	EXP 	BottomText: height = 0.06
+176.1568 	EXP 	BottomText: height = 0.06
+176.1568 	EXP 	BottomText: height = 0.06
+176.1568 	EXP 	BottomText: text = '$2.20'
+176.1568 	EXP 	Win: height = 0.03
+176.1568 	EXP 	Win: height = 0.03
+176.1568 	EXP 	Win: height = 0.03
+176.1568 	EXP 	Win: text = 'Total\n$9.53'
+176.1568 	EXP 	LeftHalf: autoDraw = True
+176.1568 	EXP 	RightHalf: autoDraw = True
+176.1568 	EXP 	Safe: autoDraw = True
+176.1568 	EXP 	Top: autoDraw = True
+176.1568 	EXP 	Bottom: autoDraw = True
+176.1568 	EXP 	SafeText: autoDraw = True
+176.1568 	EXP 	TopText: autoDraw = True
+176.1568 	EXP 	BottomText: autoDraw = True
+176.1568 	EXP 	Total: autoDraw = True
+176.1568 	EXP 	Win: autoDraw = True
+176.7513 	DATA 	Keypress: left
+176.7735 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+176.7740 	EXP 	New trial (rep=0, index=0): None
+176.8365 	EXP 	LeftHalf: autoDraw = False
+176.8365 	EXP 	RightHalf: autoDraw = False
+176.8365 	EXP 	Safe: autoDraw = False
+176.8365 	EXP 	Top: autoDraw = False
+176.8365 	EXP 	Bottom: autoDraw = False
+176.8365 	EXP 	SafeText: autoDraw = False
+176.8365 	EXP 	TopText: autoDraw = False
+176.8365 	EXP 	BottomText: autoDraw = False
+176.8365 	EXP 	Total: autoDraw = False
+176.8365 	EXP 	Win: autoDraw = False
+176.8365 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+176.8365 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+176.8365 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+176.8365 	EXP 	SafeText_2: height = 0.06
+176.8365 	EXP 	SafeText_2: height = 0.06
+176.8365 	EXP 	SafeText_2: height = 0.06
+176.8365 	EXP 	SafeText_2: text = '$0.00'
+176.8365 	EXP 	TopText_2: height = 0.06
+176.8365 	EXP 	TopText_2: height = 0.06
+176.8365 	EXP 	TopText_2: height = 0.06
+176.8365 	EXP 	TopText_2: text = '$-1.10'
+176.8365 	EXP 	BottomText_2: height = 0.06
+176.8365 	EXP 	BottomText_2: height = 0.06
+176.8365 	EXP 	BottomText_2: height = 0.06
+176.8365 	EXP 	BottomText_2: text = '$2.20'
+176.8365 	EXP 	Win_2: text = 'Total\n$9.53'
+176.8365 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+176.8365 	EXP 	WinMsg: height = 0.04
+176.8365 	EXP 	WinMsg: height = 0.04
+176.8365 	EXP 	WinMsg: height = 0.04
+176.8365 	EXP 	WinMsg: text = ''
+176.8365 	EXP 	LeftHalf_2: autoDraw = True
+176.8365 	EXP 	RightHalf_2: autoDraw = True
+176.8365 	EXP 	Safe_2: autoDraw = True
+176.8365 	EXP 	Top_2: autoDraw = True
+176.8365 	EXP 	Bottom_2: autoDraw = True
+176.8365 	EXP 	SafeText_2: autoDraw = True
+176.8365 	EXP 	TopText_2: autoDraw = True
+176.8365 	EXP 	BottomText_2: autoDraw = True
+176.8365 	EXP 	Total_2: autoDraw = True
+176.8365 	EXP 	Win_2: autoDraw = True
+176.8365 	EXP 	WinMsg: autoDraw = True
+178.8423 	EXP 	LeftHalf_2: autoDraw = False
+178.8423 	EXP 	RightHalf_2: autoDraw = False
+178.8423 	EXP 	Safe_2: autoDraw = False
+178.8423 	EXP 	Top_2: autoDraw = False
+178.8423 	EXP 	Bottom_2: autoDraw = False
+178.8423 	EXP 	SafeText_2: autoDraw = False
+178.8423 	EXP 	TopText_2: autoDraw = False
+178.8423 	EXP 	BottomText_2: autoDraw = False
+178.8423 	EXP 	Total_2: autoDraw = False
+178.8423 	EXP 	Win_2: autoDraw = False
+178.8423 	EXP 	WinMsg: autoDraw = False
+178.8423 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+178.8423 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+178.8423 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+178.8423 	EXP 	SafeText_3: height = 0.06
+178.8423 	EXP 	SafeText_3: height = 0.06
+178.8423 	EXP 	SafeText_3: height = 0.06
+178.8423 	EXP 	SafeText_3: text = '$0.00'
+178.8423 	EXP 	TopText_3: height = 0.06
+178.8423 	EXP 	TopText_3: height = 0.06
+178.8423 	EXP 	TopText_3: height = 0.06
+178.8423 	EXP 	TopText_3: text = '$-1.10'
+178.8423 	EXP 	BottomText_3: height = 0.06
+178.8423 	EXP 	BottomText_3: height = 0.06
+178.8423 	EXP 	BottomText_3: height = 0.06
+178.8423 	EXP 	BottomText_3: text = '$2.20'
+178.8423 	EXP 	Win_3: height = 0.03
+178.8423 	EXP 	Win_3: height = 0.03
+178.8423 	EXP 	Win_3: height = 0.03
+178.8423 	EXP 	Win_3: text = 'Total\n$11.73'
+178.8423 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+178.8423 	EXP 	WinMsg_2: height = 0.04
+178.8423 	EXP 	WinMsg_2: height = 0.04
+178.8423 	EXP 	WinMsg_2: height = 0.04
+178.8423 	EXP 	WinMsg_2: text = 'You won $2.20!'
+178.8423 	EXP 	LeftHalf_3: autoDraw = True
+178.8423 	EXP 	RightHalf_3: autoDraw = True
+178.8423 	EXP 	Safe_3: autoDraw = True
+178.8423 	EXP 	Top_3: autoDraw = True
+178.8423 	EXP 	Bottom_3: autoDraw = True
+178.8423 	EXP 	SafeText_3: autoDraw = True
+178.8423 	EXP 	TopText_3: autoDraw = True
+178.8423 	EXP 	BottomText_3: autoDraw = True
+178.8423 	EXP 	Total_3: autoDraw = True
+178.8423 	EXP 	Win_3: autoDraw = True
+178.8423 	EXP 	WinMsg_2: autoDraw = True
+180.7789 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+180.7797 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+180.7906 	EXP 	LeftHalf_3: autoDraw = False
+180.7906 	EXP 	RightHalf_3: autoDraw = False
+180.7906 	EXP 	Safe_3: autoDraw = False
+180.7906 	EXP 	Top_3: autoDraw = False
+180.7906 	EXP 	Bottom_3: autoDraw = False
+180.7906 	EXP 	SafeText_3: autoDraw = False
+180.7906 	EXP 	TopText_3: autoDraw = False
+180.7906 	EXP 	BottomText_3: autoDraw = False
+180.7906 	EXP 	Total_3: autoDraw = False
+180.7906 	EXP 	Win_3: autoDraw = False
+180.7906 	EXP 	WinMsg_2: autoDraw = False
+180.7906 	EXP 	Cross: autoDraw = True
+182.5453 	EXP 	New trial (rep=0, index=20): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -0.3), ('BottomAmt', 0.06), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.15), ('Rating', 0)])
+182.6066 	EXP 	Cross: autoDraw = False
+182.6066 	EXP 	Cross: autoDraw = False
+182.6066 	EXP 	SafeText: text = '$0.00'
+182.6066 	EXP 	TopText: height = 0.06
+182.6066 	EXP 	TopText: height = 0.06
+182.6066 	EXP 	TopText: height = 0.06
+182.6066 	EXP 	TopText: text = '$-0.30'
+182.6066 	EXP 	BottomText: height = 0.06
+182.6066 	EXP 	BottomText: height = 0.06
+182.6066 	EXP 	BottomText: height = 0.06
+182.6066 	EXP 	BottomText: text = '$0.06'
+182.6066 	EXP 	Win: height = 0.03
+182.6066 	EXP 	Win: height = 0.03
+182.6066 	EXP 	Win: height = 0.03
+182.6066 	EXP 	Win: text = 'Total\n$11.73'
+182.6066 	EXP 	LeftHalf: autoDraw = True
+182.6066 	EXP 	RightHalf: autoDraw = True
+182.6066 	EXP 	Safe: autoDraw = True
+182.6066 	EXP 	Top: autoDraw = True
+182.6066 	EXP 	Bottom: autoDraw = True
+182.6066 	EXP 	SafeText: autoDraw = True
+182.6066 	EXP 	TopText: autoDraw = True
+182.6066 	EXP 	BottomText: autoDraw = True
+182.6066 	EXP 	Total: autoDraw = True
+182.6066 	EXP 	Win: autoDraw = True
+183.3882 	DATA 	Keypress: right
+183.4161 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+183.4166 	EXP 	New trial (rep=0, index=0): None
+183.4934 	EXP 	LeftHalf: autoDraw = False
+183.4934 	EXP 	RightHalf: autoDraw = False
+183.4934 	EXP 	Safe: autoDraw = False
+183.4934 	EXP 	Top: autoDraw = False
+183.4934 	EXP 	Bottom: autoDraw = False
+183.4934 	EXP 	SafeText: autoDraw = False
+183.4934 	EXP 	TopText: autoDraw = False
+183.4934 	EXP 	BottomText: autoDraw = False
+183.4934 	EXP 	Total: autoDraw = False
+183.4934 	EXP 	Win: autoDraw = False
+183.4934 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+183.4934 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+183.4934 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+183.4934 	EXP 	SafeText_2: text = '$0.00'
+183.4934 	EXP 	TopText_2: height = 0.06
+183.4934 	EXP 	TopText_2: height = 0.06
+183.4934 	EXP 	TopText_2: height = 0.06
+183.4934 	EXP 	TopText_2: text = '$-0.30'
+183.4934 	EXP 	BottomText_2: height = 0.06
+183.4934 	EXP 	BottomText_2: height = 0.06
+183.4934 	EXP 	BottomText_2: height = 0.06
+183.4934 	EXP 	BottomText_2: text = '$0.06'
+183.4934 	EXP 	Win_2: height = 0.03
+183.4934 	EXP 	Win_2: height = 0.03
+183.4934 	EXP 	Win_2: height = 0.03
+183.4934 	EXP 	Win_2: text = 'Total\n$11.73'
+183.4934 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+183.4934 	EXP 	WinMsg: height = 0.04
+183.4934 	EXP 	WinMsg: height = 0.04
+183.4934 	EXP 	WinMsg: height = 0.04
+183.4934 	EXP 	WinMsg: text = 'You got $0.00!'
+183.4934 	EXP 	LeftHalf_2: autoDraw = True
+183.4934 	EXP 	RightHalf_2: autoDraw = True
+183.4934 	EXP 	Safe_2: autoDraw = True
+183.4934 	EXP 	Top_2: autoDraw = True
+183.4934 	EXP 	Bottom_2: autoDraw = True
+183.4934 	EXP 	SafeText_2: autoDraw = True
+183.4934 	EXP 	TopText_2: autoDraw = True
+183.4934 	EXP 	BottomText_2: autoDraw = True
+183.4934 	EXP 	Total_2: autoDraw = True
+183.4934 	EXP 	Win_2: autoDraw = True
+183.4934 	EXP 	WinMsg: autoDraw = True
+185.4736 	EXP 	LeftHalf_2: autoDraw = False
+185.4736 	EXP 	RightHalf_2: autoDraw = False
+185.4736 	EXP 	Safe_2: autoDraw = False
+185.4736 	EXP 	Top_2: autoDraw = False
+185.4736 	EXP 	Bottom_2: autoDraw = False
+185.4736 	EXP 	SafeText_2: autoDraw = False
+185.4736 	EXP 	TopText_2: autoDraw = False
+185.4736 	EXP 	BottomText_2: autoDraw = False
+185.4736 	EXP 	Total_2: autoDraw = False
+185.4736 	EXP 	Win_2: autoDraw = False
+185.4736 	EXP 	WinMsg: autoDraw = False
+185.4736 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+185.4736 	EXP 	Top_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+185.4736 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+185.4736 	EXP 	SafeText_3: text = '$0.00'
+185.4736 	EXP 	TopText_3: height = 0.06
+185.4736 	EXP 	TopText_3: height = 0.06
+185.4736 	EXP 	TopText_3: height = 0.06
+185.4736 	EXP 	TopText_3: text = '$-0.30'
+185.4736 	EXP 	BottomText_3: height = 0.06
+185.4736 	EXP 	BottomText_3: height = 0.06
+185.4736 	EXP 	BottomText_3: height = 0.06
+185.4736 	EXP 	BottomText_3: text = '$0.06'
+185.4736 	EXP 	Win_3: text = 'Total\n$11.73'
+185.4736 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+185.4736 	EXP 	WinMsg_2: height = 0.04
+185.4736 	EXP 	WinMsg_2: height = 0.04
+185.4736 	EXP 	WinMsg_2: height = 0.04
+185.4736 	EXP 	WinMsg_2: text = 'You would have lost $-0.30!'
+185.4736 	EXP 	LeftHalf_3: autoDraw = True
+185.4736 	EXP 	RightHalf_3: autoDraw = True
+185.4736 	EXP 	Safe_3: autoDraw = True
+185.4736 	EXP 	Top_3: autoDraw = True
+185.4736 	EXP 	Bottom_3: autoDraw = True
+185.4736 	EXP 	SafeText_3: autoDraw = True
+185.4736 	EXP 	TopText_3: autoDraw = True
+185.4736 	EXP 	BottomText_3: autoDraw = True
+185.4736 	EXP 	Total_3: autoDraw = True
+185.4736 	EXP 	Win_3: autoDraw = True
+185.4736 	EXP 	WinMsg_2: autoDraw = True
+187.4261 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+187.4270 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+187.4275 	EXP 	New trial (rep=0, index=0): None
+187.4889 	EXP 	LeftHalf_3: autoDraw = False
+187.4889 	EXP 	RightHalf_3: autoDraw = False
+187.4889 	EXP 	Safe_3: autoDraw = False
+187.4889 	EXP 	Top_3: autoDraw = False
+187.4889 	EXP 	Bottom_3: autoDraw = False
+187.4889 	EXP 	SafeText_3: autoDraw = False
+187.4889 	EXP 	TopText_3: autoDraw = False
+187.4889 	EXP 	BottomText_3: autoDraw = False
+187.4889 	EXP 	Total_3: autoDraw = False
+187.4889 	EXP 	Win_3: autoDraw = False
+187.4889 	EXP 	WinMsg_2: autoDraw = False
+187.4889 	EXP 	HowHappySlider: markerPos = None
+187.4889 	EXP 	HowHappySlider: markerPos = None
+187.4889 	EXP 	HowHappySlider: autoDraw = True
+187.4889 	EXP 	UnHappy: autoDraw = True
+187.4889 	EXP 	Happy: autoDraw = True
+188.8833 	DATA 	Mouse: Left button down, pos=(662,241)
+188.9626 	EXP 	HowHappySlider: markerPos = 4.395833333333334
+189.0086 	DATA 	Mouse:  Left button up, pos=(662,241)
+189.0297 	EXP 	HowHappySlider: markerPos = 4.395833333333334
+189.0914 	EXP 	HowHappySlider: markerPos = 4.395833333333334
+189.1591 	EXP 	SpacetoExit: autoDraw = True
+189.4181 	DATA 	Keypress: space
+189.4184 	DATA 	Keypress: m
+189.4439 	EXP 	HowHappySlider: autoDraw = False
+189.4439 	EXP 	UnHappy: autoDraw = False
+189.4439 	EXP 	Happy: autoDraw = False
+189.4439 	EXP 	SpacetoExit: autoDraw = False
+189.4439 	EXP 	Cross: autoDraw = True
+190.5818 	EXP 	New trial (rep=0, index=21): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.2), ('TopAmt', -1.0), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.67), ('Rating', 0)])
+190.6294 	EXP 	Cross: autoDraw = False
+190.6294 	EXP 	Cross: autoDraw = False
+190.6294 	EXP 	SafeText: height = 0.06
+190.6294 	EXP 	SafeText: height = 0.06
+190.6294 	EXP 	SafeText: height = 0.06
+190.6294 	EXP 	SafeText: text = '$-0.20'
+190.6294 	EXP 	TopText: height = 0.06
+190.6294 	EXP 	TopText: height = 0.06
+190.6294 	EXP 	TopText: height = 0.06
+190.6294 	EXP 	TopText: text = '$-1.00'
+190.6294 	EXP 	BottomText: height = 0.06
+190.6294 	EXP 	BottomText: height = 0.06
+190.6294 	EXP 	BottomText: height = 0.06
+190.6294 	EXP 	BottomText: text = '$0.00'
+190.6294 	EXP 	Win: text = 'Total\n$11.73'
+190.6294 	EXP 	LeftHalf: autoDraw = True
+190.6294 	EXP 	RightHalf: autoDraw = True
+190.6294 	EXP 	Safe: autoDraw = True
+190.6294 	EXP 	Top: autoDraw = True
+190.6294 	EXP 	Bottom: autoDraw = True
+190.6294 	EXP 	SafeText: autoDraw = True
+190.6294 	EXP 	TopText: autoDraw = True
+190.6294 	EXP 	BottomText: autoDraw = True
+190.6294 	EXP 	Total: autoDraw = True
+190.6294 	EXP 	Win: autoDraw = True
+191.5459 	DATA 	Keypress: left
+191.5679 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+191.5682 	EXP 	New trial (rep=0, index=0): None
+191.6274 	EXP 	LeftHalf: autoDraw = False
+191.6274 	EXP 	RightHalf: autoDraw = False
+191.6274 	EXP 	Safe: autoDraw = False
+191.6274 	EXP 	Top: autoDraw = False
+191.6274 	EXP 	Bottom: autoDraw = False
+191.6274 	EXP 	SafeText: autoDraw = False
+191.6274 	EXP 	TopText: autoDraw = False
+191.6274 	EXP 	BottomText: autoDraw = False
+191.6274 	EXP 	Total: autoDraw = False
+191.6274 	EXP 	Win: autoDraw = False
+191.6274 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+191.6274 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+191.6274 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+191.6274 	EXP 	SafeText_2: height = 0.06
+191.6274 	EXP 	SafeText_2: height = 0.06
+191.6274 	EXP 	SafeText_2: height = 0.06
+191.6274 	EXP 	SafeText_2: text = '$-0.20'
+191.6274 	EXP 	TopText_2: height = 0.06
+191.6274 	EXP 	TopText_2: height = 0.06
+191.6274 	EXP 	TopText_2: height = 0.06
+191.6274 	EXP 	TopText_2: text = '$-1.00'
+191.6274 	EXP 	BottomText_2: height = 0.06
+191.6274 	EXP 	BottomText_2: height = 0.06
+191.6274 	EXP 	BottomText_2: height = 0.06
+191.6274 	EXP 	BottomText_2: text = '$0.00'
+191.6274 	EXP 	Win_2: text = 'Total\n$11.73'
+191.6274 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+191.6274 	EXP 	WinMsg: height = 0.04
+191.6274 	EXP 	WinMsg: height = 0.04
+191.6274 	EXP 	WinMsg: height = 0.04
+191.6274 	EXP 	WinMsg: text = ''
+191.6274 	EXP 	LeftHalf_2: autoDraw = True
+191.6274 	EXP 	RightHalf_2: autoDraw = True
+191.6274 	EXP 	Safe_2: autoDraw = True
+191.6274 	EXP 	Top_2: autoDraw = True
+191.6274 	EXP 	Bottom_2: autoDraw = True
+191.6274 	EXP 	SafeText_2: autoDraw = True
+191.6274 	EXP 	TopText_2: autoDraw = True
+191.6274 	EXP 	BottomText_2: autoDraw = True
+191.6274 	EXP 	Total_2: autoDraw = True
+191.6274 	EXP 	Win_2: autoDraw = True
+191.6274 	EXP 	WinMsg: autoDraw = True
+193.6629 	EXP 	LeftHalf_2: autoDraw = False
+193.6629 	EXP 	RightHalf_2: autoDraw = False
+193.6629 	EXP 	Safe_2: autoDraw = False
+193.6629 	EXP 	Top_2: autoDraw = False
+193.6629 	EXP 	Bottom_2: autoDraw = False
+193.6629 	EXP 	SafeText_2: autoDraw = False
+193.6629 	EXP 	TopText_2: autoDraw = False
+193.6629 	EXP 	BottomText_2: autoDraw = False
+193.6629 	EXP 	Total_2: autoDraw = False
+193.6629 	EXP 	Win_2: autoDraw = False
+193.6629 	EXP 	WinMsg: autoDraw = False
+193.6629 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+193.6629 	EXP 	Top_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+193.6629 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+193.6629 	EXP 	SafeText_3: height = 0.06
+193.6629 	EXP 	SafeText_3: height = 0.06
+193.6629 	EXP 	SafeText_3: height = 0.06
+193.6629 	EXP 	SafeText_3: text = '$-0.20'
+193.6629 	EXP 	TopText_3: height = 0.06
+193.6629 	EXP 	TopText_3: height = 0.06
+193.6629 	EXP 	TopText_3: height = 0.06
+193.6629 	EXP 	TopText_3: text = '$-1.00'
+193.6629 	EXP 	BottomText_3: height = 0.06
+193.6629 	EXP 	BottomText_3: height = 0.06
+193.6629 	EXP 	BottomText_3: height = 0.06
+193.6629 	EXP 	BottomText_3: text = '$0.00'
+193.6629 	EXP 	Win_3: height = 0.03
+193.6629 	EXP 	Win_3: height = 0.03
+193.6629 	EXP 	Win_3: height = 0.03
+193.6629 	EXP 	Win_3: text = 'Total\n$10.73'
+193.6629 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+193.6629 	EXP 	WinMsg_2: height = 0.04
+193.6629 	EXP 	WinMsg_2: height = 0.04
+193.6629 	EXP 	WinMsg_2: height = 0.04
+193.6629 	EXP 	WinMsg_2: text = 'You lost $-1.00!'
+193.6629 	EXP 	LeftHalf_3: autoDraw = True
+193.6629 	EXP 	RightHalf_3: autoDraw = True
+193.6629 	EXP 	Safe_3: autoDraw = True
+193.6629 	EXP 	Top_3: autoDraw = True
+193.6629 	EXP 	Bottom_3: autoDraw = True
+193.6629 	EXP 	SafeText_3: autoDraw = True
+193.6629 	EXP 	TopText_3: autoDraw = True
+193.6629 	EXP 	BottomText_3: autoDraw = True
+193.6629 	EXP 	Total_3: autoDraw = True
+193.6629 	EXP 	Win_3: autoDraw = True
+193.6629 	EXP 	WinMsg_2: autoDraw = True
+195.5985 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+195.6000 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+195.6146 	EXP 	LeftHalf_3: autoDraw = False
+195.6146 	EXP 	RightHalf_3: autoDraw = False
+195.6146 	EXP 	Safe_3: autoDraw = False
+195.6146 	EXP 	Top_3: autoDraw = False
+195.6146 	EXP 	Bottom_3: autoDraw = False
+195.6146 	EXP 	SafeText_3: autoDraw = False
+195.6146 	EXP 	TopText_3: autoDraw = False
+195.6146 	EXP 	BottomText_3: autoDraw = False
+195.6146 	EXP 	Total_3: autoDraw = False
+195.6146 	EXP 	Win_3: autoDraw = False
+195.6146 	EXP 	WinMsg_2: autoDraw = False
+195.6146 	EXP 	Cross: autoDraw = True
+197.2822 	EXP 	New trial (rep=0, index=22): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.2), ('TopAmt', -0.36), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'right'), ('ITI', 1.04), ('Rating', 0)])
+197.3149 	EXP 	Cross: autoDraw = False
+197.3149 	EXP 	Cross: autoDraw = False
+197.3149 	EXP 	SafeText: text = '$-0.20'
+197.3149 	EXP 	TopText: height = 0.06
+197.3149 	EXP 	TopText: height = 0.06
+197.3149 	EXP 	TopText: height = 0.06
+197.3149 	EXP 	TopText: text = '$-0.36'
+197.3149 	EXP 	BottomText: text = '$0.00'
+197.3149 	EXP 	Win: height = 0.03
+197.3149 	EXP 	Win: height = 0.03
+197.3149 	EXP 	Win: height = 0.03
+197.3149 	EXP 	Win: text = 'Total\n$10.73'
+197.3149 	EXP 	LeftHalf: autoDraw = True
+197.3149 	EXP 	RightHalf: autoDraw = True
+197.3149 	EXP 	Safe: autoDraw = True
+197.3149 	EXP 	Top: autoDraw = True
+197.3149 	EXP 	Bottom: autoDraw = True
+197.3149 	EXP 	SafeText: autoDraw = True
+197.3149 	EXP 	TopText: autoDraw = True
+197.3149 	EXP 	BottomText: autoDraw = True
+197.3149 	EXP 	Total: autoDraw = True
+197.3149 	EXP 	Win: autoDraw = True
+198.4348 	DATA 	Keypress: right
+198.4362 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+198.4364 	EXP 	New trial (rep=0, index=0): None
+198.4804 	EXP 	LeftHalf: autoDraw = False
+198.4804 	EXP 	RightHalf: autoDraw = False
+198.4804 	EXP 	Safe: autoDraw = False
+198.4804 	EXP 	Top: autoDraw = False
+198.4804 	EXP 	Bottom: autoDraw = False
+198.4804 	EXP 	SafeText: autoDraw = False
+198.4804 	EXP 	TopText: autoDraw = False
+198.4804 	EXP 	BottomText: autoDraw = False
+198.4804 	EXP 	Total: autoDraw = False
+198.4804 	EXP 	Win: autoDraw = False
+198.4804 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+198.4804 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+198.4804 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+198.4804 	EXP 	SafeText_2: text = '$-0.20'
+198.4804 	EXP 	TopText_2: height = 0.06
+198.4804 	EXP 	TopText_2: height = 0.06
+198.4804 	EXP 	TopText_2: height = 0.06
+198.4804 	EXP 	TopText_2: text = '$-0.36'
+198.4804 	EXP 	BottomText_2: text = '$0.00'
+198.4804 	EXP 	Win_2: height = 0.03
+198.4804 	EXP 	Win_2: height = 0.03
+198.4804 	EXP 	Win_2: height = 0.03
+198.4804 	EXP 	Win_2: text = 'Total\n$10.73'
+198.4804 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+198.4804 	EXP 	WinMsg: text = ''
+198.4804 	EXP 	LeftHalf_2: autoDraw = True
+198.4804 	EXP 	RightHalf_2: autoDraw = True
+198.4804 	EXP 	Safe_2: autoDraw = True
+198.4804 	EXP 	Top_2: autoDraw = True
+198.4804 	EXP 	Bottom_2: autoDraw = True
+198.4804 	EXP 	SafeText_2: autoDraw = True
+198.4804 	EXP 	TopText_2: autoDraw = True
+198.4804 	EXP 	BottomText_2: autoDraw = True
+198.4804 	EXP 	Total_2: autoDraw = True
+198.4804 	EXP 	Win_2: autoDraw = True
+198.4804 	EXP 	WinMsg: autoDraw = True
+200.5134 	EXP 	LeftHalf_2: autoDraw = False
+200.5134 	EXP 	RightHalf_2: autoDraw = False
+200.5134 	EXP 	Safe_2: autoDraw = False
+200.5134 	EXP 	Top_2: autoDraw = False
+200.5134 	EXP 	Bottom_2: autoDraw = False
+200.5134 	EXP 	SafeText_2: autoDraw = False
+200.5134 	EXP 	TopText_2: autoDraw = False
+200.5134 	EXP 	BottomText_2: autoDraw = False
+200.5134 	EXP 	Total_2: autoDraw = False
+200.5134 	EXP 	Win_2: autoDraw = False
+200.5134 	EXP 	WinMsg: autoDraw = False
+200.5134 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+200.5134 	EXP 	Top_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+200.5134 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+200.5134 	EXP 	SafeText_3: text = '$-0.20'
+200.5134 	EXP 	TopText_3: height = 0.06
+200.5134 	EXP 	TopText_3: height = 0.06
+200.5134 	EXP 	TopText_3: height = 0.06
+200.5134 	EXP 	TopText_3: text = '$-0.36'
+200.5134 	EXP 	BottomText_3: text = '$0.00'
+200.5134 	EXP 	Win_3: height = 0.03
+200.5134 	EXP 	Win_3: height = 0.03
+200.5134 	EXP 	Win_3: height = 0.03
+200.5134 	EXP 	Win_3: text = 'Total\n$10.37'
+200.5134 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+200.5134 	EXP 	WinMsg_2: height = 0.04
+200.5134 	EXP 	WinMsg_2: height = 0.04
+200.5134 	EXP 	WinMsg_2: height = 0.04
+200.5134 	EXP 	WinMsg_2: text = 'You lost $-0.36!'
+200.5134 	EXP 	LeftHalf_3: autoDraw = True
+200.5134 	EXP 	RightHalf_3: autoDraw = True
+200.5134 	EXP 	Safe_3: autoDraw = True
+200.5134 	EXP 	Top_3: autoDraw = True
+200.5134 	EXP 	Bottom_3: autoDraw = True
+200.5134 	EXP 	SafeText_3: autoDraw = True
+200.5134 	EXP 	TopText_3: autoDraw = True
+200.5134 	EXP 	BottomText_3: autoDraw = True
+200.5134 	EXP 	Total_3: autoDraw = True
+200.5134 	EXP 	Win_3: autoDraw = True
+200.5134 	EXP 	WinMsg_2: autoDraw = True
+202.4567 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+202.4577 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+202.4987 	EXP 	LeftHalf_3: autoDraw = False
+202.4987 	EXP 	RightHalf_3: autoDraw = False
+202.4987 	EXP 	Safe_3: autoDraw = False
+202.4987 	EXP 	Top_3: autoDraw = False
+202.4987 	EXP 	Bottom_3: autoDraw = False
+202.4987 	EXP 	SafeText_3: autoDraw = False
+202.4987 	EXP 	TopText_3: autoDraw = False
+202.4987 	EXP 	BottomText_3: autoDraw = False
+202.4987 	EXP 	Total_3: autoDraw = False
+202.4987 	EXP 	Win_3: autoDraw = False
+202.4987 	EXP 	WinMsg_2: autoDraw = False
+202.4987 	EXP 	Cross: autoDraw = True
+203.5329 	EXP 	New trial (rep=0, index=23): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.2), ('TopAmt', 0.0), ('BottomAmt', 0.34), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.94), ('Rating', 0)])
+203.5832 	EXP 	Cross: autoDraw = False
+203.5832 	EXP 	Cross: autoDraw = False
+203.5832 	EXP 	SafeText: height = 0.06
+203.5832 	EXP 	SafeText: height = 0.06
+203.5832 	EXP 	SafeText: height = 0.06
+203.5832 	EXP 	SafeText: text = '$0.20'
+203.5832 	EXP 	TopText: height = 0.06
+203.5832 	EXP 	TopText: height = 0.06
+203.5832 	EXP 	TopText: height = 0.06
+203.5832 	EXP 	TopText: text = '$0.00'
+203.5832 	EXP 	BottomText: height = 0.06
+203.5832 	EXP 	BottomText: height = 0.06
+203.5832 	EXP 	BottomText: height = 0.06
+203.5832 	EXP 	BottomText: text = '$0.34'
+203.5832 	EXP 	Win: height = 0.03
+203.5832 	EXP 	Win: height = 0.03
+203.5832 	EXP 	Win: height = 0.03
+203.5832 	EXP 	Win: text = 'Total\n$10.37'
+203.5832 	EXP 	LeftHalf: autoDraw = True
+203.5832 	EXP 	RightHalf: autoDraw = True
+203.5832 	EXP 	Safe: autoDraw = True
+203.5832 	EXP 	Top: autoDraw = True
+203.5832 	EXP 	Bottom: autoDraw = True
+203.5832 	EXP 	SafeText: autoDraw = True
+203.5832 	EXP 	TopText: autoDraw = True
+203.5832 	EXP 	BottomText: autoDraw = True
+203.5832 	EXP 	Total: autoDraw = True
+203.5832 	EXP 	Win: autoDraw = True
+211.5598 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+211.5616 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+211.5626 	EXP 	New trial (rep=0, index=0): None
+211.5877 	EXP 	LeftHalf: autoDraw = False
+211.5877 	EXP 	RightHalf: autoDraw = False
+211.5877 	EXP 	Safe: autoDraw = False
+211.5877 	EXP 	Top: autoDraw = False
+211.5877 	EXP 	Bottom: autoDraw = False
+211.5877 	EXP 	SafeText: autoDraw = False
+211.5877 	EXP 	TopText: autoDraw = False
+211.5877 	EXP 	BottomText: autoDraw = False
+211.5877 	EXP 	Total: autoDraw = False
+211.5877 	EXP 	Win: autoDraw = False
+211.5877 	EXP 	timeoutText: autoDraw = True
+219.5740 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+219.5747 	EXP 	New trial (rep=0, index=0): None
+219.6398 	EXP 	timeoutText: autoDraw = False
+219.6398 	EXP 	HowHappySlider: markerPos = None
+219.6398 	EXP 	HowHappySlider: markerPos = None
+219.6398 	EXP 	HowHappySlider: autoDraw = True
+219.6398 	EXP 	UnHappy: autoDraw = True
+219.6398 	EXP 	Happy: autoDraw = True
+224.6142 	DATA 	Mouse: Left button down, pos=(605,257)
+224.6916 	EXP 	HowHappySlider: markerPos = 3.802083333333333
+224.6940 	DATA 	Mouse:  Left button up, pos=(605,257)
+224.7573 	EXP 	HowHappySlider: markerPos = 3.802083333333333
+224.8225 	EXP 	SpacetoExit: autoDraw = True
+224.8647 	DATA 	Keypress: space
+224.8910 	EXP 	HowHappySlider: autoDraw = False
+224.8910 	EXP 	UnHappy: autoDraw = False
+224.8910 	EXP 	Happy: autoDraw = False
+224.8910 	EXP 	SpacetoExit: autoDraw = False
+224.8910 	EXP 	Cross: autoDraw = True
+226.8275 	EXP 	New trial (rep=0, index=24): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.6), ('TopAmt', 0.0), ('BottomAmt', 1.9), ('Outcome', 'bottom'), ('RiskSide', 'left'), ('ITI', 1.51), ('Rating', 0)])
+226.8735 	EXP 	Cross: autoDraw = False
+226.8735 	EXP 	Cross: autoDraw = False
+226.8735 	EXP 	SafeText: height = 0.06
+226.8735 	EXP 	SafeText: height = 0.06
+226.8735 	EXP 	SafeText: height = 0.06
+226.8735 	EXP 	SafeText: text = '$0.60'
+226.8735 	EXP 	TopText: text = '$0.00'
+226.8735 	EXP 	BottomText: height = 0.06
+226.8735 	EXP 	BottomText: height = 0.06
+226.8735 	EXP 	BottomText: height = 0.06
+226.8735 	EXP 	BottomText: text = '$1.90'
+226.8735 	EXP 	Win: text = 'Total\n$10.37'
+226.8735 	EXP 	LeftHalf: autoDraw = True
+226.8735 	EXP 	RightHalf: autoDraw = True
+226.8735 	EXP 	Safe: autoDraw = True
+226.8735 	EXP 	Top: autoDraw = True
+226.8735 	EXP 	Bottom: autoDraw = True
+226.8735 	EXP 	SafeText: autoDraw = True
+226.8735 	EXP 	TopText: autoDraw = True
+226.8735 	EXP 	BottomText: autoDraw = True
+226.8735 	EXP 	Total: autoDraw = True
+226.8735 	EXP 	Win: autoDraw = True
+234.8348 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+234.8352 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+234.8355 	EXP 	New trial (rep=0, index=0): None
+234.8626 	EXP 	LeftHalf: autoDraw = False
+234.8626 	EXP 	RightHalf: autoDraw = False
+234.8626 	EXP 	Safe: autoDraw = False
+234.8626 	EXP 	Top: autoDraw = False
+234.8626 	EXP 	Bottom: autoDraw = False
+234.8626 	EXP 	SafeText: autoDraw = False
+234.8626 	EXP 	TopText: autoDraw = False
+234.8626 	EXP 	BottomText: autoDraw = False
+234.8626 	EXP 	Total: autoDraw = False
+234.8626 	EXP 	Win: autoDraw = False
+234.8626 	EXP 	timeoutText: autoDraw = True
+242.8518 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+242.8628 	EXP 	timeoutText: autoDraw = False
+242.8628 	EXP 	Cross: autoDraw = True
+244.3677 	EXP 	New trial (rep=0, index=25): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.3), ('TopAmt', 0.0), ('BottomAmt', 0.6), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.72), ('Rating', 0)])
+244.4013 	EXP 	Cross: autoDraw = False
+244.4013 	EXP 	Cross: autoDraw = False
+244.4013 	EXP 	SafeText: height = 0.06
+244.4013 	EXP 	SafeText: height = 0.06
+244.4013 	EXP 	SafeText: height = 0.06
+244.4013 	EXP 	SafeText: text = '$0.30'
+244.4013 	EXP 	TopText: text = '$0.00'
+244.4013 	EXP 	BottomText: height = 0.06
+244.4013 	EXP 	BottomText: height = 0.06
+244.4013 	EXP 	BottomText: height = 0.06
+244.4013 	EXP 	BottomText: text = '$0.60'
+244.4013 	EXP 	Win: text = 'Total\n$10.37'
+244.4013 	EXP 	LeftHalf: autoDraw = True
+244.4013 	EXP 	RightHalf: autoDraw = True
+244.4013 	EXP 	Safe: autoDraw = True
+244.4013 	EXP 	Top: autoDraw = True
+244.4013 	EXP 	Bottom: autoDraw = True
+244.4013 	EXP 	SafeText: autoDraw = True
+244.4013 	EXP 	TopText: autoDraw = True
+244.4013 	EXP 	BottomText: autoDraw = True
+244.4013 	EXP 	Total: autoDraw = True
+244.4013 	EXP 	Win: autoDraw = True
+252.3740 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+252.3746 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+252.3748 	EXP 	New trial (rep=0, index=0): None
+252.4124 	EXP 	LeftHalf: autoDraw = False
+252.4124 	EXP 	RightHalf: autoDraw = False
+252.4124 	EXP 	Safe: autoDraw = False
+252.4124 	EXP 	Top: autoDraw = False
+252.4124 	EXP 	Bottom: autoDraw = False
+252.4124 	EXP 	SafeText: autoDraw = False
+252.4124 	EXP 	TopText: autoDraw = False
+252.4124 	EXP 	BottomText: autoDraw = False
+252.4124 	EXP 	Total: autoDraw = False
+252.4124 	EXP 	Win: autoDraw = False
+252.4124 	EXP 	timeoutText: autoDraw = True
+260.3747 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+260.3909 	EXP 	timeoutText: autoDraw = False
+260.3909 	EXP 	Cross: autoDraw = True
+262.1086 	EXP 	New trial (rep=0, index=26): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.3), ('TopAmt', -0.84), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.7), ('Rating', 0)])
+262.1732 	EXP 	Cross: autoDraw = False
+262.1732 	EXP 	Cross: autoDraw = False
+262.1732 	EXP 	SafeText: height = 0.06
+262.1732 	EXP 	SafeText: height = 0.06
+262.1732 	EXP 	SafeText: height = 0.06
+262.1732 	EXP 	SafeText: text = '$-0.30'
+262.1732 	EXP 	TopText: height = 0.06
+262.1732 	EXP 	TopText: height = 0.06
+262.1732 	EXP 	TopText: height = 0.06
+262.1732 	EXP 	TopText: text = '$-0.84'
+262.1732 	EXP 	BottomText: height = 0.06
+262.1732 	EXP 	BottomText: height = 0.06
+262.1732 	EXP 	BottomText: height = 0.06
+262.1732 	EXP 	BottomText: text = '$0.00'
+262.1732 	EXP 	Win: text = 'Total\n$10.37'
+262.1732 	EXP 	LeftHalf: autoDraw = True
+262.1732 	EXP 	RightHalf: autoDraw = True
+262.1732 	EXP 	Safe: autoDraw = True
+262.1732 	EXP 	Top: autoDraw = True
+262.1732 	EXP 	Bottom: autoDraw = True
+262.1732 	EXP 	SafeText: autoDraw = True
+262.1732 	EXP 	TopText: autoDraw = True
+262.1732 	EXP 	BottomText: autoDraw = True
+262.1732 	EXP 	Total: autoDraw = True
+262.1732 	EXP 	Win: autoDraw = True
+270.1318 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+270.1323 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+270.1325 	EXP 	New trial (rep=0, index=0): None
+270.1605 	EXP 	LeftHalf: autoDraw = False
+270.1605 	EXP 	RightHalf: autoDraw = False
+270.1605 	EXP 	Safe: autoDraw = False
+270.1605 	EXP 	Top: autoDraw = False
+270.1605 	EXP 	Bottom: autoDraw = False
+270.1605 	EXP 	SafeText: autoDraw = False
+270.1605 	EXP 	TopText: autoDraw = False
+270.1605 	EXP 	BottomText: autoDraw = False
+270.1605 	EXP 	Total: autoDraw = False
+270.1605 	EXP 	Win: autoDraw = False
+270.1605 	EXP 	timeoutText: autoDraw = True
+278.1334 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+278.1340 	EXP 	New trial (rep=0, index=0): None
+278.2312 	EXP 	timeoutText: autoDraw = False
+278.2312 	EXP 	HowHappySlider: markerPos = None
+278.2312 	EXP 	HowHappySlider: markerPos = None
+278.2312 	EXP 	HowHappySlider: autoDraw = True
+278.2312 	EXP 	UnHappy: autoDraw = True
+278.2312 	EXP 	Happy: autoDraw = True
+319.8463 	DATA 	Mouse: Left button down, pos=(652,702)
+319.9764 	DATA 	Mouse:  Left button up, pos=(652,701)
+320.5814 	DATA 	Keypress: escape
+321.6745 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,22 @@
+Prompt	Chosen	BAI Score	
+Numbness or tingling	2	2	
+Feeling hot	1	3	
+Wobbliness in legs	1	4	
+Unable to relax	0	4	
+Fear of worst happening	3	7	
+Dizzy or lightheaded	2	9	
+Heart pounding / racing	1	10	
+Unsteady	1	11	
+Terrified or afraid	1	12	
+Nervous	1	13	
+Feeling of choking	1	14	
+Hands trembling	1	15	
+Shaky / unsteady	1	16	
+Fear of losing control	3	19	
+Difficulty in breathing	2	21	
+Fear of dying	2	23	
+Scared	2	25	
+Indigestion	3	28	
+Faint / lightheaded	2	30	
+Face flushed	2	32	
+Hot / cold sweats	3	35	

@@ -1,0 +1,7 @@
+Trial,Trial Type,Safe.Bet.Amount,Bet 1,Bet 2,Outcome,Risk side,bet 2 side,ITI
+1,mix,0,-0.30,0.09,top,left,bottom,1
+2,gain,0.20,0,1,top,left,bottom,1
+3,mix,0,-1.50,1.5,bottom,right,bottom,1
+4,loss,-0.30,-0.75,0,top,left,top,1
+5,loss,-0.40,-2.10,0,bottom,left,bottom,1
+6,gain,0.30,0,0.74,bottom,right,top,1

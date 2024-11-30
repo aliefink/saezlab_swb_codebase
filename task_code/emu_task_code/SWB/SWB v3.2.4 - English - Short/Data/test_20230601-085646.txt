@@ -1,0 +1,4 @@
+Round	Trial Num	TrialType	TrialOnset	ChoiceOnset	DecisionOnset	Feedback Onset	RT	Safe Bet	Low Bet	High Bet	High Bet Pos	Gamble Pos	Choice Pos	Gamble Choice	Outcome	Profit	TotalProfit	
+
+Start Time: 08:55:20
+End Time: 08:56:46

@@ -1,0 +1,294 @@
+0.4853 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+1.0423 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+3.9103 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1200]. Using actual size
+5.5240 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001B9AB69C240>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001B9A3C3D710>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.5260 	EXP 	window1: mouseVisible = True
+5.5261 	EXP 	window1: recordFrameIntervals = False
+5.6901 	EXP 	window1: recordFrameIntervals = True
+5.8739 	EXP 	window1: recordFrameIntervals = False
+6.2640 	EXP 	Created faces = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='faces', opacity=1, ori=1.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='norm', win=Window(...))
+6.2791 	EXP 	Imported conditions.xlsx as conditions, 40 conditions, 4 params
+6.2797 	EXP 	Created sequence: random, trialTypes=40, nReps=1, seed=None
+6.2799 	EXP 	New trial (rep=0, index=0): {'imageFile': 'different/077_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+6.3522 	EXP 	faces: ori = 0.0
+6.3522 	EXP 	faces: size = array([1.04166667, 1.16666667])
+6.3522 	EXP 	faces: image = 'different/077_133_R.jpg'
+6.3522 	EXP 	faces: autoDraw = True
+6.8647 	EXP 	New trial (rep=0, index=1): {'imageFile': 'same/092_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+6.8962 	DATA 	Keypress: left
+6.9011 	EXP 	faces: autoDraw = False
+6.9011 	EXP 	faces: ori = 0.0
+6.9011 	EXP 	faces: size = array([1.04166667, 1.16666667])
+6.9011 	EXP 	faces: image = 'same/092_C2_DV.jpg'
+6.9011 	EXP 	faces: autoDraw = True
+7.1474 	EXP 	New trial (rep=0, index=2): {'imageFile': 'same/303_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+7.1667 	DATA 	Keypress: right
+7.1703 	EXP 	faces: autoDraw = False
+7.1703 	EXP 	faces: ori = 180.0
+7.1703 	EXP 	faces: size = array([1.04166667, 1.16666667])
+7.1703 	EXP 	faces: image = 'same/303_DV_C2.jpg'
+7.1703 	EXP 	faces: autoDraw = True
+7.4144 	EXP 	New trial (rep=0, index=3): {'imageFile': 'different/303_037_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+7.4345 	DATA 	Keypress: left
+7.4410 	EXP 	faces: autoDraw = False
+7.4410 	EXP 	faces: ori = 180.0
+7.4410 	EXP 	faces: size = array([1.04166667, 1.16666667])
+7.4410 	EXP 	faces: image = 'different/303_037_R.jpg'
+7.4410 	EXP 	faces: autoDraw = True
+7.5470 	DATA 	Keypress: right
+7.5646 	EXP 	New trial (rep=0, index=4): {'imageFile': 'same/136_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+7.5897 	EXP 	faces: autoDraw = False
+7.5897 	EXP 	faces: ori = 180.0
+7.5897 	EXP 	faces: size = array([1.04166667, 1.16666667])
+7.5897 	EXP 	faces: image = 'same/136_C2_DV.jpg'
+7.5897 	EXP 	faces: autoDraw = True
+7.6981 	EXP 	New trial (rep=0, index=5): {'imageFile': 'same/139_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+7.7196 	DATA 	Keypress: left
+7.7237 	EXP 	faces: autoDraw = False
+7.7237 	EXP 	faces: ori = 180.0
+7.7237 	EXP 	faces: size = array([1.04166667, 1.16666667])
+7.7237 	EXP 	faces: image = 'same/139_DV_C2.jpg'
+7.7237 	EXP 	faces: autoDraw = True
+7.8651 	EXP 	New trial (rep=0, index=6): {'imageFile': 'same/020_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+7.8858 	DATA 	Keypress: right
+7.8893 	EXP 	faces: autoDraw = False
+7.8893 	EXP 	faces: ori = 0.0
+7.8893 	EXP 	faces: size = array([1.04166667, 1.16666667])
+7.8893 	EXP 	faces: image = 'same/020_C2_DV.jpg'
+7.8893 	EXP 	faces: autoDraw = True
+7.9645 	DATA 	Keypress: left
+7.9823 	EXP 	New trial (rep=0, index=7): {'imageFile': 'different/076_109_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+8.0077 	EXP 	faces: autoDraw = False
+8.0077 	EXP 	faces: ori = 0.0
+8.0077 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.0077 	EXP 	faces: image = 'different/076_109_R.jpg'
+8.0077 	EXP 	faces: autoDraw = True
+8.1484 	EXP 	New trial (rep=0, index=8): {'imageFile': 'same/235_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+8.1697 	DATA 	Keypress: right
+8.1747 	EXP 	faces: autoDraw = False
+8.1747 	EXP 	faces: ori = 180.0
+8.1747 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.1747 	EXP 	faces: image = 'same/235_C2_DV.jpg'
+8.1747 	EXP 	faces: autoDraw = True
+8.2488 	EXP 	New trial (rep=0, index=9): {'imageFile': 'different/025_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+8.2678 	DATA 	Keypress: left
+8.2731 	EXP 	faces: autoDraw = False
+8.2731 	EXP 	faces: ori = 0.0
+8.2731 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.2731 	EXP 	faces: image = 'different/025_235_L.jpg'
+8.2731 	EXP 	faces: autoDraw = True
+8.4154 	EXP 	New trial (rep=0, index=10): {'imageFile': 'different/049_218_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+8.4345 	DATA 	Keypress: right
+8.4374 	EXP 	faces: autoDraw = False
+8.4374 	EXP 	faces: ori = 0.0
+8.4374 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.4374 	EXP 	faces: image = 'different/049_218_L.jpg'
+8.4374 	EXP 	faces: autoDraw = True
+8.4822 	EXP 	New trial (rep=0, index=11): {'imageFile': 'different/019_074_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+8.5008 	DATA 	Keypress: left
+8.5043 	EXP 	faces: autoDraw = False
+8.5043 	EXP 	faces: ori = 0.0
+8.5043 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.5043 	EXP 	faces: image = 'different/019_074_L.jpg'
+8.5043 	EXP 	faces: autoDraw = True
+8.6654 	EXP 	New trial (rep=0, index=12): {'imageFile': 'same/102_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+8.6867 	DATA 	Keypress: right
+8.6921 	EXP 	faces: autoDraw = False
+8.6921 	EXP 	faces: ori = 0.0
+8.6921 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.6921 	EXP 	faces: image = 'same/102_C2_DV.jpg'
+8.6921 	EXP 	faces: autoDraw = True
+8.6995 	DATA 	Keypress: left
+8.7069 	EXP 	New trial (rep=0, index=13): {'imageFile': 'different/132_210_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+8.7278 	EXP 	faces: autoDraw = False
+8.7278 	EXP 	faces: ori = 180.0
+8.7278 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.7278 	EXP 	faces: image = 'different/132_210_R.jpg'
+8.7278 	EXP 	faces: autoDraw = True
+8.8836 	DATA 	Keypress: right
+8.8993 	EXP 	New trial (rep=0, index=14): {'imageFile': 'different/120_133_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+8.9244 	EXP 	faces: autoDraw = False
+8.9244 	EXP 	faces: ori = 180.0
+8.9244 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.9244 	EXP 	faces: image = 'different/120_133_R.jpg'
+8.9244 	EXP 	faces: autoDraw = True
+8.9484 	EXP 	New trial (rep=0, index=15): {'imageFile': 'different/296_235_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+8.9665 	DATA 	Keypress: left
+8.9701 	EXP 	faces: autoDraw = False
+8.9701 	EXP 	faces: ori = 180.0
+8.9701 	EXP 	faces: size = array([1.04166667, 1.16666667])
+8.9701 	EXP 	faces: image = 'different/296_235_L.jpg'
+8.9701 	EXP 	faces: autoDraw = True
+9.1488 	EXP 	New trial (rep=0, index=16): {'imageFile': 'different/282_108_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+9.1713 	DATA 	Keypress: right
+9.1713 	DATA 	Keypress: left
+9.1742 	EXP 	faces: autoDraw = False
+9.1742 	EXP 	faces: ori = 180.0
+9.1742 	EXP 	faces: size = array([1.04166667, 1.16666667])
+9.1742 	EXP 	faces: image = 'different/282_108_R.jpg'
+9.1742 	EXP 	faces: autoDraw = True
+9.4146 	EXP 	New trial (rep=0, index=17): {'imageFile': 'different/013_235_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+9.4319 	DATA 	Keypress: right
+9.4320 	DATA 	Keypress: left
+9.4345 	EXP 	faces: autoDraw = False
+9.4345 	EXP 	faces: ori = 0.0
+9.4345 	EXP 	faces: size = array([1.04166667, 1.16666667])
+9.4345 	EXP 	faces: image = 'different/013_235_R.jpg'
+9.4345 	EXP 	faces: autoDraw = True
+9.6329 	EXP 	New trial (rep=0, index=18): {'imageFile': 'different/102_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+9.6519 	DATA 	Keypress: right
+9.6544 	EXP 	faces: autoDraw = False
+9.6544 	EXP 	faces: ori = 0.0
+9.6544 	EXP 	faces: size = array([1.04166667, 1.16666667])
+9.6544 	EXP 	faces: image = 'different/102_224_R.jpg'
+9.6544 	EXP 	faces: autoDraw = True
+9.7162 	EXP 	New trial (rep=0, index=19): {'imageFile': 'same/074_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+9.7363 	DATA 	Keypress: left
+9.7415 	EXP 	faces: autoDraw = False
+9.7415 	EXP 	faces: ori = 0.0
+9.7415 	EXP 	faces: size = array([1.04166667, 1.16666667])
+9.7415 	EXP 	faces: image = 'same/074_C2_DV.jpg'
+9.7415 	EXP 	faces: autoDraw = True
+9.9000 	EXP 	New trial (rep=0, index=20): {'imageFile': 'same/115_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+9.9192 	DATA 	Keypress: right
+9.9233 	EXP 	faces: autoDraw = False
+9.9233 	EXP 	faces: ori = 180.0
+9.9233 	EXP 	faces: size = array([1.04166667, 1.16666667])
+9.9233 	EXP 	faces: image = 'same/115_C2_DV.jpg'
+9.9233 	EXP 	faces: autoDraw = True
+9.9651 	EXP 	New trial (rep=0, index=21): {'imageFile': 'same/168_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+9.9796 	DATA 	Keypress: left
+9.9834 	EXP 	faces: autoDraw = False
+9.9834 	EXP 	faces: ori = 180.0
+9.9834 	EXP 	faces: size = array([1.04166667, 1.16666667])
+9.9834 	EXP 	faces: image = 'same/168_C2_DV.jpg'
+9.9834 	EXP 	faces: autoDraw = True
+10.2527 	DATA 	Keypress: left
+10.2671 	EXP 	New trial (rep=0, index=22): {'imageFile': 'different/106_224_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+10.2890 	EXP 	faces: autoDraw = False
+10.2890 	EXP 	faces: ori = 0.0
+10.2890 	EXP 	faces: size = array([1.04166667, 1.16666667])
+10.2890 	EXP 	faces: image = 'different/106_224_L.jpg'
+10.2890 	EXP 	faces: autoDraw = True
+10.4327 	EXP 	New trial (rep=0, index=23): {'imageFile': 'different/209_224_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+10.4451 	DATA 	Keypress: right
+10.4474 	EXP 	faces: autoDraw = False
+10.4474 	EXP 	faces: ori = 180.0
+10.4474 	EXP 	faces: size = array([1.04166667, 1.16666667])
+10.4474 	EXP 	faces: image = 'different/209_224_R.jpg'
+10.4474 	EXP 	faces: autoDraw = True
+10.5505 	EXP 	New trial (rep=0, index=24): {'imageFile': 'different/092_283_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+10.5702 	DATA 	Keypress: left
+10.5777 	EXP 	faces: autoDraw = False
+10.5777 	EXP 	faces: ori = 0.0
+10.5777 	EXP 	faces: size = array([1.04166667, 1.16666667])
+10.5777 	EXP 	faces: image = 'different/092_283_L.jpg'
+10.5777 	EXP 	faces: autoDraw = True
+10.8508 	EXP 	New trial (rep=0, index=25): {'imageFile': 'same/085_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+10.8707 	DATA 	Keypress: left
+10.8761 	EXP 	faces: autoDraw = False
+10.8761 	EXP 	faces: ori = 0.0
+10.8761 	EXP 	faces: size = array([1.04166667, 1.16666667])
+10.8761 	EXP 	faces: image = 'same/085_C2_DV.jpg'
+10.8761 	EXP 	faces: autoDraw = True
+11.1159 	DATA 	Keypress: right
+11.1334 	EXP 	New trial (rep=0, index=26): {'imageFile': 'same/129_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+11.1584 	EXP 	faces: autoDraw = False
+11.1584 	EXP 	faces: ori = 180.0
+11.1584 	EXP 	faces: size = array([1.04166667, 1.16666667])
+11.1584 	EXP 	faces: image = 'same/129_C2_DV.jpg'
+11.1584 	EXP 	faces: autoDraw = True
+11.2503 	EXP 	New trial (rep=0, index=27): {'imageFile': 'same/170_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+11.2750 	DATA 	Keypress: left
+11.2789 	EXP 	faces: autoDraw = False
+11.2789 	EXP 	faces: ori = 180.0
+11.2789 	EXP 	faces: size = array([1.04166667, 1.16666667])
+11.2789 	EXP 	faces: image = 'same/170_DV_C2.jpg'
+11.2789 	EXP 	faces: autoDraw = True
+11.5340 	EXP 	New trial (rep=0, index=28): {'imageFile': 'same/120_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+11.5560 	DATA 	Keypress: right
+11.5595 	EXP 	faces: autoDraw = False
+11.5595 	EXP 	faces: ori = 180.0
+11.5595 	EXP 	faces: size = array([1.04166667, 1.16666667])
+11.5595 	EXP 	faces: image = 'same/120_DV_C2.jpg'
+11.5595 	EXP 	faces: autoDraw = True
+11.8187 	DATA 	Keypress: right
+11.8339 	EXP 	New trial (rep=0, index=29): {'imageFile': 'same/108_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 180}
+11.8650 	EXP 	faces: autoDraw = False
+11.8650 	EXP 	faces: ori = 180.0
+11.8650 	EXP 	faces: size = array([1.04166667, 1.16666667])
+11.8650 	EXP 	faces: image = 'same/108_DV_C2.jpg'
+11.8650 	EXP 	faces: autoDraw = True
+11.9016 	EXP 	New trial (rep=0, index=30): {'imageFile': 'different/091_283_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 0}
+11.9178 	DATA 	Keypress: left
+11.9234 	EXP 	faces: autoDraw = False
+11.9234 	EXP 	faces: ori = 0.0
+11.9234 	EXP 	faces: size = array([1.04166667, 1.16666667])
+11.9234 	EXP 	faces: image = 'different/091_283_R.jpg'
+11.9234 	EXP 	faces: autoDraw = True
+12.0850 	DATA 	Keypress: left
+12.1019 	EXP 	New trial (rep=0, index=31): {'imageFile': 'same/068_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+12.1278 	EXP 	faces: autoDraw = False
+12.1278 	EXP 	faces: ori = 0.0
+12.1278 	EXP 	faces: size = array([1.04166667, 1.16666667])
+12.1278 	EXP 	faces: image = 'same/068_C2_DV.jpg'
+12.1278 	EXP 	faces: autoDraw = True
+12.2185 	EXP 	New trial (rep=0, index=32): {'imageFile': 'different/254_287_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+12.2398 	DATA 	Keypress: right
+12.2451 	EXP 	faces: autoDraw = False
+12.2451 	EXP 	faces: ori = 180.0
+12.2451 	EXP 	faces: size = array([1.04166667, 1.16666667])
+12.2451 	EXP 	faces: image = 'different/254_287_L.jpg'
+12.2451 	EXP 	faces: autoDraw = True
+12.5166 	EXP 	New trial (rep=0, index=33): {'imageFile': 'same/069_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+12.5311 	DATA 	Keypress: right
+12.5355 	EXP 	faces: autoDraw = False
+12.5355 	EXP 	faces: ori = 0.0
+12.5355 	EXP 	faces: size = array([1.04166667, 1.16666667])
+12.5355 	EXP 	faces: image = 'same/069_C2_DV.jpg'
+12.5355 	EXP 	faces: autoDraw = True
+12.7683 	EXP 	New trial (rep=0, index=34): {'imageFile': 'same/081_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+12.7868 	DATA 	Keypress: right
+12.7902 	EXP 	faces: autoDraw = False
+12.7902 	EXP 	faces: ori = 0.0
+12.7902 	EXP 	faces: size = array([1.04166667, 1.16666667])
+12.7902 	EXP 	faces: image = 'same/081_C2_DV.jpg'
+12.7902 	EXP 	faces: autoDraw = True
+13.1033 	EXP 	New trial (rep=0, index=35): {'imageFile': 'different/261_254_L.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+13.1229 	DATA 	Keypress: right
+13.1281 	EXP 	faces: autoDraw = False
+13.1281 	EXP 	faces: ori = 180.0
+13.1281 	EXP 	faces: size = array([1.04166667, 1.16666667])
+13.1281 	EXP 	faces: image = 'different/261_254_L.jpg'
+13.1281 	EXP 	faces: autoDraw = True
+13.3695 	EXP 	New trial (rep=0, index=36): {'imageFile': 'same/075_DV_C2.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+13.3912 	DATA 	Keypress: left
+13.3961 	EXP 	faces: autoDraw = False
+13.3961 	EXP 	faces: ori = 0.0
+13.3961 	EXP 	faces: size = array([1.04166667, 1.16666667])
+13.3961 	EXP 	faces: image = 'same/075_DV_C2.jpg'
+13.3961 	EXP 	faces: autoDraw = True
+13.6199 	EXP 	New trial (rep=0, index=37): {'imageFile': 'same/025_C2_DV.jpg', 'corrAns': 'left', 'sameOrDiff': 'same', 'ori': 0}
+13.6438 	DATA 	Keypress: right
+13.6476 	EXP 	faces: autoDraw = False
+13.6476 	EXP 	faces: ori = 0.0
+13.6476 	EXP 	faces: size = array([1.04166667, 1.16666667])
+13.6476 	EXP 	faces: image = 'same/025_C2_DV.jpg'
+13.6476 	EXP 	faces: autoDraw = True
+13.7691 	EXP 	New trial (rep=0, index=38): {'imageFile': 'different/116_067_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+13.7869 	DATA 	Keypress: left
+13.7923 	EXP 	faces: autoDraw = False
+13.7923 	EXP 	faces: ori = 180.0
+13.7923 	EXP 	faces: size = array([1.04166667, 1.16666667])
+13.7923 	EXP 	faces: image = 'different/116_067_R.jpg'
+13.7923 	EXP 	faces: autoDraw = True
+13.9699 	EXP 	New trial (rep=0, index=39): {'imageFile': 'different/143_254_R.jpg', 'corrAns': 'right', 'sameOrDiff': 'different', 'ori': 180}
+13.9902 	DATA 	Keypress: right
+13.9930 	EXP 	faces: autoDraw = False
+13.9930 	EXP 	faces: ori = 180.0
+13.9930 	EXP 	faces: size = array([1.04166667, 1.16666667])
+13.9930 	EXP 	faces: image = 'different/143_254_R.jpg'
+13.9930 	EXP 	faces: autoDraw = True
+14.0537 	DATA 	Keypress: left
+14.0639 	EXP 	faces: autoDraw = False
+14.3117 	EXP 	window1: mouseVisible = True

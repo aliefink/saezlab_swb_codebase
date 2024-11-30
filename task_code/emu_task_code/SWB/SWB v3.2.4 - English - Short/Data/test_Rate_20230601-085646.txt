@@ -1,0 +1,5 @@
+Round	Rating	RatingOnset	RT	
+1	50	6.620196199975908	0.09368100017309189	
+
+Start Time: 08:55:20
+End Time: 08:56:46

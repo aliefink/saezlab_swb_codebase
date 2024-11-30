@@ -1,0 +1,912 @@
+9.8852 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+137.6615 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000021B76CA9130>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000021B7A09D790>, multiSample=False, name='window1', numSamples=2, pos=(192, 108), screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+137.6619 	EXP 	window1: mouseVisible = True
+137.6620 	EXP 	window1: mouseVisible = True
+137.6620 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+137.6621 	EXP 	window1: recordFrameIntervals = False
+137.8282 	EXP 	window1: recordFrameIntervals = True
+137.8972 	WARNING 	t of last frame was 22.32ms (=1/44)
+138.1299 	WARNING 	t of last frame was 21.10ms (=1/47)
+138.1803 	WARNING 	t of last frame was 20.36ms (=1/49)
+138.3796 	EXP 	Screen (0) actual frame rate measured at 58.79Hz
+138.3797 	EXP 	window1: recordFrameIntervals = False
+138.6597 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+144.5255 	EXP 	Created welcomeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcomeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+144.5302 	EXP 	Created LeftHalf = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='LeftHalf', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+144.5321 	EXP 	Created RightHalf = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='RightHalf', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+144.5338 	EXP 	Created Safe = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='Safe', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5355 	EXP 	Created Top = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='Top', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5377 	EXP 	Created Bottom = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=5.0, name='Bottom', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5414 	EXP 	Created SafeText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='SafeText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5438 	EXP 	Created TopText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='TopText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5459 	EXP 	Created BottomText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='BottomText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5497 	EXP 	Created Total = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Total', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.1, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5533 	EXP 	Created Win = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Win', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.22)
+144.5534 	EXP 	window1: mouseVisible = True
+144.5562 	EXP 	Created LeftHalf_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='LeftHalf_2', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+144.5611 	EXP 	Created RightHalf_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='RightHalf_2', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+144.5631 	EXP 	Created Safe_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Safe_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5648 	EXP 	Created Top_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Top_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5665 	EXP 	Created Bottom_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Bottom_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5675 	EXP 	Created SafeText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='SafeText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5691 	EXP 	Created TopText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='TopText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5701 	EXP 	Created BottomText_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='BottomText_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5720 	EXP 	Created Total_2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-8.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Total_2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.1, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5758 	EXP 	Created Win_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Win_2', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.22)
+144.5794 	EXP 	Created WinMsg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='WinMsg', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.2)
+144.5815 	EXP 	Created LeftHalf_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='LeftHalf_3', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+144.5835 	EXP 	Created RightHalf_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1.0, name='RightHalf_3', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.5, 0.8]), units='height', vertices=ndarray(...), win=Window(...))
+144.5856 	EXP 	Created Safe_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Safe_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5876 	EXP 	Created Top_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Top_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5917 	EXP 	Created Bottom_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=5.0, name='Bottom_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.2, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.5950 	EXP 	Created SafeText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='SafeText_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5968 	EXP 	Created TopText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='TopText_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.5979 	EXP 	Created BottomText_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='BottomText_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+144.6001 	EXP 	Created Total_3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-9.0, fillColor=array([0, 0, 0]), fillColorSpace='rgb', fillRGB=array([0, 0, 0]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Total_3', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), size=array([0.1, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+144.6013 	EXP 	Created Win_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='Win_3', opacity=1.0, ori=0.0, pos=array([-0.45,  0.3 ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.22)
+144.6023 	EXP 	Created WinMsg_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='WinMsg_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=0.2)
+144.6333 	EXP 	Created timeoutText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='timeoutText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please respond faster', units='height', win=Window(...), wrapWidth=1)
+144.6467 	EXP 	window1: mouseVisible = True
+144.6850 	EXP 	Created HowHappySlider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=None, lineColor=None, markerColor=None, name='HowHappySlider', opacity=None, ori=0.0, pos=array([ 0. , -0.2]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='slider', styleTweaks=['triangleMarker'], ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+144.7004 	EXP 	Created UnHappy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='UnHappy', opacity=1.0, ori=0.0, pos=array([-0.6,  0. ]), rgb=UNKNOWN, text='Very Unhappy', units='height', win=Window(...), wrapWidth=1)
+144.7121 	EXP 	Created Happy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Happy', opacity=1.0, ori=0.0, pos=array([0.6, 0. ]), rgb=UNKNOWN, text='Very Happy', units='height', win=Window(...), wrapWidth=1)
+144.7469 	EXP 	Created SpacetoExit = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='SpacetoExit', opacity=1.0, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Press SPACEBAR to Continue', units='height', win=Window(...), wrapWidth=1)
+144.7658 	EXP 	Created Cross = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1, -1, -1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+144.8079 	EXP 	Created exitText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='exitText', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+144.8360 	EXP 	HowHappySlider: autoLog = True
+144.8360 	EXP 	HowHappySlider: markerPos = None
+144.8360 	EXP 	HowHappySlider: styleTweaks = []
+144.8360 	EXP 	HowHappySlider: styleTweaks = []
+144.8360 	EXP 	HowHappySlider: styleTweaks = ['triangleMarker']
+144.8360 	EXP 	HowHappySlider: styleTweaks = ['triangleMarker']
+144.8360 	EXP 	HowHappySlider: contrast = 1.0
+144.8360 	EXP 	HowHappySlider: autoLog = True
+144.8360 	EXP 	welcomeText: autoDraw = True
+149.8394 	EXP 	Imported control_files/trialControlwRating.csv as conditions, 150 conditions, 8 params
+149.8427 	EXP 	Created sequence: random, trialTypes=150, nReps=1, seed=None
+149.8434 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -0.8), ('BottomAmt', 0.42), ('Outcome', 'top'), ('RiskSide', 'right'), ('ITI', 1.95), ('Rating', 0)])
+149.9177 	EXP 	welcomeText: autoDraw = False
+149.9177 	EXP 	SafeText: height = 0.06
+149.9177 	EXP 	SafeText: height = 0.06
+149.9177 	EXP 	SafeText: height = 0.06
+149.9177 	EXP 	SafeText: text = '$0.00'
+149.9177 	EXP 	TopText: height = 0.06
+149.9177 	EXP 	TopText: height = 0.06
+149.9177 	EXP 	TopText: height = 0.06
+149.9177 	EXP 	TopText: text = '$-0.80'
+149.9177 	EXP 	BottomText: height = 0.06
+149.9177 	EXP 	BottomText: height = 0.06
+149.9177 	EXP 	BottomText: height = 0.06
+149.9177 	EXP 	BottomText: text = '$0.42'
+149.9177 	EXP 	Win: height = 0.03
+149.9177 	EXP 	Win: height = 0.03
+149.9177 	EXP 	Win: height = 0.03
+149.9177 	EXP 	Win: text = 'Total\n$10.00'
+149.9177 	EXP 	LeftHalf: autoDraw = True
+149.9177 	EXP 	RightHalf: autoDraw = True
+149.9177 	EXP 	Safe: autoDraw = True
+149.9177 	EXP 	Top: autoDraw = True
+149.9177 	EXP 	Bottom: autoDraw = True
+149.9177 	EXP 	SafeText: autoDraw = True
+149.9177 	EXP 	TopText: autoDraw = True
+149.9177 	EXP 	BottomText: autoDraw = True
+149.9177 	EXP 	Total: autoDraw = True
+149.9177 	EXP 	Win: autoDraw = True
+151.0648 	DATA 	Mouse: Left button down, pos=(600,353)
+151.0712 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+151.0721 	EXP 	New trial (rep=0, index=0): None
+151.1667 	EXP 	LeftHalf: autoDraw = False
+151.1667 	EXP 	RightHalf: autoDraw = False
+151.1667 	EXP 	Safe: autoDraw = False
+151.1667 	EXP 	Top: autoDraw = False
+151.1667 	EXP 	Bottom: autoDraw = False
+151.1667 	EXP 	SafeText: autoDraw = False
+151.1667 	EXP 	TopText: autoDraw = False
+151.1667 	EXP 	BottomText: autoDraw = False
+151.1667 	EXP 	Total: autoDraw = False
+151.1667 	EXP 	Win: autoDraw = False
+151.1667 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+151.1667 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+151.1667 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+151.1667 	EXP 	SafeText_2: height = 0.06
+151.1667 	EXP 	SafeText_2: height = 0.06
+151.1667 	EXP 	SafeText_2: height = 0.06
+151.1667 	EXP 	SafeText_2: text = '$0.00'
+151.1667 	EXP 	TopText_2: height = 0.06
+151.1667 	EXP 	TopText_2: height = 0.06
+151.1667 	EXP 	TopText_2: height = 0.06
+151.1667 	EXP 	TopText_2: text = '$-0.80'
+151.1667 	EXP 	BottomText_2: height = 0.06
+151.1667 	EXP 	BottomText_2: height = 0.06
+151.1667 	EXP 	BottomText_2: height = 0.06
+151.1667 	EXP 	BottomText_2: text = '$0.42'
+151.1667 	EXP 	Win_2: height = 0.03
+151.1667 	EXP 	Win_2: height = 0.03
+151.1667 	EXP 	Win_2: height = 0.03
+151.1667 	EXP 	Win_2: text = 'Total\n$10.00'
+151.1667 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+151.1667 	EXP 	WinMsg: height = 0.04
+151.1667 	EXP 	WinMsg: height = 0.04
+151.1667 	EXP 	WinMsg: height = 0.04
+151.1667 	EXP 	WinMsg: text = 'You got $0.00!'
+151.1667 	EXP 	LeftHalf_2: autoDraw = True
+151.1667 	EXP 	RightHalf_2: autoDraw = True
+151.1667 	EXP 	Safe_2: autoDraw = True
+151.1667 	EXP 	Top_2: autoDraw = True
+151.1667 	EXP 	Bottom_2: autoDraw = True
+151.1667 	EXP 	SafeText_2: autoDraw = True
+151.1667 	EXP 	TopText_2: autoDraw = True
+151.1667 	EXP 	BottomText_2: autoDraw = True
+151.1667 	EXP 	Total_2: autoDraw = True
+151.1667 	EXP 	Win_2: autoDraw = True
+151.1667 	EXP 	WinMsg: autoDraw = True
+151.2114 	DATA 	Mouse:  Left button up, pos=(600,353)
+153.1675 	EXP 	LeftHalf_2: autoDraw = False
+153.1675 	EXP 	RightHalf_2: autoDraw = False
+153.1675 	EXP 	Safe_2: autoDraw = False
+153.1675 	EXP 	Top_2: autoDraw = False
+153.1675 	EXP 	Bottom_2: autoDraw = False
+153.1675 	EXP 	SafeText_2: autoDraw = False
+153.1675 	EXP 	TopText_2: autoDraw = False
+153.1675 	EXP 	BottomText_2: autoDraw = False
+153.1675 	EXP 	Total_2: autoDraw = False
+153.1675 	EXP 	Win_2: autoDraw = False
+153.1675 	EXP 	WinMsg: autoDraw = False
+153.1675 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+153.1675 	EXP 	Top_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+153.1675 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+153.1675 	EXP 	SafeText_3: height = 0.06
+153.1675 	EXP 	SafeText_3: height = 0.06
+153.1675 	EXP 	SafeText_3: height = 0.06
+153.1675 	EXP 	SafeText_3: text = '$0.00'
+153.1675 	EXP 	TopText_3: height = 0.06
+153.1675 	EXP 	TopText_3: height = 0.06
+153.1675 	EXP 	TopText_3: height = 0.06
+153.1675 	EXP 	TopText_3: text = '$-0.80'
+153.1675 	EXP 	BottomText_3: height = 0.06
+153.1675 	EXP 	BottomText_3: height = 0.06
+153.1675 	EXP 	BottomText_3: height = 0.06
+153.1675 	EXP 	BottomText_3: text = '$0.42'
+153.1675 	EXP 	Win_3: height = 0.03
+153.1675 	EXP 	Win_3: height = 0.03
+153.1675 	EXP 	Win_3: height = 0.03
+153.1675 	EXP 	Win_3: text = 'Total\n$10.00'
+153.1675 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+153.1675 	EXP 	WinMsg_2: height = 0.04
+153.1675 	EXP 	WinMsg_2: height = 0.04
+153.1675 	EXP 	WinMsg_2: height = 0.04
+153.1675 	EXP 	WinMsg_2: text = 'You would have lost $-0.80!'
+153.1675 	EXP 	LeftHalf_3: autoDraw = True
+153.1675 	EXP 	RightHalf_3: autoDraw = True
+153.1675 	EXP 	Safe_3: autoDraw = True
+153.1675 	EXP 	Top_3: autoDraw = True
+153.1675 	EXP 	Bottom_3: autoDraw = True
+153.1675 	EXP 	SafeText_3: autoDraw = True
+153.1675 	EXP 	TopText_3: autoDraw = True
+153.1675 	EXP 	BottomText_3: autoDraw = True
+153.1675 	EXP 	Total_3: autoDraw = True
+153.1675 	EXP 	Win_3: autoDraw = True
+153.1675 	EXP 	WinMsg_2: autoDraw = True
+155.0849 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+155.0857 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+155.0979 	EXP 	LeftHalf_3: autoDraw = False
+155.0979 	EXP 	RightHalf_3: autoDraw = False
+155.0979 	EXP 	Safe_3: autoDraw = False
+155.0979 	EXP 	Top_3: autoDraw = False
+155.0979 	EXP 	Bottom_3: autoDraw = False
+155.0979 	EXP 	SafeText_3: autoDraw = False
+155.0979 	EXP 	TopText_3: autoDraw = False
+155.0979 	EXP 	BottomText_3: autoDraw = False
+155.0979 	EXP 	Total_3: autoDraw = False
+155.0979 	EXP 	Win_3: autoDraw = False
+155.0979 	EXP 	WinMsg_2: autoDraw = False
+155.0979 	EXP 	Cross: autoDraw = True
+157.0352 	EXP 	New trial (rep=0, index=1): OrderedDict([('TrialType', 'gain'), ('CertainAmt', 0.4), ('TopAmt', 0.0), ('BottomAmt', 1.12), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.42), ('Rating', 0)])
+157.0682 	EXP 	Cross: autoDraw = False
+157.0682 	EXP 	Cross: autoDraw = False
+157.0682 	EXP 	SafeText: height = 0.06
+157.0682 	EXP 	SafeText: height = 0.06
+157.0682 	EXP 	SafeText: height = 0.06
+157.0682 	EXP 	SafeText: text = '$0.40'
+157.0682 	EXP 	TopText: height = 0.06
+157.0682 	EXP 	TopText: height = 0.06
+157.0682 	EXP 	TopText: height = 0.06
+157.0682 	EXP 	TopText: text = '$0.00'
+157.0682 	EXP 	BottomText: height = 0.06
+157.0682 	EXP 	BottomText: height = 0.06
+157.0682 	EXP 	BottomText: height = 0.06
+157.0682 	EXP 	BottomText: text = '$1.12'
+157.0682 	EXP 	Win: text = 'Total\n$10.00'
+157.0682 	EXP 	LeftHalf: autoDraw = True
+157.0682 	EXP 	RightHalf: autoDraw = True
+157.0682 	EXP 	Safe: autoDraw = True
+157.0682 	EXP 	Top: autoDraw = True
+157.0682 	EXP 	Bottom: autoDraw = True
+157.0682 	EXP 	SafeText: autoDraw = True
+157.0682 	EXP 	TopText: autoDraw = True
+157.0682 	EXP 	BottomText: autoDraw = True
+157.0682 	EXP 	Total: autoDraw = True
+157.0682 	EXP 	Win: autoDraw = True
+157.3816 	DATA 	Mouse: Left button down, pos=(965,380)
+157.4064 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+157.4066 	EXP 	New trial (rep=0, index=0): None
+157.4700 	EXP 	LeftHalf: autoDraw = False
+157.4700 	EXP 	RightHalf: autoDraw = False
+157.4700 	EXP 	Safe: autoDraw = False
+157.4700 	EXP 	Top: autoDraw = False
+157.4700 	EXP 	Bottom: autoDraw = False
+157.4700 	EXP 	SafeText: autoDraw = False
+157.4700 	EXP 	TopText: autoDraw = False
+157.4700 	EXP 	BottomText: autoDraw = False
+157.4700 	EXP 	Total: autoDraw = False
+157.4700 	EXP 	Win: autoDraw = False
+157.4700 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+157.4700 	EXP 	Top_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+157.4700 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+157.4700 	EXP 	SafeText_2: height = 0.06
+157.4700 	EXP 	SafeText_2: height = 0.06
+157.4700 	EXP 	SafeText_2: height = 0.06
+157.4700 	EXP 	SafeText_2: text = '$0.40'
+157.4700 	EXP 	TopText_2: height = 0.06
+157.4700 	EXP 	TopText_2: height = 0.06
+157.4700 	EXP 	TopText_2: height = 0.06
+157.4700 	EXP 	TopText_2: text = '$0.00'
+157.4700 	EXP 	BottomText_2: height = 0.06
+157.4700 	EXP 	BottomText_2: height = 0.06
+157.4700 	EXP 	BottomText_2: height = 0.06
+157.4700 	EXP 	BottomText_2: text = '$1.12'
+157.4700 	EXP 	Win_2: height = 0.03
+157.4700 	EXP 	Win_2: height = 0.03
+157.4700 	EXP 	Win_2: height = 0.03
+157.4700 	EXP 	Win_2: text = 'Total\n$10.40'
+157.4700 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+157.4700 	EXP 	WinMsg: height = 0.04
+157.4700 	EXP 	WinMsg: height = 0.04
+157.4700 	EXP 	WinMsg: height = 0.04
+157.4700 	EXP 	WinMsg: text = 'You won $0.40!'
+157.4700 	EXP 	LeftHalf_2: autoDraw = True
+157.4700 	EXP 	RightHalf_2: autoDraw = True
+157.4700 	EXP 	Safe_2: autoDraw = True
+157.4700 	EXP 	Top_2: autoDraw = True
+157.4700 	EXP 	Bottom_2: autoDraw = True
+157.4700 	EXP 	SafeText_2: autoDraw = True
+157.4700 	EXP 	TopText_2: autoDraw = True
+157.4700 	EXP 	BottomText_2: autoDraw = True
+157.4700 	EXP 	Total_2: autoDraw = True
+157.4700 	EXP 	Win_2: autoDraw = True
+157.4700 	EXP 	WinMsg: autoDraw = True
+157.5105 	DATA 	Mouse:  Left button up, pos=(965,380)
+159.5013 	EXP 	LeftHalf_2: autoDraw = False
+159.5013 	EXP 	RightHalf_2: autoDraw = False
+159.5013 	EXP 	Safe_2: autoDraw = False
+159.5013 	EXP 	Top_2: autoDraw = False
+159.5013 	EXP 	Bottom_2: autoDraw = False
+159.5013 	EXP 	SafeText_2: autoDraw = False
+159.5013 	EXP 	TopText_2: autoDraw = False
+159.5013 	EXP 	BottomText_2: autoDraw = False
+159.5013 	EXP 	Total_2: autoDraw = False
+159.5013 	EXP 	Win_2: autoDraw = False
+159.5013 	EXP 	WinMsg: autoDraw = False
+159.5013 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+159.5013 	EXP 	Top_3: borderColor = <psychopy.colors.Color: mediumorchid, alpha=1.0>
+159.5013 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+159.5013 	EXP 	SafeText_3: height = 0.06
+159.5013 	EXP 	SafeText_3: height = 0.06
+159.5013 	EXP 	SafeText_3: height = 0.06
+159.5013 	EXP 	SafeText_3: text = '$0.40'
+159.5013 	EXP 	TopText_3: height = 0.06
+159.5013 	EXP 	TopText_3: height = 0.06
+159.5013 	EXP 	TopText_3: height = 0.06
+159.5013 	EXP 	TopText_3: text = '$0.00'
+159.5013 	EXP 	BottomText_3: height = 0.06
+159.5013 	EXP 	BottomText_3: height = 0.06
+159.5013 	EXP 	BottomText_3: height = 0.06
+159.5013 	EXP 	BottomText_3: text = '$1.12'
+159.5013 	EXP 	Win_3: height = 0.03
+159.5013 	EXP 	Win_3: height = 0.03
+159.5013 	EXP 	Win_3: height = 0.03
+159.5013 	EXP 	Win_3: text = 'Total\n$10.40'
+159.5013 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: limegreen, alpha=1.0>
+159.5013 	EXP 	WinMsg_2: height = 0.04
+159.5013 	EXP 	WinMsg_2: height = 0.04
+159.5013 	EXP 	WinMsg_2: height = 0.04
+159.5013 	EXP 	WinMsg_2: text = 'You would have lost $0.00!'
+159.5013 	EXP 	LeftHalf_3: autoDraw = True
+159.5013 	EXP 	RightHalf_3: autoDraw = True
+159.5013 	EXP 	Safe_3: autoDraw = True
+159.5013 	EXP 	Top_3: autoDraw = True
+159.5013 	EXP 	Bottom_3: autoDraw = True
+159.5013 	EXP 	SafeText_3: autoDraw = True
+159.5013 	EXP 	TopText_3: autoDraw = True
+159.5013 	EXP 	BottomText_3: autoDraw = True
+159.5013 	EXP 	Total_3: autoDraw = True
+159.5013 	EXP 	Win_3: autoDraw = True
+159.5013 	EXP 	WinMsg_2: autoDraw = True
+161.4222 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+161.4232 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+161.4340 	EXP 	LeftHalf_3: autoDraw = False
+161.4340 	EXP 	RightHalf_3: autoDraw = False
+161.4340 	EXP 	Safe_3: autoDraw = False
+161.4340 	EXP 	Top_3: autoDraw = False
+161.4340 	EXP 	Bottom_3: autoDraw = False
+161.4340 	EXP 	SafeText_3: autoDraw = False
+161.4340 	EXP 	TopText_3: autoDraw = False
+161.4340 	EXP 	BottomText_3: autoDraw = False
+161.4340 	EXP 	Total_3: autoDraw = False
+161.4340 	EXP 	Win_3: autoDraw = False
+161.4340 	EXP 	WinMsg_2: autoDraw = False
+161.4340 	EXP 	Cross: autoDraw = True
+162.8394 	EXP 	New trial (rep=0, index=2): OrderedDict([('TrialType', 'loss'), ('CertainAmt', -0.4), ('TopAmt', -0.99), ('BottomAmt', 0.0), ('Outcome', 'top'), ('RiskSide', 'left'), ('ITI', 1.33), ('Rating', 0)])
+162.8860 	EXP 	Cross: autoDraw = False
+162.8860 	EXP 	Cross: autoDraw = False
+162.8860 	EXP 	SafeText: height = 0.06
+162.8860 	EXP 	SafeText: height = 0.06
+162.8860 	EXP 	SafeText: height = 0.06
+162.8860 	EXP 	SafeText: text = '$-0.40'
+162.8860 	EXP 	TopText: height = 0.06
+162.8860 	EXP 	TopText: height = 0.06
+162.8860 	EXP 	TopText: height = 0.06
+162.8860 	EXP 	TopText: text = '$-0.99'
+162.8860 	EXP 	BottomText: height = 0.06
+162.8860 	EXP 	BottomText: height = 0.06
+162.8860 	EXP 	BottomText: height = 0.06
+162.8860 	EXP 	BottomText: text = '$0.00'
+162.8860 	EXP 	Win: height = 0.03
+162.8860 	EXP 	Win: height = 0.03
+162.8860 	EXP 	Win: height = 0.03
+162.8860 	EXP 	Win: text = 'Total\n$10.40'
+162.8860 	EXP 	LeftHalf: autoDraw = True
+162.8860 	EXP 	RightHalf: autoDraw = True
+162.8860 	EXP 	Safe: autoDraw = True
+162.8860 	EXP 	Top: autoDraw = True
+162.8860 	EXP 	Bottom: autoDraw = True
+162.8860 	EXP 	SafeText: autoDraw = True
+162.8860 	EXP 	TopText: autoDraw = True
+162.8860 	EXP 	BottomText: autoDraw = True
+162.8860 	EXP 	Total: autoDraw = True
+162.8860 	EXP 	Win: autoDraw = True
+163.5750 	DATA 	Mouse: Left button down, pos=(618,378)
+163.5776 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+163.5778 	EXP 	New trial (rep=0, index=0): None
+163.6241 	EXP 	LeftHalf: autoDraw = False
+163.6241 	EXP 	RightHalf: autoDraw = False
+163.6241 	EXP 	Safe: autoDraw = False
+163.6241 	EXP 	Top: autoDraw = False
+163.6241 	EXP 	Bottom: autoDraw = False
+163.6241 	EXP 	SafeText: autoDraw = False
+163.6241 	EXP 	TopText: autoDraw = False
+163.6241 	EXP 	BottomText: autoDraw = False
+163.6241 	EXP 	Total: autoDraw = False
+163.6241 	EXP 	Win: autoDraw = False
+163.6241 	EXP 	Safe_2: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+163.6241 	EXP 	Top_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+163.6241 	EXP 	Bottom_2: borderColor = <psychopy.colors.Color: yellow, alpha=1.0>
+163.6241 	EXP 	SafeText_2: height = 0.06
+163.6241 	EXP 	SafeText_2: height = 0.06
+163.6241 	EXP 	SafeText_2: height = 0.06
+163.6241 	EXP 	SafeText_2: text = '$-0.40'
+163.6241 	EXP 	TopText_2: height = 0.06
+163.6241 	EXP 	TopText_2: height = 0.06
+163.6241 	EXP 	TopText_2: height = 0.06
+163.6241 	EXP 	TopText_2: text = '$-0.99'
+163.6241 	EXP 	BottomText_2: height = 0.06
+163.6241 	EXP 	BottomText_2: height = 0.06
+163.6241 	EXP 	BottomText_2: height = 0.06
+163.6241 	EXP 	BottomText_2: text = '$0.00'
+163.6241 	EXP 	Win_2: text = 'Total\n$10.40'
+163.6241 	EXP 	WinMsg: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+163.6241 	EXP 	WinMsg: height = 0.04
+163.6241 	EXP 	WinMsg: height = 0.04
+163.6241 	EXP 	WinMsg: height = 0.04
+163.6241 	EXP 	WinMsg: text = ''
+163.6241 	EXP 	LeftHalf_2: autoDraw = True
+163.6241 	EXP 	RightHalf_2: autoDraw = True
+163.6241 	EXP 	Safe_2: autoDraw = True
+163.6241 	EXP 	Top_2: autoDraw = True
+163.6241 	EXP 	Bottom_2: autoDraw = True
+163.6241 	EXP 	SafeText_2: autoDraw = True
+163.6241 	EXP 	TopText_2: autoDraw = True
+163.6241 	EXP 	BottomText_2: autoDraw = True
+163.6241 	EXP 	Total_2: autoDraw = True
+163.6241 	EXP 	Win_2: autoDraw = True
+163.6241 	EXP 	WinMsg: autoDraw = True
+163.6804 	DATA 	Mouse:  Left button up, pos=(618,378)
+165.6518 	EXP 	LeftHalf_2: autoDraw = False
+165.6518 	EXP 	RightHalf_2: autoDraw = False
+165.6518 	EXP 	Safe_2: autoDraw = False
+165.6518 	EXP 	Top_2: autoDraw = False
+165.6518 	EXP 	Bottom_2: autoDraw = False
+165.6518 	EXP 	SafeText_2: autoDraw = False
+165.6518 	EXP 	TopText_2: autoDraw = False
+165.6518 	EXP 	BottomText_2: autoDraw = False
+165.6518 	EXP 	Total_2: autoDraw = False
+165.6518 	EXP 	Win_2: autoDraw = False
+165.6518 	EXP 	WinMsg: autoDraw = False
+165.6518 	EXP 	Safe_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+165.6518 	EXP 	Top_3: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+165.6518 	EXP 	Bottom_3: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+165.6518 	EXP 	SafeText_3: height = 0.06
+165.6518 	EXP 	SafeText_3: height = 0.06
+165.6518 	EXP 	SafeText_3: height = 0.06
+165.6518 	EXP 	SafeText_3: text = '$-0.40'
+165.6518 	EXP 	TopText_3: height = 0.06
+165.6518 	EXP 	TopText_3: height = 0.06
+165.6518 	EXP 	TopText_3: height = 0.06
+165.6518 	EXP 	TopText_3: text = '$-0.99'
+165.6518 	EXP 	BottomText_3: height = 0.06
+165.6518 	EXP 	BottomText_3: height = 0.06
+165.6518 	EXP 	BottomText_3: height = 0.06
+165.6518 	EXP 	BottomText_3: text = '$0.00'
+165.6518 	EXP 	Win_3: height = 0.03
+165.6518 	EXP 	Win_3: height = 0.03
+165.6518 	EXP 	Win_3: height = 0.03
+165.6518 	EXP 	Win_3: text = 'Total\n$9.41'
+165.6518 	EXP 	WinMsg_2: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+165.6518 	EXP 	WinMsg_2: height = 0.04
+165.6518 	EXP 	WinMsg_2: height = 0.04
+165.6518 	EXP 	WinMsg_2: height = 0.04
+165.6518 	EXP 	WinMsg_2: text = 'You lost $-0.99!'
+165.6518 	EXP 	LeftHalf_3: autoDraw = True
+165.6518 	EXP 	RightHalf_3: autoDraw = True
+165.6518 	EXP 	Safe_3: autoDraw = True
+165.6518 	EXP 	Top_3: autoDraw = True
+165.6518 	EXP 	Bottom_3: autoDraw = True
+165.6518 	EXP 	SafeText_3: autoDraw = True
+165.6518 	EXP 	TopText_3: autoDraw = True
+165.6518 	EXP 	BottomText_3: autoDraw = True
+165.6518 	EXP 	Total_3: autoDraw = True
+165.6518 	EXP 	Win_3: autoDraw = True
+165.6518 	EXP 	WinMsg_2: autoDraw = True
+167.5910 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+167.5924 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+167.5929 	EXP 	New trial (rep=0, index=0): None
+167.6698 	EXP 	LeftHalf_3: autoDraw = False
+167.6698 	EXP 	RightHalf_3: autoDraw = False
+167.6698 	EXP 	Safe_3: autoDraw = False
+167.6698 	EXP 	Top_3: autoDraw = False
+167.6698 	EXP 	Bottom_3: autoDraw = False
+167.6698 	EXP 	SafeText_3: autoDraw = False
+167.6698 	EXP 	TopText_3: autoDraw = False
+167.6698 	EXP 	BottomText_3: autoDraw = False
+167.6698 	EXP 	Total_3: autoDraw = False
+167.6698 	EXP 	Win_3: autoDraw = False
+167.6698 	EXP 	WinMsg_2: autoDraw = False
+167.6698 	EXP 	HowHappySlider: markerPos = None
+167.6698 	EXP 	HowHappySlider: markerPos = None
+167.6698 	EXP 	HowHappySlider: autoDraw = True
+167.6698 	EXP 	UnHappy: autoDraw = True
+167.6698 	EXP 	Happy: autoDraw = True
+170.6766 	DATA 	Mouse: Left button down, pos=(738,252)
+170.6891 	EXP 	HowHappySlider: markerPos = 5.1875
+170.7046 	EXP 	HowHappySlider: markerPos = 5.1875
+170.7402 	EXP 	HowHappySlider: markerPos = 5.1875
+170.7560 	EXP 	HowHappySlider: markerPos = 5.1875
+170.7717 	EXP 	HowHappySlider: markerPos = 5.1875
+170.7899 	EXP 	HowHappySlider: markerPos = 5.1875
+170.8215 	EXP 	HowHappySlider: markerPos = 5.1875
+170.8392 	EXP 	HowHappySlider: markerPos = 5.1875
+170.8560 	EXP 	HowHappySlider: markerPos = 5.1875
+170.8902 	EXP 	HowHappySlider: markerPos = 5.1875
+170.8922 	DATA 	Mouse:  Left button up, pos=(738,252)
+170.9060 	EXP 	HowHappySlider: markerPos = 5.1875
+170.9224 	EXP 	SpacetoExit: autoDraw = True
+171.9616 	DATA 	Keypress: left
+172.1431 	DATA 	Keypress: left
+172.3603 	DATA 	Keypress: right
+172.5597 	DATA 	Keypress: right
+172.7252 	DATA 	Keypress: right
+172.9610 	DATA 	Keypress: right
+173.0921 	DATA 	Keypress: left
+173.9955 	DATA 	Mouse: Left button down, pos=(755,251)
+174.0256 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.0410 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.0574 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.0721 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.0901 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.1081 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.1417 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.1573 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.1740 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.2240 	EXP 	HowHappySlider: markerPos = 5.364583333333334
+174.2540 	EXP 	HowHappySlider: markerPos = 5.46875
+174.2715 	EXP 	HowHappySlider: markerPos = 5.541666666666667
+174.2886 	EXP 	HowHappySlider: markerPos = 5.541666666666667
+174.3256 	EXP 	HowHappySlider: markerPos = 5.541666666666667
+174.3541 	EXP 	HowHappySlider: markerPos = 5.541666666666667
+174.3718 	EXP 	HowHappySlider: markerPos = 5.625
+174.4048 	EXP 	HowHappySlider: markerPos = 5.697916666666666
+174.4368 	EXP 	HowHappySlider: markerPos = 5.854166666666667
+174.4552 	EXP 	HowHappySlider: markerPos = 5.979166666666666
+174.4737 	EXP 	HowHappySlider: markerPos = 6.052083333333333
+174.5057 	EXP 	HowHappySlider: markerPos = 6.114583333333333
+174.5224 	EXP 	HowHappySlider: markerPos = 6.260416666666666
+174.5549 	EXP 	HowHappySlider: markerPos = 6.385416666666667
+174.5871 	EXP 	HowHappySlider: markerPos = 6.614583333333333
+174.6067 	EXP 	HowHappySlider: markerPos = 6.9375
+174.6415 	EXP 	HowHappySlider: markerPos = 7.010416666666667
+174.6731 	EXP 	HowHappySlider: markerPos = 7.072916666666666
+174.7086 	EXP 	HowHappySlider: markerPos = 7.072916666666666
+174.7241 	EXP 	HowHappySlider: markerPos = 7.072916666666666
+174.7590 	EXP 	HowHappySlider: markerPos = 7.072916666666666
+174.7740 	EXP 	HowHappySlider: markerPos = 7.083333333333333
+174.7903 	EXP 	HowHappySlider: markerPos = 7.083333333333333
+174.8076 	EXP 	HowHappySlider: markerPos = 7.135416666666667
+174.8249 	EXP 	HowHappySlider: markerPos = 7.364583333333333
+174.8413 	EXP 	HowHappySlider: markerPos = 7.645833333333333
+174.8756 	EXP 	HowHappySlider: markerPos = 7.875
+174.9090 	EXP 	HowHappySlider: markerPos = 8.09375
+174.9244 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+174.9410 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+174.9757 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.0088 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.0239 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.0411 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.0577 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.0741 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.0899 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.1064 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.1235 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.1415 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.1750 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.1908 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.2076 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.2243 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.2588 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.2743 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.2911 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.3237 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+175.3413 	EXP 	HowHappySlider: markerPos = 8.041666666666668
+175.3585 	EXP 	HowHappySlider: markerPos = 7.96875
+175.3903 	EXP 	HowHappySlider: markerPos = 7.760416666666667
+175.4085 	EXP 	HowHappySlider: markerPos = 7.395833333333333
+175.4397 	EXP 	HowHappySlider: markerPos = 7.21875
+175.4570 	EXP 	HowHappySlider: markerPos = 6.760416666666666
+175.4750 	EXP 	HowHappySlider: markerPos = 6.552083333333333
+175.5063 	EXP 	HowHappySlider: markerPos = 6.21875
+175.5422 	EXP 	HowHappySlider: markerPos = 5.875
+175.5577 	EXP 	HowHappySlider: markerPos = 5.4375
+175.5887 	EXP 	HowHappySlider: markerPos = 5.239583333333333
+175.6079 	EXP 	HowHappySlider: markerPos = 4.802083333333334
+175.6247 	EXP 	HowHappySlider: markerPos = 4.572916666666667
+175.6415 	EXP 	HowHappySlider: markerPos = 4.46875
+175.6580 	EXP 	HowHappySlider: markerPos = 4.385416666666667
+175.6926 	EXP 	HowHappySlider: markerPos = 4.302083333333333
+175.7231 	EXP 	HowHappySlider: markerPos = 4.104166666666667
+175.7585 	EXP 	HowHappySlider: markerPos = 3.895833333333334
+175.7745 	EXP 	HowHappySlider: markerPos = 3.6666666666666665
+175.8063 	EXP 	HowHappySlider: markerPos = 3.572916666666667
+175.8426 	EXP 	HowHappySlider: markerPos = 3.3541666666666665
+175.8757 	EXP 	HowHappySlider: markerPos = 3.2291666666666665
+175.9062 	EXP 	HowHappySlider: markerPos = 3.208333333333333
+175.9247 	EXP 	HowHappySlider: markerPos = 3.1875
+175.9418 	EXP 	HowHappySlider: markerPos = 3.135416666666667
+175.9762 	EXP 	HowHappySlider: markerPos = 3.083333333333333
+175.9914 	EXP 	HowHappySlider: markerPos = 2.9479166666666665
+176.0093 	EXP 	HowHappySlider: markerPos = 2.916666666666667
+176.0421 	EXP 	HowHappySlider: markerPos = 2.90625
+176.0580 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.0739 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.0887 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.1066 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.1248 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.1415 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.1572 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.1750 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.1918 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.2083 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.2273 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.2568 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.2755 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.2914 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.3086 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.3247 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.3418 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.3578 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.3744 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.4089 	EXP 	HowHappySlider: markerPos = 2.895833333333333
+176.4249 	EXP 	HowHappySlider: markerPos = 2.9583333333333335
+176.4415 	EXP 	HowHappySlider: markerPos = 3.041666666666667
+176.4581 	EXP 	HowHappySlider: markerPos = 3.291666666666667
+176.4927 	EXP 	HowHappySlider: markerPos = 3.447916666666666
+176.5086 	EXP 	HowHappySlider: markerPos = 3.822916666666667
+176.5252 	EXP 	HowHappySlider: markerPos = 3.9166666666666665
+176.5576 	EXP 	HowHappySlider: markerPos = 3.9479166666666665
+176.5754 	EXP 	HowHappySlider: markerPos = 4.072916666666666
+176.5914 	EXP 	HowHappySlider: markerPos = 4.125
+176.6267 	EXP 	HowHappySlider: markerPos = 4.197916666666666
+176.6413 	EXP 	HowHappySlider: markerPos = 4.385416666666667
+176.6583 	EXP 	HowHappySlider: markerPos = 4.479166666666666
+176.6755 	EXP 	HowHappySlider: markerPos = 4.6875
+176.6925 	EXP 	HowHappySlider: markerPos = 4.833333333333334
+176.7264 	EXP 	HowHappySlider: markerPos = 4.916666666666666
+176.7598 	EXP 	HowHappySlider: markerPos = 5.145833333333333
+176.7924 	EXP 	HowHappySlider: markerPos = 5.302083333333333
+176.8085 	EXP 	HowHappySlider: markerPos = 5.510416666666667
+176.8430 	EXP 	HowHappySlider: markerPos = 5.59375
+176.8739 	EXP 	HowHappySlider: markerPos = 5.739583333333333
+176.8917 	EXP 	HowHappySlider: markerPos = 5.875
+176.9081 	EXP 	HowHappySlider: markerPos = 5.96875
+176.9433 	EXP 	HowHappySlider: markerPos = 6.052083333333333
+176.9750 	EXP 	HowHappySlider: markerPos = 6.229166666666666
+177.0040 	EXP 	HowHappySlider: markerPos = 6.40625
+177.0238 	EXP 	HowHappySlider: markerPos = 6.583333333333333
+177.0583 	EXP 	HowHappySlider: markerPos = 6.677083333333333
+177.0889 	EXP 	HowHappySlider: markerPos = 6.9375
+177.1083 	EXP 	HowHappySlider: markerPos = 7.239583333333333
+177.1383 	EXP 	HowHappySlider: markerPos = 7.427083333333333
+177.1563 	EXP 	HowHappySlider: markerPos = 7.552083333333334
+177.1922 	EXP 	HowHappySlider: markerPos = 7.604166666666666
+177.2223 	EXP 	HowHappySlider: markerPos = 7.625
+177.2400 	EXP 	HowHappySlider: markerPos = 7.65625
+177.2761 	EXP 	HowHappySlider: markerPos = 7.71875
+177.3060 	EXP 	HowHappySlider: markerPos = 7.760416666666667
+177.3249 	EXP 	HowHappySlider: markerPos = 7.8125
+177.3587 	EXP 	HowHappySlider: markerPos = 7.833333333333334
+177.3894 	EXP 	HowHappySlider: markerPos = 7.843750000000001
+177.4256 	EXP 	HowHappySlider: markerPos = 7.875
+177.4579 	EXP 	HowHappySlider: markerPos = 7.916666666666668
+177.4738 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.4908 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.5068 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.5232 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.5559 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.5733 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.5905 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.6223 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.6409 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.6570 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.6739 	EXP 	HowHappySlider: markerPos = 7.927083333333333
+177.7051 	EXP 	HowHappySlider: markerPos = 7.979166666666667
+177.7235 	EXP 	HowHappySlider: markerPos = 8.125
+177.7418 	EXP 	HowHappySlider: markerPos = 8.15625
+177.7720 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.7900 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.8067 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.8241 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.8551 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.8742 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.8908 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.9222 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.9404 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.9571 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.9743 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+177.9919 	EXP 	HowHappySlider: markerPos = 8.166666666666666
+178.0265 	EXP 	HowHappySlider: markerPos = 8.260416666666668
+178.0566 	EXP 	HowHappySlider: markerPos = 8.34375
+178.0745 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.0896 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.1065 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.1252 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.1421 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.1618 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.1757 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.1926 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.2273 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.2417 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.2594 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.2931 	EXP 	HowHappySlider: markerPos = 8.354166666666668
+178.3256 	EXP 	HowHappySlider: markerPos = 8.34375
+178.3421 	EXP 	HowHappySlider: markerPos = 8.104166666666668
+178.3768 	EXP 	HowHappySlider: markerPos = 7.937499999999999
+178.3924 	EXP 	HowHappySlider: markerPos = 7.697916666666667
+178.4258 	EXP 	HowHappySlider: markerPos = 7.552083333333334
+178.4602 	EXP 	HowHappySlider: markerPos = 7.291666666666667
+178.4936 	EXP 	HowHappySlider: markerPos = 7.0
+178.5238 	EXP 	HowHappySlider: markerPos = 6.6875
+178.5422 	EXP 	HowHappySlider: markerPos = 6.427083333333334
+178.5588 	EXP 	HowHappySlider: markerPos = 6.166666666666667
+178.5935 	EXP 	HowHappySlider: markerPos = 6.03125
+178.6091 	EXP 	HowHappySlider: markerPos = 5.822916666666667
+178.6435 	EXP 	HowHappySlider: markerPos = 5.739583333333333
+178.6593 	EXP 	HowHappySlider: markerPos = 5.614583333333334
+178.6756 	EXP 	HowHappySlider: markerPos = 5.5625
+178.6924 	EXP 	HowHappySlider: markerPos = 5.489583333333334
+178.7095 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+178.7438 	EXP 	HowHappySlider: markerPos = 5.395833333333333
+178.7593 	EXP 	HowHappySlider: markerPos = 5.270833333333333
+178.7754 	EXP 	HowHappySlider: markerPos = 5.21875
+178.7921 	EXP 	HowHappySlider: markerPos = 5.177083333333333
+178.8271 	EXP 	HowHappySlider: markerPos = 5.135416666666667
+178.8430 	EXP 	HowHappySlider: markerPos = 5.083333333333334
+178.8591 	EXP 	HowHappySlider: markerPos = 5.010416666666667
+178.8939 	EXP 	HowHappySlider: markerPos = 4.96875
+178.9259 	EXP 	HowHappySlider: markerPos = 4.833333333333334
+178.9603 	EXP 	HowHappySlider: markerPos = 4.739583333333333
+178.9763 	EXP 	HowHappySlider: markerPos = 4.614583333333333
+178.9931 	EXP 	HowHappySlider: markerPos = 4.53125
+179.0272 	EXP 	HowHappySlider: markerPos = 4.458333333333333
+179.0422 	EXP 	HowHappySlider: markerPos = 4.322916666666666
+179.0594 	EXP 	HowHappySlider: markerPos = 4.260416666666666
+179.0752 	EXP 	HowHappySlider: markerPos = 4.208333333333334
+179.0954 	EXP 	HowHappySlider: markerPos = 4.177083333333334
+179.1257 	EXP 	HowHappySlider: markerPos = 4.114583333333334
+179.1424 	EXP 	HowHappySlider: markerPos = 4.010416666666666
+179.1590 	EXP 	HowHappySlider: markerPos = 3.9479166666666665
+179.1763 	EXP 	HowHappySlider: markerPos = 3.9270833333333335
+179.2109 	EXP 	HowHappySlider: markerPos = 3.895833333333334
+179.2263 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+179.2430 	EXP 	HowHappySlider: markerPos = 3.854166666666667
+179.2744 	EXP 	HowHappySlider: markerPos = 3.822916666666667
+179.2937 	EXP 	HowHappySlider: markerPos = 3.6979166666666665
+179.3276 	EXP 	HowHappySlider: markerPos = 3.6666666666666665
+179.3606 	EXP 	HowHappySlider: markerPos = 3.5833333333333335
+179.3757 	EXP 	HowHappySlider: markerPos = 3.541666666666667
+179.3919 	EXP 	HowHappySlider: markerPos = 3.541666666666667
+179.4088 	EXP 	HowHappySlider: markerPos = 3.53125
+179.4260 	EXP 	HowHappySlider: markerPos = 3.53125
+179.4424 	EXP 	HowHappySlider: markerPos = 3.53125
+179.4592 	EXP 	HowHappySlider: markerPos = 3.53125
+179.5108 	EXP 	HowHappySlider: markerPos = 3.53125
+179.5394 	EXP 	HowHappySlider: markerPos = 3.3541666666666665
+179.5572 	EXP 	HowHappySlider: markerPos = 3.25
+179.5934 	EXP 	HowHappySlider: markerPos = 3.1875
+179.6228 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.6401 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.6569 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.6736 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.6923 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.7232 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.7558 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.7751 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.8064 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.8243 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.8603 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+179.8638 	DATA 	Mouse:  Left button up, pos=(545,214)
+179.8900 	EXP 	HowHappySlider: markerPos = 3.177083333333333
+183.1303 	DATA 	Keypress: right
+183.5308 	DATA 	Keypress: right
+183.7631 	DATA 	Keypress: left
+184.1117 	DATA 	Keypress: right
+184.2482 	DATA 	Keypress: left
+184.3660 	DATA 	Keypress: right
+185.1492 	DATA 	Mouse: Left button down, pos=(559,259)
+185.1765 	EXP 	HowHappySlider: markerPos = 3.322916666666667
+185.1944 	EXP 	HowHappySlider: markerPos = 3.322916666666667
+185.2304 	EXP 	HowHappySlider: markerPos = 3.322916666666667
+185.2629 	EXP 	HowHappySlider: markerPos = 3.322916666666667
+185.2970 	EXP 	HowHappySlider: markerPos = 3.4166666666666665
+185.3287 	EXP 	HowHappySlider: markerPos = 3.822916666666667
+185.3603 	EXP 	HowHappySlider: markerPos = 4.3125
+185.3952 	EXP 	HowHappySlider: markerPos = 4.645833333333333
+185.4269 	EXP 	HowHappySlider: markerPos = 4.697916666666667
+185.4456 	EXP 	HowHappySlider: markerPos = 4.697916666666667
+185.4615 	EXP 	HowHappySlider: markerPos = 4.697916666666667
+185.4774 	EXP 	HowHappySlider: markerPos = 4.697916666666667
+185.5106 	EXP 	HowHappySlider: markerPos = 4.760416666666666
+185.5282 	EXP 	HowHappySlider: markerPos = 5.177083333333333
+185.5602 	EXP 	HowHappySlider: markerPos = 5.572916666666667
+185.5786 	EXP 	HowHappySlider: markerPos = 6.0
+185.5963 	EXP 	HowHappySlider: markerPos = 6.041666666666667
+185.6312 	EXP 	HowHappySlider: markerPos = 6.041666666666667
+185.6603 	EXP 	HowHappySlider: markerPos = 6.041666666666667
+185.6785 	EXP 	HowHappySlider: markerPos = 6.041666666666667
+185.6948 	EXP 	HowHappySlider: markerPos = 6.041666666666667
+185.7294 	EXP 	HowHappySlider: markerPos = 6.041666666666667
+185.7460 	EXP 	HowHappySlider: markerPos = 6.052083333333333
+185.7759 	EXP 	HowHappySlider: markerPos = 6.072916666666667
+185.8131 	EXP 	HowHappySlider: markerPos = 6.083333333333333
+185.8279 	EXP 	HowHappySlider: markerPos = 6.114583333333333
+185.8615 	EXP 	HowHappySlider: markerPos = 6.125
+185.8961 	EXP 	HowHappySlider: markerPos = 6.145833333333334
+185.9292 	EXP 	HowHappySlider: markerPos = 6.145833333333334
+185.9622 	EXP 	HowHappySlider: markerPos = 6.145833333333334
+185.9789 	EXP 	HowHappySlider: markerPos = 6.145833333333334
+186.0107 	EXP 	HowHappySlider: markerPos = 6.145833333333334
+186.0448 	EXP 	HowHappySlider: markerPos = 6.03125
+186.0754 	EXP 	HowHappySlider: markerPos = 5.885416666666667
+186.0946 	EXP 	HowHappySlider: markerPos = 5.791666666666667
+186.1283 	EXP 	HowHappySlider: markerPos = 5.71875
+186.1434 	EXP 	HowHappySlider: markerPos = 5.583333333333334
+186.1774 	EXP 	HowHappySlider: markerPos = 5.489583333333334
+186.1960 	EXP 	HowHappySlider: markerPos = 5.197916666666667
+186.2272 	EXP 	HowHappySlider: markerPos = 4.895833333333333
+186.2634 	EXP 	HowHappySlider: markerPos = 4.822916666666666
+186.2784 	EXP 	HowHappySlider: markerPos = 4.822916666666666
+186.2946 	EXP 	HowHappySlider: markerPos = 4.822916666666666
+186.3296 	EXP 	HowHappySlider: markerPos = 4.822916666666666
+186.3456 	EXP 	HowHappySlider: markerPos = 4.822916666666666
+186.3619 	EXP 	HowHappySlider: markerPos = 4.822916666666666
+186.3974 	EXP 	HowHappySlider: markerPos = 4.833333333333334
+186.4287 	EXP 	HowHappySlider: markerPos = 4.927083333333333
+186.4454 	EXP 	HowHappySlider: markerPos = 5.052083333333334
+186.4801 	EXP 	HowHappySlider: markerPos = 5.09375
+186.4955 	EXP 	HowHappySlider: markerPos = 5.125
+186.5123 	EXP 	HowHappySlider: markerPos = 5.125
+186.5457 	EXP 	HowHappySlider: markerPos = 5.125
+186.5775 	EXP 	HowHappySlider: markerPos = 5.177083333333333
+186.6099 	EXP 	HowHappySlider: markerPos = 5.260416666666667
+186.6289 	EXP 	HowHappySlider: markerPos = 5.385416666666667
+186.6455 	EXP 	HowHappySlider: markerPos = 5.4375
+186.6620 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.6961 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.7119 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.7287 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.7454 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.7780 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.7954 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.8120 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.8439 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.8632 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.8786 	DATA 	Mouse:  Left button up, pos=(763,228)
+186.8956 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+186.9275 	EXP 	HowHappySlider: markerPos = 5.447916666666667
+187.4653 	DATA 	Mouse: Left button down, pos=(776,262)
+187.4925 	EXP 	HowHappySlider: markerPos = 5.583333333333334
+187.5106 	EXP 	HowHappySlider: markerPos = 5.59375
+187.5453 	EXP 	HowHappySlider: markerPos = 5.59375
+187.5771 	EXP 	HowHappySlider: markerPos = 5.59375
+187.6179 	EXP 	HowHappySlider: markerPos = 5.59375
+187.6205 	DATA 	Mouse:  Left button up, pos=(777,262)
+187.6445 	EXP 	HowHappySlider: markerPos = 5.59375
+188.1921 	DATA 	Mouse: Left button down, pos=(803,263)
+188.2297 	EXP 	HowHappySlider: markerPos = 5.875
+188.2612 	EXP 	HowHappySlider: markerPos = 5.885416666666667
+188.2962 	EXP 	HowHappySlider: markerPos = 5.90625
+188.3121 	EXP 	HowHappySlider: markerPos = 5.916666666666666
+188.3468 	EXP 	HowHappySlider: markerPos = 5.916666666666666
+188.3499 	DATA 	Mouse:  Left button up, pos=(809,263)
+188.3628 	EXP 	HowHappySlider: markerPos = 5.916666666666666
+188.9331 	DATA 	Mouse: Left button down, pos=(1027,255)
+188.9464 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+188.9628 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+188.9800 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+188.9962 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+189.0136 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+189.0297 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+189.0328 	DATA 	Mouse:  Left button up, pos=(1027,255)
+189.0462 	EXP 	HowHappySlider: markerPos = 8.197916666666668
+189.7509 	DATA 	Mouse: Left button down, pos=(487,263)
+189.7782 	EXP 	HowHappySlider: markerPos = 2.572916666666667
+189.8000 	EXP 	HowHappySlider: markerPos = 2.572916666666667
+189.8299 	EXP 	HowHappySlider: markerPos = 2.572916666666667
+189.8329 	DATA 	Mouse:  Left button up, pos=(487,263)
+189.8598 	EXP 	HowHappySlider: markerPos = 2.572916666666667
+190.1319 	DATA 	Mouse: Left button down, pos=(750,264)
+190.1598 	EXP 	HowHappySlider: markerPos = 5.3125
+190.1799 	EXP 	HowHappySlider: markerPos = 5.3125
+190.2103 	EXP 	HowHappySlider: markerPos = 5.3125
+190.2122 	DATA 	Mouse:  Left button up, pos=(750,264)
+190.2304 	EXP 	HowHappySlider: markerPos = 5.3125
+190.4738 	DATA 	Mouse: Left button down, pos=(985,249)
+190.5315 	EXP 	HowHappySlider: markerPos = 7.770833333333334
+190.5650 	EXP 	HowHappySlider: markerPos = 7.78125
+190.5724 	DATA 	Mouse:  Left button up, pos=(987,249)
+190.5957 	EXP 	HowHappySlider: markerPos = 7.78125
+190.6317 	EXP 	HowHappySlider: markerPos = 7.78125
+193.7730 	DATA 	Keypress: space
+193.7820 	EXP 	HowHappySlider: autoDraw = False
+193.7820 	EXP 	UnHappy: autoDraw = False
+193.7820 	EXP 	Happy: autoDraw = False
+193.7820 	EXP 	SpacetoExit: autoDraw = False
+193.7820 	EXP 	Cross: autoDraw = True
+195.1017 	EXP 	New trial (rep=0, index=3): OrderedDict([('TrialType', 'mix'), ('CertainAmt', 0.0), ('TopAmt', -0.8), ('BottomAmt', 1.2), ('Outcome', 'bottom'), ('RiskSide', 'right'), ('ITI', 1.69), ('Rating', 1)])
+195.1628 	EXP 	Cross: autoDraw = False
+195.1628 	EXP 	Cross: autoDraw = False
+195.1628 	EXP 	SafeText: height = 0.06
+195.1628 	EXP 	SafeText: height = 0.06
+195.1628 	EXP 	SafeText: height = 0.06
+195.1628 	EXP 	SafeText: text = '$0.00'
+195.1628 	EXP 	TopText: height = 0.06
+195.1628 	EXP 	TopText: height = 0.06
+195.1628 	EXP 	TopText: height = 0.06
+195.1628 	EXP 	TopText: text = '$-0.80'
+195.1628 	EXP 	BottomText: height = 0.06
+195.1628 	EXP 	BottomText: height = 0.06
+195.1628 	EXP 	BottomText: height = 0.06
+195.1628 	EXP 	BottomText: text = '$1.20'
+195.1628 	EXP 	Win: height = 0.03
+195.1628 	EXP 	Win: height = 0.03
+195.1628 	EXP 	Win: height = 0.03
+195.1628 	EXP 	Win: text = 'Total\n$9.41'
+195.1628 	EXP 	LeftHalf: autoDraw = True
+195.1628 	EXP 	RightHalf: autoDraw = True
+195.1628 	EXP 	Safe: autoDraw = True
+195.1628 	EXP 	Top: autoDraw = True
+195.1628 	EXP 	Bottom: autoDraw = True
+195.1628 	EXP 	SafeText: autoDraw = True
+195.1628 	EXP 	TopText: autoDraw = True
+195.1628 	EXP 	BottomText: autoDraw = True
+195.1628 	EXP 	Total: autoDraw = True
+195.1628 	EXP 	Win: autoDraw = True
+196.0352 	DATA 	Keypress: escape
+196.6306 	EXP 	window1: mouseVisible = True

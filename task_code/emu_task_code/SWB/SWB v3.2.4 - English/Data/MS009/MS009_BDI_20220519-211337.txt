@@ -1,0 +1,22 @@
+Prompt	Chosen	BDI Score	
+Sadness	1	1	
+Pessimism	1	2	
+Past Failure	1	3	
+Loss of Pleasure	0	3	
+Guilty Feelings	0	3	
+Punishment Feelings	0	3	
+ Self-Dislike	0	3	
+ Self-Criticalness	0	3	
+ Suicidal Thoughts or Wishes	0	3	
+ Crying	3	6	
+ Agitation	1	7	
+ Loss of Interest	0	7	
+ Indecisiveness	0	7	
+ Worthlessness	0	7	
+ Loss of Energy	1	8	
+ Changes In Sleeping Pattern	2	10	
+Irritability	0	10	
+ Changes in Appetite	2	12	
+ Concentration Difficulty	2	14	
+ Tiredness or Fatigue	2	16	
+Loss of Interest in Sex	0	16	

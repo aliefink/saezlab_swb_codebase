@@ -1,0 +1,13 @@
+0.5141 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+4.0657 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.2935 	WARNING 	User requested fullscreen with size [1280  800], but screen is actually [1920, 1200]. Using actual size
+14.7006 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000027E56BA84A8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000027E4F24F9B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.7026 	EXP 	window1: mouseVisible = True
+14.7027 	EXP 	window1: recordFrameIntervals = False
+14.8670 	EXP 	window1: recordFrameIntervals = True
+15.0513 	EXP 	window1: recordFrameIntervals = False
+15.6304 	EXP 	instrText: autoLog = True
+15.6304 	EXP 	stim: autoLog = True
+15.6304 	EXP 	thanksText: autoLog = True
+15.6304 	EXP 	instrText: autoDraw = True
+17.4632 	EXP 	window1: mouseVisible = True

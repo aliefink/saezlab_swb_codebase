@@ -1,0 +1,43 @@
+0.4940 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+3.9992 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.5748 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1200]. Using actual size
+8.0508 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001E6B1059CC0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001E6A9701208>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.0510 	EXP 	window1: mouseVisible = True
+8.0510 	EXP 	window1: recordFrameIntervals = False
+8.2166 	EXP 	window1: recordFrameIntervals = True
+8.4010 	EXP 	window1: recordFrameIntervals = False
+9.1490 	EXP 	instructsPracText: autoLog = True
+9.1490 	EXP 	stim: autoLog = True
+9.1490 	EXP 	progresstext: autoLog = True
+9.1490 	EXP 	feedbackMsg: autoLog = True
+9.1490 	EXP 	instrText: autoLog = True
+9.1490 	EXP 	stim: autoLog = True
+9.1490 	EXP 	progresstext: autoLog = True
+9.1490 	EXP 	thanksText: autoLog = True
+9.1490 	EXP 	instructsPracText: autoDraw = True
+10.3596 	DATA 	Keypress: space
+10.3894 	EXP 	Imported trialTypes.xlsx as conditions, 12 conditions, 4 params
+10.3899 	EXP 	Created sequence: random, trialTypes=12, nReps=2, seed=None
+10.3902 	EXP 	New trial (rep=0, index=0): {'text': 'blue', 'letterColor': 'green', 'corrAns': 'down', 'congruent': 'incong'}
+10.4096 	EXP 	instructsPracText: autoDraw = False
+10.4096 	EXP 	progresstext: autoDraw = True
+10.9022 	EXP 	stim: autoDraw = True
+11.5642 	DATA 	Keypress: left
+11.5969 	EXP 	stim: autoDraw = False
+11.5969 	EXP 	progresstext: autoDraw = False
+11.5969 	EXP 	feedbackMsg: autoDraw = True
+12.5885 	EXP 	New trial (rep=0, index=1): {'text': 'green', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 'incong'}
+12.6043 	EXP 	feedbackMsg: autoDraw = False
+12.6043 	EXP 	progresstext: autoDraw = True
+13.0873 	EXP 	stim: autoDraw = True
+13.1113 	DATA 	Keypress: right
+13.1448 	EXP 	stim: autoDraw = False
+13.1448 	EXP 	progresstext: autoDraw = False
+13.1448 	EXP 	feedbackMsg: autoDraw = True
+14.1394 	EXP 	New trial (rep=0, index=2): {'text': 'blue', 'letterColor': 'blue', 'corrAns': 'right', 'congruent': 'cong'}
+14.1549 	EXP 	feedbackMsg: autoDraw = False
+14.1549 	EXP 	progresstext: autoDraw = True
+14.5110 	DATA 	Keypress: escape
+14.6387 	EXP 	stim: autoDraw = True
+15.1989 	DATA 	Keypress: escape
+15.4909 	EXP 	window1: mouseVisible = True

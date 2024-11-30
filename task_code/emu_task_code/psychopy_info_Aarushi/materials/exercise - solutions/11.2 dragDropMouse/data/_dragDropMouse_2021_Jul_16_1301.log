@@ -1,0 +1,466 @@
+0.4866 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+6.1202 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+16.1718 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023ECA338470>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023EC29DF978>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 216.0], screen=0, size=array([1024,  768]), stencilBits=0, stereo=False, units='pix', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.1719 	EXP 	window1: mouseVisible = True
+16.1720 	EXP 	window1: recordFrameIntervals = False
+16.3389 	EXP 	window1: recordFrameIntervals = True
+16.5231 	EXP 	window1: recordFrameIntervals = False
+16.9088 	EXP 	Created image_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([200., 200.]), texRes=128, units='pix', win=Window(...))
+16.9126 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([200., 200.]), texRes=128, units='pix', win=Window(...))
+16.9164 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([200., 200.]), texRes=128, units='pix', win=Window(...))
+16.9165 	EXP 	window1: mouseVisible = True
+16.9699 	EXP 	Created instruct = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=30, italic=False, languageStyle='LTR', name='instruct', opacity=1, ori=0, pos=array([   0., -200.]), rgb=UNKNOWN, text=str(...), units='pix', win=Window(...), wrapWidth=500)
+16.9797 	EXP 	Imported conditions.xlsx as conditions, 2 conditions, 3 params
+16.9802 	EXP 	Created sequence: random, trialTypes=2, nReps=5, seed=None
+16.9805 	EXP 	New trial (rep=0, index=0): {'file1': 'stims/face01.jpg', 'file2': 'stims/face02.jpg', 'file3': 'stims/face03.jpg'}
+17.0947 	EXP 	image_1: pos = array([-250.,    0.])
+17.0947 	EXP 	image_1: image = 'stims/face01.jpg'
+17.0947 	EXP 	image_2: pos = array([0., 0.])
+17.0947 	EXP 	image_2: image = 'stims/face02.jpg'
+17.0947 	EXP 	image_3: pos = array([250.,   0.])
+17.0947 	EXP 	image_3: image = 'stims/face03.jpg'
+17.0947 	EXP 	image_1: autoDraw = True
+17.0947 	EXP 	image_2: autoDraw = True
+17.0947 	EXP 	image_3: autoDraw = True
+17.0947 	EXP 	instruct: autoDraw = True
+17.8673 	DATA 	Mouse: Left button down, pos=(579,399)
+17.8904 	EXP 	image_2: pos = array([67., 23.], dtype=float32)
+17.9065 	EXP 	image_2: pos = array([67., 33.], dtype=float32)
+17.9230 	EXP 	image_2: pos = array([67., 53.], dtype=float32)
+17.9414 	EXP 	image_2: pos = array([67., 67.], dtype=float32)
+17.9565 	EXP 	image_2: pos = array([67., 76.], dtype=float32)
+17.9733 	EXP 	image_2: pos = array([67., 83.], dtype=float32)
+17.9904 	EXP 	image_2: pos = array([67., 85.], dtype=float32)
+18.0070 	EXP 	image_2: pos = array([68., 87.], dtype=float32)
+18.0233 	EXP 	image_2: pos = array([68., 94.], dtype=float32)
+18.0401 	EXP 	image_2: pos = array([69., 97.], dtype=float32)
+18.0566 	EXP 	image_2: pos = array([ 69., 101.], dtype=float32)
+18.0740 	EXP 	image_2: pos = array([ 70., 104.], dtype=float32)
+18.0905 	EXP 	image_2: pos = array([ 70., 105.], dtype=float32)
+18.1074 	EXP 	image_2: pos = array([ 70., 105.], dtype=float32)
+18.1233 	EXP 	image_2: pos = array([ 70., 112.], dtype=float32)
+18.1401 	EXP 	image_2: pos = array([ 71., 121.], dtype=float32)
+18.1567 	EXP 	image_2: pos = array([ 73., 131.], dtype=float32)
+18.1741 	EXP 	image_2: pos = array([ 73., 139.], dtype=float32)
+18.1912 	EXP 	image_2: pos = array([ 73., 144.], dtype=float32)
+18.2070 	EXP 	image_2: pos = array([ 73., 148.], dtype=float32)
+18.2242 	EXP 	image_2: pos = array([ 73., 148.], dtype=float32)
+18.2402 	EXP 	image_2: pos = array([ 73., 148.], dtype=float32)
+18.2567 	EXP 	image_2: pos = array([ 72., 151.], dtype=float32)
+18.2740 	EXP 	image_2: pos = array([ 62., 156.], dtype=float32)
+18.2908 	EXP 	image_2: pos = array([ 52., 160.], dtype=float32)
+18.3078 	EXP 	image_2: pos = array([ 22., 167.], dtype=float32)
+18.3236 	EXP 	image_2: pos = array([ -7., 170.], dtype=float32)
+18.3402 	EXP 	image_2: pos = array([-35., 170.], dtype=float32)
+18.3576 	EXP 	image_2: pos = array([-55., 170.], dtype=float32)
+18.3735 	EXP 	image_2: pos = array([-63., 170.], dtype=float32)
+18.3911 	EXP 	image_2: pos = array([-71., 170.], dtype=float32)
+18.4078 	EXP 	image_2: pos = array([-77., 170.], dtype=float32)
+18.4241 	EXP 	image_2: pos = array([-88., 170.], dtype=float32)
+18.4402 	EXP 	image_2: pos = array([-107.,  170.], dtype=float32)
+18.4575 	EXP 	image_2: pos = array([-137.,  170.], dtype=float32)
+18.4738 	EXP 	image_2: pos = array([-167.,  168.], dtype=float32)
+18.4912 	EXP 	image_2: pos = array([-191.,  168.], dtype=float32)
+18.5080 	EXP 	image_2: pos = array([-192.,  168.], dtype=float32)
+18.5245 	EXP 	image_2: pos = array([-192.,  168.], dtype=float32)
+18.5415 	EXP 	image_2: pos = array([-192.,  168.], dtype=float32)
+18.5577 	EXP 	image_2: pos = array([-196.,  168.], dtype=float32)
+18.5739 	EXP 	image_2: pos = array([-208.,  168.], dtype=float32)
+18.5906 	EXP 	image_2: pos = array([-219.,  168.], dtype=float32)
+18.6078 	EXP 	image_2: pos = array([-227.,  167.], dtype=float32)
+18.6242 	EXP 	image_2: pos = array([-229.,  166.], dtype=float32)
+18.6410 	EXP 	image_2: pos = array([-230.,  166.], dtype=float32)
+18.6567 	EXP 	image_2: pos = array([-230.,  166.], dtype=float32)
+18.6744 	EXP 	image_2: pos = array([-232.,  165.], dtype=float32)
+18.6916 	EXP 	image_2: pos = array([-232.,  165.], dtype=float32)
+18.7070 	EXP 	image_2: pos = array([-232.,  165.], dtype=float32)
+18.7246 	EXP 	image_2: pos = array([-232.,  165.], dtype=float32)
+18.7405 	EXP 	image_2: pos = array([-232.,  165.], dtype=float32)
+18.7574 	EXP 	image_2: pos = array([-232.,  165.], dtype=float32)
+18.7745 	EXP 	image_2: pos = array([-229.,  167.], dtype=float32)
+18.7844 	DATA 	Mouse:  Left button up, pos=(298,553)
+18.7907 	EXP 	image_2: pos = array([-217.,  169.], dtype=float32)
+19.1280 	DATA 	Mouse: Left button down, pos=(263,376)
+19.1402 	EXP 	image_1: pos = array([-249.,   -8.], dtype=float32)
+19.1586 	EXP 	image_1: pos = array([-249.,   -9.], dtype=float32)
+19.1749 	EXP 	image_1: pos = array([-249.,   -9.], dtype=float32)
+19.1914 	EXP 	image_1: pos = array([-248.,   -9.], dtype=float32)
+19.2073 	EXP 	image_1: pos = array([-246.,   -9.], dtype=float32)
+19.2247 	EXP 	image_1: pos = array([-240.,   -9.], dtype=float32)
+19.2418 	EXP 	image_1: pos = array([-224.,  -12.], dtype=float32)
+19.2578 	EXP 	image_1: pos = array([-207.,  -14.], dtype=float32)
+19.2744 	EXP 	image_1: pos = array([-173.,  -17.], dtype=float32)
+19.2912 	EXP 	image_1: pos = array([-131.,  -21.], dtype=float32)
+19.3083 	EXP 	image_1: pos = array([-73., -22.], dtype=float32)
+19.3245 	EXP 	image_1: pos = array([-53., -22.], dtype=float32)
+19.3411 	EXP 	image_1: pos = array([-40., -22.], dtype=float32)
+19.3573 	EXP 	image_1: pos = array([-36., -18.], dtype=float32)
+19.3739 	EXP 	image_1: pos = array([-24.,  -9.], dtype=float32)
+19.3906 	EXP 	image_1: pos = array([-16.,   3.], dtype=float32)
+19.4081 	EXP 	image_1: pos = array([-9., 19.], dtype=float32)
+19.4244 	EXP 	image_1: pos = array([-5., 32.], dtype=float32)
+19.4416 	EXP 	image_1: pos = array([-2., 47.], dtype=float32)
+19.4584 	EXP 	image_1: pos = array([ 1., 62.], dtype=float32)
+19.4750 	EXP 	image_1: pos = array([ 3., 74.], dtype=float32)
+19.4917 	EXP 	image_1: pos = array([ 3., 85.], dtype=float32)
+19.5088 	EXP 	image_1: pos = array([ 3., 93.], dtype=float32)
+19.5247 	EXP 	image_1: pos = array([  3., 100.], dtype=float32)
+19.5415 	EXP 	image_1: pos = array([  3., 107.], dtype=float32)
+19.5582 	EXP 	image_1: pos = array([  3., 113.], dtype=float32)
+19.5744 	EXP 	image_1: pos = array([  0., 124.], dtype=float32)
+19.5922 	EXP 	image_1: pos = array([ -1., 133.], dtype=float32)
+19.6084 	EXP 	image_1: pos = array([ -2., 142.], dtype=float32)
+19.6246 	EXP 	image_1: pos = array([ -2., 148.], dtype=float32)
+19.6416 	EXP 	image_1: pos = array([ -2., 152.], dtype=float32)
+19.6589 	EXP 	image_1: pos = array([ -2., 157.], dtype=float32)
+19.6628 	DATA 	Mouse:  Left button up, pos=(514,548)
+19.9779 	DATA 	Mouse: Left button down, pos=(763,349)
+19.9921 	EXP 	image_3: pos = array([251., -35.], dtype=float32)
+20.0089 	EXP 	image_3: pos = array([246., -49.], dtype=float32)
+20.0254 	EXP 	image_3: pos = array([237., -63.], dtype=float32)
+20.0424 	EXP 	image_3: pos = array([225., -74.], dtype=float32)
+20.0585 	EXP 	image_3: pos = array([207., -81.], dtype=float32)
+20.0760 	EXP 	image_3: pos = array([196., -83.], dtype=float32)
+20.0923 	EXP 	image_3: pos = array([165., -83.], dtype=float32)
+20.1094 	EXP 	image_3: pos = array([116., -83.], dtype=float32)
+20.1260 	EXP 	image_3: pos = array([ 58., -83.], dtype=float32)
+20.1420 	EXP 	image_3: pos = array([ 12., -82.], dtype=float32)
+20.1587 	EXP 	image_3: pos = array([-31., -77.], dtype=float32)
+20.1755 	EXP 	image_3: pos = array([-67., -72.], dtype=float32)
+20.1926 	EXP 	image_3: pos = array([-95., -67.], dtype=float32)
+20.2086 	EXP 	image_3: pos = array([-118.,  -60.], dtype=float32)
+20.2253 	EXP 	image_3: pos = array([-140.,  -50.], dtype=float32)
+20.2421 	EXP 	image_3: pos = array([-162.,  -36.], dtype=float32)
+20.2587 	EXP 	image_3: pos = array([-195.,  -11.], dtype=float32)
+20.2762 	EXP 	image_3: pos = array([-206.,    0.], dtype=float32)
+20.2925 	EXP 	image_3: pos = array([-229.,   30.], dtype=float32)
+20.3085 	EXP 	image_3: pos = array([-239.,   51.], dtype=float32)
+20.3252 	EXP 	image_3: pos = array([-245.,   74.], dtype=float32)
+20.3284 	DATA 	Mouse:  Left button up, pos=(263,479)
+20.6623 	DATA 	Mouse: Left button down, pos=(343,535)
+20.6758 	EXP 	image_2: pos = array([-169.,  151.], dtype=float32)
+20.6925 	EXP 	image_2: pos = array([-169.,  151.], dtype=float32)
+20.7107 	EXP 	image_2: pos = array([-162.,  151.], dtype=float32)
+20.7259 	EXP 	image_2: pos = array([-155.,  149.], dtype=float32)
+20.7426 	EXP 	image_2: pos = array([-135.,  145.], dtype=float32)
+20.7589 	EXP 	image_2: pos = array([-93., 132.], dtype=float32)
+20.7760 	EXP 	image_1: pos = array([-32., 115.], dtype=float32)
+20.7925 	EXP 	image_1: pos = array([ 20., 104.], dtype=float32)
+20.8094 	EXP 	image_1: pos = array([57., 94.], dtype=float32)
+20.8259 	EXP 	image_1: pos = array([68., 90.], dtype=float32)
+20.8429 	EXP 	image_1: pos = array([68., 90.], dtype=float32)
+20.8596 	EXP 	image_1: pos = array([70., 87.], dtype=float32)
+20.8756 	EXP 	image_1: pos = array([73., 80.], dtype=float32)
+20.8925 	EXP 	image_1: pos = array([80., 70.], dtype=float32)
+20.9087 	EXP 	image_1: pos = array([84., 63.], dtype=float32)
+20.9252 	EXP 	image_1: pos = array([90., 55.], dtype=float32)
+20.9423 	EXP 	image_1: pos = array([99., 39.], dtype=float32)
+20.9588 	EXP 	image_1: pos = array([108.,  21.], dtype=float32)
+20.9755 	EXP 	image_1: pos = array([113.,   8.], dtype=float32)
+20.9922 	EXP 	image_1: pos = array([120.,  -8.], dtype=float32)
+21.0093 	EXP 	image_1: pos = array([126., -25.], dtype=float32)
+21.0262 	EXP 	image_1: pos = array([130., -38.], dtype=float32)
+21.0434 	EXP 	image_1: pos = array([130., -44.], dtype=float32)
+21.0594 	EXP 	image_1: pos = array([130., -45.], dtype=float32)
+21.0764 	EXP 	image_1: pos = array([130., -47.], dtype=float32)
+21.0929 	EXP 	image_1: pos = array([130., -51.], dtype=float32)
+21.1092 	EXP 	image_1: pos = array([130., -56.], dtype=float32)
+21.1260 	EXP 	image_1: pos = array([130., -62.], dtype=float32)
+21.1427 	EXP 	image_1: pos = array([130., -65.], dtype=float32)
+21.1592 	EXP 	image_1: pos = array([130., -66.], dtype=float32)
+21.1766 	EXP 	image_1: pos = array([130., -66.], dtype=float32)
+21.1789 	DATA 	Mouse:  Left button up, pos=(642,318)
+21.4869 	DATA 	Mouse: Left button down, pos=(450,530)
+21.5099 	EXP 	image_2: pos = array([-62., 146.], dtype=float32)
+21.5261 	EXP 	image_2: pos = array([-62., 146.], dtype=float32)
+21.5433 	EXP 	image_2: pos = array([-63., 137.], dtype=float32)
+21.5603 	EXP 	image_2: pos = array([-63., 126.], dtype=float32)
+21.5755 	EXP 	image_2: pos = array([-64., 115.], dtype=float32)
+21.5928 	EXP 	image_2: pos = array([-67.,  98.], dtype=float32)
+21.6099 	EXP 	image_2: pos = array([-70.,  70.], dtype=float32)
+21.6273 	EXP 	image_2: pos = array([-72.,  32.], dtype=float32)
+21.6436 	EXP 	image_2: pos = array([-73., -24.], dtype=float32)
+21.6598 	EXP 	image_2: pos = array([-73., -57.], dtype=float32)
+21.6769 	EXP 	image_2: pos = array([-73., -87.], dtype=float32)
+21.6939 	EXP 	image_2: pos = array([ -73., -111.], dtype=float32)
+21.7103 	EXP 	image_2: pos = array([ -73., -134.], dtype=float32)
+21.7270 	EXP 	image_2: pos = array([ -73., -154.], dtype=float32)
+21.7430 	EXP 	image_2: pos = array([ -73., -172.], dtype=float32)
+21.7601 	EXP 	image_2: pos = array([ -73., -186.], dtype=float32)
+21.7762 	EXP 	image_2: pos = array([ -73., -197.], dtype=float32)
+21.7934 	EXP 	image_2: pos = array([ -73., -200.], dtype=float32)
+21.8100 	EXP 	image_2: pos = array([ -73., -202.], dtype=float32)
+21.8267 	EXP 	image_2: pos = array([ -74., -205.], dtype=float32)
+21.8437 	EXP 	image_2: pos = array([ -75., -209.], dtype=float32)
+21.8604 	EXP 	image_2: pos = array([ -75., -211.], dtype=float32)
+21.8776 	EXP 	image_2: pos = array([ -75., -211.], dtype=float32)
+21.8876 	DATA 	Mouse:  Left button up, pos=(437,173)
+21.8938 	EXP 	image_2: pos = array([ -75., -211.], dtype=float32)
+22.3196 	DATA 	Mouse: Left button down, pos=(229,399)
+22.3439 	EXP 	image_3: pos = array([-283.,   16.], dtype=float32)
+22.3612 	EXP 	image_3: pos = array([-281.,   19.], dtype=float32)
+22.3773 	EXP 	image_3: pos = array([-276.,   20.], dtype=float32)
+22.3940 	EXP 	image_3: pos = array([-271.,   20.], dtype=float32)
+22.4107 	EXP 	image_3: pos = array([-262.,   20.], dtype=float32)
+22.4271 	EXP 	image_3: pos = array([-246.,   20.], dtype=float32)
+22.4439 	EXP 	image_3: pos = array([-235.,   20.], dtype=float32)
+22.4607 	EXP 	image_3: pos = array([-223.,   20.], dtype=float32)
+22.4780 	EXP 	image_3: pos = array([-200.,   18.], dtype=float32)
+22.4935 	EXP 	image_3: pos = array([-174.,   15.], dtype=float32)
+22.5104 	EXP 	image_3: pos = array([-151.,   12.], dtype=float32)
+22.5267 	EXP 	image_3: pos = array([-132.,    9.], dtype=float32)
+22.5444 	EXP 	image_3: pos = array([-120.,    8.], dtype=float32)
+22.5614 	EXP 	image_3: pos = array([-105.,    5.], dtype=float32)
+22.5773 	EXP 	image_3: pos = array([-90.,   2.], dtype=float32)
+22.5937 	EXP 	image_3: pos = array([-71.,  -2.], dtype=float32)
+22.6104 	EXP 	image_3: pos = array([-50.,  -8.], dtype=float32)
+22.6276 	EXP 	image_3: pos = array([-27., -14.], dtype=float32)
+22.6443 	EXP 	image_3: pos = array([  9., -25.], dtype=float32)
+22.6607 	EXP 	image_3: pos = array([ 30., -31.], dtype=float32)
+22.6781 	EXP 	image_1: pos = array([ 51., -37.], dtype=float32)
+22.6952 	EXP 	image_1: pos = array([ 61., -41.], dtype=float32)
+22.7110 	EXP 	image_1: pos = array([ 66., -44.], dtype=float32)
+22.7202 	DATA 	Mouse:  Left button up, pos=(580,339)
+22.7274 	EXP 	image_1: pos = array([ 68., -45.], dtype=float32)
+23.4875 	DATA 	Mouse: Left button down, pos=(627,124)
+23.5682 	DATA 	Mouse:  Left button up, pos=(627,124)
+23.8979 	DATA 	Mouse: Left button down, pos=(585,352)
+23.9123 	EXP 	image_1: pos = array([ 73., -32.], dtype=float32)
+23.9292 	EXP 	image_1: pos = array([ 73., -32.], dtype=float32)
+23.9456 	EXP 	image_1: pos = array([ 73., -32.], dtype=float32)
+23.9621 	EXP 	image_1: pos = array([ 73., -32.], dtype=float32)
+23.9788 	EXP 	image_1: pos = array([ 73., -32.], dtype=float32)
+23.9955 	EXP 	image_1: pos = array([ 92., -35.], dtype=float32)
+24.0120 	EXP 	image_1: pos = array([107., -38.], dtype=float32)
+24.0286 	EXP 	image_1: pos = array([136., -44.], dtype=float32)
+24.0459 	EXP 	image_1: pos = array([163., -50.], dtype=float32)
+24.0612 	EXP 	image_1: pos = array([167., -55.], dtype=float32)
+24.0790 	EXP 	image_1: pos = array([168., -56.], dtype=float32)
+24.0952 	EXP 	image_1: pos = array([171., -63.], dtype=float32)
+24.1118 	EXP 	image_1: pos = array([173., -71.], dtype=float32)
+24.1285 	EXP 	image_1: pos = array([176., -77.], dtype=float32)
+24.1450 	EXP 	image_1: pos = array([177., -86.], dtype=float32)
+24.1622 	EXP 	image_1: pos = array([177., -93.], dtype=float32)
+24.1792 	EXP 	image_1: pos = array([ 177., -104.], dtype=float32)
+24.1956 	EXP 	image_1: pos = array([ 177., -108.], dtype=float32)
+24.2116 	EXP 	image_1: pos = array([ 177., -111.], dtype=float32)
+24.2294 	EXP 	image_1: pos = array([ 170., -119.], dtype=float32)
+24.2463 	EXP 	image_1: pos = array([ 159., -125.], dtype=float32)
+24.2624 	EXP 	image_1: pos = array([ 148., -129.], dtype=float32)
+24.2787 	EXP 	image_1: pos = array([ 138., -132.], dtype=float32)
+24.2957 	EXP 	image_1: pos = array([ 117., -137.], dtype=float32)
+24.3124 	EXP 	image_1: pos = array([  99., -138.], dtype=float32)
+24.3295 	EXP 	image_1: pos = array([  84., -138.], dtype=float32)
+24.3456 	EXP 	image_1: pos = array([  78., -131.], dtype=float32)
+24.3626 	EXP 	image_1: pos = array([  74., -112.], dtype=float32)
+24.3793 	EXP 	image_1: pos = array([ 71., -74.], dtype=float32)
+24.3959 	EXP 	image_1: pos = array([ 69., -47.], dtype=float32)
+24.4119 	EXP 	image_1: pos = array([ 68., -29.], dtype=float32)
+24.4287 	EXP 	image_1: pos = array([ 65., -14.], dtype=float32)
+24.4463 	EXP 	image_1: pos = array([ 63., -10.], dtype=float32)
+24.4623 	EXP 	image_1: pos = array([61., -7.], dtype=float32)
+24.4784 	EXP 	image_1: pos = array([55., -4.], dtype=float32)
+24.4960 	EXP 	image_1: pos = array([47., -3.], dtype=float32)
+24.5120 	EXP 	image_1: pos = array([34., -3.], dtype=float32)
+24.5290 	EXP 	image_1: pos = array([15., -2.], dtype=float32)
+24.5457 	EXP 	image_1: pos = array([-12.,   3.], dtype=float32)
+24.5625 	EXP 	image_1: pos = array([-35.,   6.], dtype=float32)
+24.5793 	EXP 	image_1: pos = array([-45.,   7.], dtype=float32)
+24.5949 	EXP 	image_1: pos = array([-50.,   7.], dtype=float32)
+24.6127 	EXP 	image_1: pos = array([-51.,   7.], dtype=float32)
+24.6294 	EXP 	image_1: pos = array([-59.,   7.], dtype=float32)
+24.6463 	EXP 	image_1: pos = array([-63.,   4.], dtype=float32)
+24.6624 	EXP 	image_1: pos = array([-65.,   1.], dtype=float32)
+24.6793 	EXP 	image_1: pos = array([-69.,  -2.], dtype=float32)
+24.6956 	EXP 	image_1: pos = array([-71.,  -3.], dtype=float32)
+24.7125 	EXP 	image_1: pos = array([-71.,  -6.], dtype=float32)
+24.7294 	EXP 	image_1: pos = array([-72.,  -8.], dtype=float32)
+24.7457 	EXP 	image_1: pos = array([-72.,  -9.], dtype=float32)
+24.7627 	EXP 	image_1: pos = array([-65., -15.], dtype=float32)
+24.7790 	EXP 	image_1: pos = array([-50., -16.], dtype=float32)
+24.7958 	EXP 	image_1: pos = array([-22., -19.], dtype=float32)
+24.8133 	EXP 	image_1: pos = array([ 17., -24.], dtype=float32)
+24.8295 	EXP 	image_1: pos = array([ 57., -28.], dtype=float32)
+24.8457 	EXP 	image_1: pos = array([ 75., -31.], dtype=float32)
+24.8627 	EXP 	image_1: pos = array([ 75., -31.], dtype=float32)
+24.8791 	EXP 	image_1: pos = array([ 75., -31.], dtype=float32)
+24.8962 	EXP 	image_1: pos = array([ 75., -31.], dtype=float32)
+24.9128 	EXP 	image_1: pos = array([ 75., -31.], dtype=float32)
+24.9296 	EXP 	image_1: pos = array([ 76., -33.], dtype=float32)
+24.9461 	EXP 	image_1: pos = array([ 71., -40.], dtype=float32)
+24.9622 	EXP 	image_1: pos = array([ 60., -48.], dtype=float32)
+24.9790 	EXP 	image_1: pos = array([ 49., -51.], dtype=float32)
+24.9961 	EXP 	image_1: pos = array([ 18., -63.], dtype=float32)
+25.0129 	EXP 	image_1: pos = array([ -9., -72.], dtype=float32)
+25.0298 	EXP 	image_1: pos = array([-31., -83.], dtype=float32)
+25.0460 	EXP 	image_1: pos = array([-46., -92.], dtype=float32)
+25.0622 	EXP 	image_1: pos = array([-53., -95.], dtype=float32)
+25.0793 	EXP 	image_1: pos = array([-63., -95.], dtype=float32)
+25.0969 	EXP 	image_1: pos = array([-73., -95.], dtype=float32)
+25.1127 	EXP 	image_1: pos = array([-89., -86.], dtype=float32)
+25.1295 	EXP 	image_1: pos = array([-107.,  -72.], dtype=float32)
+25.1458 	EXP 	image_1: pos = array([-119.,  -58.], dtype=float32)
+25.1623 	EXP 	image_1: pos = array([-124.,  -48.], dtype=float32)
+25.1794 	EXP 	image_1: pos = array([-133.,  -27.], dtype=float32)
+25.1968 	EXP 	image_1: pos = array([-145.,    5.], dtype=float32)
+25.2135 	EXP 	image_1: pos = array([-149.,   22.], dtype=float32)
+25.2298 	EXP 	image_1: pos = array([-152.,   39.], dtype=float32)
+25.2465 	EXP 	image_1: pos = array([-155.,   56.], dtype=float32)
+25.2629 	EXP 	image_1: pos = array([-156.,   61.], dtype=float32)
+25.2798 	EXP 	image_1: pos = array([-156.,   63.], dtype=float32)
+25.2905 	DATA 	Mouse:  Left button up, pos=(356,448)
+25.2965 	EXP 	image_1: pos = array([-156.,   64.], dtype=float32)
+26.6540 	DATA 	Keypress: escape
+26.6711 	EXP 	New trial (rep=0, index=1): {'file1': 'stims/house01.jpg', 'file2': 'stims/house02.jpg', 'file3': 'stims/house03.jpg'}
+26.7642 	EXP 	image_1: autoDraw = False
+26.7642 	EXP 	image_2: autoDraw = False
+26.7642 	EXP 	image_3: autoDraw = False
+26.7642 	EXP 	instruct: autoDraw = False
+26.7642 	EXP 	image_1: pos = array([-250.,    0.])
+26.7642 	EXP 	image_1: image = 'stims/house01.jpg'
+26.7642 	EXP 	image_2: pos = array([0., 0.])
+26.7642 	EXP 	image_2: image = 'stims/house02.jpg'
+26.7642 	EXP 	image_3: pos = array([250.,   0.])
+26.7642 	EXP 	image_3: image = 'stims/house03.jpg'
+26.7642 	EXP 	image_1: autoDraw = True
+26.7642 	EXP 	image_2: autoDraw = True
+26.7642 	EXP 	image_3: autoDraw = True
+26.7642 	EXP 	instruct: autoDraw = True
+27.6885 	DATA 	Keypress: escape
+27.6907 	EXP 	New trial (rep=1, index=0): {'file1': 'stims/house01.jpg', 'file2': 'stims/house02.jpg', 'file3': 'stims/house03.jpg'}
+27.7661 	EXP 	image_1: autoDraw = False
+27.7661 	EXP 	image_2: autoDraw = False
+27.7661 	EXP 	image_3: autoDraw = False
+27.7661 	EXP 	instruct: autoDraw = False
+27.7661 	EXP 	image_1: pos = array([-250.,    0.])
+27.7661 	EXP 	image_1: image = 'stims/house01.jpg'
+27.7661 	EXP 	image_2: pos = array([0., 0.])
+27.7661 	EXP 	image_2: image = 'stims/house02.jpg'
+27.7661 	EXP 	image_3: pos = array([250.,   0.])
+27.7661 	EXP 	image_3: image = 'stims/house03.jpg'
+27.7661 	EXP 	image_1: autoDraw = True
+27.7661 	EXP 	image_2: autoDraw = True
+27.7661 	EXP 	image_3: autoDraw = True
+27.7661 	EXP 	instruct: autoDraw = True
+28.8715 	DATA 	Mouse: Left button down, pos=(819,636)
+28.9750 	DATA 	Mouse:  Left button up, pos=(819,636)
+29.0732 	DATA 	Keypress: escape
+29.0909 	EXP 	New trial (rep=1, index=1): {'file1': 'stims/face01.jpg', 'file2': 'stims/face02.jpg', 'file3': 'stims/face03.jpg'}
+29.1493 	EXP 	image_1: autoDraw = False
+29.1493 	EXP 	image_2: autoDraw = False
+29.1493 	EXP 	image_3: autoDraw = False
+29.1493 	EXP 	instruct: autoDraw = False
+29.1493 	EXP 	image_1: pos = array([-250.,    0.])
+29.1493 	EXP 	image_1: image = 'stims/face01.jpg'
+29.1493 	EXP 	image_2: pos = array([0., 0.])
+29.1493 	EXP 	image_2: image = 'stims/face02.jpg'
+29.1493 	EXP 	image_3: pos = array([250.,   0.])
+29.1493 	EXP 	image_3: image = 'stims/face03.jpg'
+29.1493 	EXP 	image_1: autoDraw = True
+29.1493 	EXP 	image_2: autoDraw = True
+29.1493 	EXP 	image_3: autoDraw = True
+29.1493 	EXP 	instruct: autoDraw = True
+29.7921 	DATA 	Mouse: Left button down, pos=(805,606)
+29.8906 	DATA 	Mouse:  Left button up, pos=(805,606)
+30.2563 	DATA 	Keypress: escape
+30.2586 	EXP 	New trial (rep=2, index=0): {'file1': 'stims/house01.jpg', 'file2': 'stims/house02.jpg', 'file3': 'stims/house03.jpg'}
+30.3174 	EXP 	image_1: autoDraw = False
+30.3174 	EXP 	image_2: autoDraw = False
+30.3174 	EXP 	image_3: autoDraw = False
+30.3174 	EXP 	instruct: autoDraw = False
+30.3174 	EXP 	image_1: pos = array([-250.,    0.])
+30.3174 	EXP 	image_1: image = 'stims/house01.jpg'
+30.3174 	EXP 	image_2: pos = array([0., 0.])
+30.3174 	EXP 	image_2: image = 'stims/house02.jpg'
+30.3174 	EXP 	image_3: pos = array([250.,   0.])
+30.3174 	EXP 	image_3: image = 'stims/house03.jpg'
+30.3174 	EXP 	image_1: autoDraw = True
+30.3174 	EXP 	image_2: autoDraw = True
+30.3174 	EXP 	image_3: autoDraw = True
+30.3174 	EXP 	instruct: autoDraw = True
+30.6734 	DATA 	Keypress: escape
+30.6752 	EXP 	New trial (rep=2, index=1): {'file1': 'stims/face01.jpg', 'file2': 'stims/face02.jpg', 'file3': 'stims/face03.jpg'}
+30.7186 	EXP 	image_1: autoDraw = False
+30.7186 	EXP 	image_2: autoDraw = False
+30.7186 	EXP 	image_3: autoDraw = False
+30.7186 	EXP 	instruct: autoDraw = False
+30.7186 	EXP 	image_1: pos = array([-250.,    0.])
+30.7186 	EXP 	image_1: image = 'stims/face01.jpg'
+30.7186 	EXP 	image_2: pos = array([0., 0.])
+30.7186 	EXP 	image_2: image = 'stims/face02.jpg'
+30.7186 	EXP 	image_3: pos = array([250.,   0.])
+30.7186 	EXP 	image_3: image = 'stims/face03.jpg'
+30.7186 	EXP 	image_1: autoDraw = True
+30.7186 	EXP 	image_2: autoDraw = True
+30.7186 	EXP 	image_3: autoDraw = True
+30.7186 	EXP 	instruct: autoDraw = True
+31.0238 	DATA 	Keypress: escape
+31.0412 	EXP 	New trial (rep=3, index=0): {'file1': 'stims/house01.jpg', 'file2': 'stims/house02.jpg', 'file3': 'stims/house03.jpg'}
+31.1188 	EXP 	image_1: autoDraw = False
+31.1188 	EXP 	image_2: autoDraw = False
+31.1188 	EXP 	image_3: autoDraw = False
+31.1188 	EXP 	instruct: autoDraw = False
+31.1188 	EXP 	image_1: pos = array([-250.,    0.])
+31.1188 	EXP 	image_1: image = 'stims/house01.jpg'
+31.1188 	EXP 	image_2: pos = array([0., 0.])
+31.1188 	EXP 	image_2: image = 'stims/house02.jpg'
+31.1188 	EXP 	image_3: pos = array([250.,   0.])
+31.1188 	EXP 	image_3: image = 'stims/house03.jpg'
+31.1188 	EXP 	image_1: autoDraw = True
+31.1188 	EXP 	image_2: autoDraw = True
+31.1188 	EXP 	image_3: autoDraw = True
+31.1188 	EXP 	instruct: autoDraw = True
+31.2767 	DATA 	Keypress: escape
+31.2928 	EXP 	New trial (rep=3, index=1): {'file1': 'stims/face01.jpg', 'file2': 'stims/face02.jpg', 'file3': 'stims/face03.jpg'}
+31.3359 	EXP 	image_1: autoDraw = False
+31.3359 	EXP 	image_2: autoDraw = False
+31.3359 	EXP 	image_3: autoDraw = False
+31.3359 	EXP 	instruct: autoDraw = False
+31.3359 	EXP 	image_1: pos = array([-250.,    0.])
+31.3359 	EXP 	image_1: image = 'stims/face01.jpg'
+31.3359 	EXP 	image_2: pos = array([0., 0.])
+31.3359 	EXP 	image_2: image = 'stims/face02.jpg'
+31.3359 	EXP 	image_3: pos = array([250.,   0.])
+31.3359 	EXP 	image_3: image = 'stims/face03.jpg'
+31.3359 	EXP 	image_1: autoDraw = True
+31.3359 	EXP 	image_2: autoDraw = True
+31.3359 	EXP 	image_3: autoDraw = True
+31.3359 	EXP 	instruct: autoDraw = True
+31.5092 	DATA 	Keypress: escape
+31.5244 	EXP 	New trial (rep=4, index=0): {'file1': 'stims/house01.jpg', 'file2': 'stims/house02.jpg', 'file3': 'stims/house03.jpg'}
+31.6025 	EXP 	image_1: autoDraw = False
+31.6025 	EXP 	image_2: autoDraw = False
+31.6025 	EXP 	image_3: autoDraw = False
+31.6025 	EXP 	instruct: autoDraw = False
+31.6025 	EXP 	image_1: pos = array([-250.,    0.])
+31.6025 	EXP 	image_1: image = 'stims/house01.jpg'
+31.6025 	EXP 	image_2: pos = array([0., 0.])
+31.6025 	EXP 	image_2: image = 'stims/house02.jpg'
+31.6025 	EXP 	image_3: pos = array([250.,   0.])
+31.6025 	EXP 	image_3: image = 'stims/house03.jpg'
+31.6025 	EXP 	image_1: autoDraw = True
+31.6025 	EXP 	image_2: autoDraw = True
+31.6025 	EXP 	image_3: autoDraw = True
+31.6025 	EXP 	instruct: autoDraw = True
+31.7083 	DATA 	Keypress: escape
+31.7099 	EXP 	New trial (rep=4, index=1): {'file1': 'stims/face01.jpg', 'file2': 'stims/face02.jpg', 'file3': 'stims/face03.jpg'}
+31.7529 	EXP 	image_1: autoDraw = False
+31.7529 	EXP 	image_2: autoDraw = False
+31.7529 	EXP 	image_3: autoDraw = False
+31.7529 	EXP 	instruct: autoDraw = False
+31.7529 	EXP 	image_1: pos = array([-250.,    0.])
+31.7529 	EXP 	image_1: image = 'stims/face01.jpg'
+31.7529 	EXP 	image_2: pos = array([0., 0.])
+31.7529 	EXP 	image_2: image = 'stims/face02.jpg'
+31.7529 	EXP 	image_3: pos = array([250.,   0.])
+31.7529 	EXP 	image_3: image = 'stims/face03.jpg'
+31.7529 	EXP 	image_1: autoDraw = True
+31.7529 	EXP 	image_2: autoDraw = True
+31.7529 	EXP 	image_3: autoDraw = True
+31.7529 	EXP 	instruct: autoDraw = True
+31.9070 	DATA 	Keypress: escape
+31.9186 	EXP 	image_1: autoDraw = False
+31.9186 	EXP 	image_2: autoDraw = False
+31.9186 	EXP 	image_3: autoDraw = False
+31.9186 	EXP 	instruct: autoDraw = False
+32.0014 	EXP 	window1: mouseVisible = True
